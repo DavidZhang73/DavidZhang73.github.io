@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>颜值是第一生产力 - Windows Terminal - Blog</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Developer, Python, C++, JavaScript, Java,"> 
+    <meta name="description" content="DavidZ&#39;s Blog,
+记得我最早的时候用 Visual Studio 写了第一个 Hello World 程序，激动的点运行，出来个黑框一闪就过去了，啥也没看到。
+
+后来偶然了解 PowerShell，又变成了一个蓝色,"> 
+    <meta name="author" content="DavidZ"> 
+    <link rel="alternative" href="atom.xml" title="Blog" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    <link href="https://fonts.loli.net/css?family=Roboto+Mono|Rubik&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1429596_nzgqgvnmkjb.css">
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.7.2/animate.min.css">
+
+    
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/codemirror.min.css">
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/theme/dracula.css">
+
+    
+<link rel="stylesheet" href="/css/obsidian.css">
+
+    
+<link rel="stylesheet" href="/css/ball-atom.min.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+
+<body class="loading">
+    <div class="loader">
+        <div class="la-ball-atom la-2x">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <span id="config-title" style="display:none">Blog</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div class="scrollbar gradient-bg-rev"></div>
+<div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <div class="navigation animated fadeIn fast delay-1s">
+        <img id="home-icon" class="icon-home" src="/img/favicon.png" alt="" data-url="https://blog.davidz.cn">
+        <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
+        <h3 class="subtitle">颜值是第一生产力 - Windows Terminal</h3>
+        <div class="social">
+            <!--        <div class="like-icon">-->
+            <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+            <!--        </div>-->
+            <div>
+                <div class="share">
+                    
+                        <a href="javascript:;" class="iconfont icon-share1"></a>
+                        <div class="share-component-cc" data-disabled="facebook,douban,linkedin,diandian,tencent,google"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="section">
+        <div class=article-header-wrapper>
+    <div class="article-header">
+        <div class="article-cover animated fadeIn" style="
+            animation-delay: 600ms;
+            animation-duration: 1.2s;
+            background-image: 
+                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+                url(http://davidz.cn/static/blog/2020-01-31-beauty-is-productivity-windows-terminal/cover.jpg);">
+        </div>
+        <div class="else">
+            <p class="animated fadeInDown">
+                
+                <a href="/categories/Productivity"><b>「
+                    </b>PRODUCTIVITY<b> 」</b></a>
+                
+                一月 31, 2020
+            </p>
+            <h3 class="post-title animated fadeInDown"><a href="/beauty-is-productivity-windows-terminal/" title="颜值是第一生产力 - Windows Terminal" class="">颜值是第一生产力 - Windows Terminal</a>
+            </h3>
+            
+            <p class="post-count animated fadeInDown">
+                
+                <span>
+                    <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                    11k
+                </span>
+                
+                
+                <span>
+                    <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                    10 mins.
+                </span>
+                
+                
+                
+                <span id="busuanzi_container_page_pv">
+                    <b class="iconfont icon-read"></b> <i>阅读次数</i>
+                    <span id="busuanzi_value_page_pv">0</span>
+                </span>
+                
+            </p>
+            
+            
+            <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Microsoft/" rel="tag">Microsoft</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Open-Source/" rel="tag">Open-Source</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Terminal/" rel="tag">Terminal</a></li></ul>
+            
+        </div>
+    </div>
+</div>
+
+<div class="screen-gradient-after">
+    <div class="screen-gradient-content">
+        <div class="screen-gradient-content-inside">
+            <div class="bold-underline-links screen-gradient-sponsor">
+                <p>
+                    <span class="animated fadeIn delay-1s"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="article">
+    <div class='main'>
+        <div class="content markdown animated fadeIn">
+            <p><img src="http://davidz.cn/static/blog/2020-01-31-beauty-is-productivity-windows-terminal/cmd.png" alt="CMD"></p>
+<p>记得我最早的时候用 Visual Studio 写了第一个 Hello World 程序，激动的点运行，出来个黑框一闪就过去了，啥也没看到。</p>
+<p><img src="http://davidz.cn/static/blog/2020-01-31-beauty-is-productivity-windows-terminal/powershell.png" alt="PowerShell"></p>
+<p>后来偶然了解 PowerShell，又变成了一个蓝色的框，还会有进度提示，红的，黑的，突兀得很😢。</p>
+<p><img src="http://davidz.cn/static/blog/2020-01-31-beauty-is-productivity-windows-terminal/bash.png" alt="bash"></p>
+<p>后来上了大学终于在 Ubuntu 上见到了 bash，完全改变了我对 Shell 的认知。</p>
+<p>傻傻分不清 Shell 和 Terminal 的我，激动的打开 Git 自带的 bash，它却长成了这样。</p>
+<p><img src="http://davidz.cn/static/blog/2020-01-31-beauty-is-productivity-windows-terminal/git-bash.png" alt="Git-Bash"></p>
+<p>一番优化之后也不是不能用，后来还入坑了 <a href="https://github.com/cmderdev/cmder" target="_blank" rel="noopener">Cmder</a>，用于替代 <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank" rel="noopener">Putty</a> 那个更加原始的 terminal。</p>
+<p>终于，2019 年微软开始进入开源世界，为我们带来了颜狗的胜利: <a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener">Windows Terminal</a>。</p>
+<iframe
+  src="//player.bilibili.com/player.html?aid=51700920&cid=90502402&page=1&high_quality=1&danmaku=0"
+  allowfullscreen="true"
+  width="100%"
+  height="600"
+  scrolling="no"
+  frameborder="0"
+  sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
+  >
+</iframe>
+<h2 id="下载-安装"><a class="header-anchor" href="#下载-安装">¶</a>下载&amp;安装</h2>
+<blockquote>
+<p>截止 2020 年 2 月 1 号，Windows Terminal 还处在测试阶段，但是已经相对比较完善了，正常使用没有什么大问题了。</p>
+</blockquote>
+<h3 id="方法-1-通过-Windows-Store"><a class="header-anchor" href="#方法-1-通过-Windows-Store">¶</a>方法 1: 通过 Windows Store</h3>
+<p><a href="https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701" target="_blank" rel="noopener">点击这里安装</a></p>
+<h3 id="方法-2-通过-Github"><a class="header-anchor" href="#方法-2-通过-Github">¶</a>方法 2: 通过 Github</h3>
+<p>在 Github 的 <a href="https://github.com/microsoft/terminal/releases" target="_blank" rel="noopener">Release</a> 中下载最新的那个双击安装就好啦，和方法 1 是一样的。</p>
+<h3 id="方法-3-通过-Scoop"><a class="header-anchor" href="#方法-3-通过-Scoop">¶</a>方法 3: 通过 Scoop</h3>
+<blockquote>
+<p><strong>不推荐</strong><br>
+用 wt 命令启动时会有一个 CMD 窗口，逼死强迫症。</p>
+</blockquote>
+<p>Windows Terminal 在 Scoop 的 extras bucket 里面。</p>
+<pre><code class="language-powershell">scoop install windows-terminal
+</code></pre>
+<h2 id="配置"><a class="header-anchor" href="#配置">¶</a>配置</h2>
+<p>通过配置，最终 terminal 可以长成这个样子。</p>
+<p><img src="http://davidz.cn/static/blog/2020-01-31-beauty-is-productivity-windows-terminal/windows-terminal.png" alt="windows terminal"></p>
+<p>现阶段只有 json 格式的配置文件，还没有图形化配置界面，项目组说正式版会有，最终应该会与 Vscode 的配置一样。</p>
+<p>根据官网给出的 <a href="https://raw.githubusercontent.com/microsoft/terminal/master/doc/cascadia/profiles.schema.json" target="_blank" rel="noopener">Profiles Schema</a>，我们可以很快的配置我们自己定制化的 Terminal。</p>
+<p>下面是我自己用的配置文件，</p>
+<pre><code class="language-json">{
+  &quot;$schema&quot;: &quot;https://aka.ms/terminal-profiles-schema&quot;,
+  &quot;defaultProfile&quot;: &quot;{807502AB-0C92-4DF7-9C7C-1E9F7A2A47DE}&quot;, // 默认配置的 GUID， 和下面的 profiles.list 中的一个相同
+  &quot;alwaysShowTabs&quot;: true, // 无论有几个 tab 是否都显示标签栏
+  &quot;requestedTheme&quot;: &quot;dark&quot;, // &quot;light&quot;,&quot;dark&quot;,&quot;system&quot;
+  &quot;copyOnSelect&quot;: true, // 选择时复制
+  &quot;launchMode&quot;: &quot;maximized&quot;, // &quot;maximized&quot;,&quot;default&quot;
+  &quot;profiles&quot;: {
+    // shell 或程序的配置
+    &quot;defaults&quot;: {
+      // 所有 shell 或程序配置的默认值
+      &quot;acrylicOpacity&quot;: 0.7, // 背景透明度
+      &quot;useAcrylic&quot;: true, // 是否启用透明背景
+      &quot;colorScheme&quot;: &quot;One Half Dark&quot;, // 色彩配置，和下面 schemes 中的一个相同
+      &quot;fontFace&quot;: &quot;JetBrains Mono&quot;, // 字体
+      &quot;fontSize&quot;: 12, // 字号
+      &quot;startingDirectory&quot;: &quot;.&quot;, // 工作路径，设置成 “.” 可以实现在资源管理器的地址栏输入 wt 直接打开时工作目录是当前目录
+      &quot;closeOnExit&quot;: &quot;always&quot; // &quot;never&quot;,&quot;graceful&quot;,&quot;always&quot;
+    },
+    &quot;list&quot;: [
+      {
+        &quot;guid&quot;: &quot;{807502AB-0C92-4DF7-9C7C-1E9F7A2A47DE}&quot;, // 唯一 GUID
+        &quot;name&quot;: &quot;powershell core&quot;, // 在下拉框中显示的名称
+        &quot;commandline&quot;: &quot;pwsh.exe -nol&quot;, // 执行的命令，-nol 的作用是不显示 Microsoft 那些提示
+        &quot;icon&quot;: &quot;path/to/icon&quot; // 标签栏和下拉菜单中显示的图标
+      },
+      {
+        &quot;guid&quot;: &quot;{85933BC0-E5D2-4299-9FBC-AC6C9F6DFD46}&quot;,
+        &quot;name&quot;: &quot;davidz.cn&quot;,
+        &quot;commandline&quot;: &quot;ssh.exe root@davidz.cn&quot;, // ssh 也可以，用于代替 Putty
+        &quot;icon&quot;: &quot;path/to/icon&quot;
+      }
+    ]
+  },
+  &quot;schemes&quot;: [
+    // 配色
+    {
+      &quot;name&quot;: &quot;One Half Dark&quot;, // 我最喜欢的主题，Vscode，VS，JetBrains 全家桶都有类似主题，关键词 atom one dark
+      &quot;background&quot;: &quot;#282C34&quot;,
+      &quot;black&quot;: &quot;#282C34&quot;,
+      &quot;blue&quot;: &quot;#61AFEF&quot;,
+      &quot;brightBlack&quot;: &quot;#5A6374&quot;,
+      &quot;brightBlue&quot;: &quot;#61AFEF&quot;,
+      &quot;brightCyan&quot;: &quot;#56B6C2&quot;,
+      &quot;brightGreen&quot;: &quot;#98C379&quot;,
+      &quot;brightPurple&quot;: &quot;#C678DD&quot;,
+      &quot;brightRed&quot;: &quot;#E06C75&quot;,
+      &quot;brightWhite&quot;: &quot;#DCDFE4&quot;,
+      &quot;brightYellow&quot;: &quot;#E5C07B&quot;,
+      &quot;cyan&quot;: &quot;#56B6C2&quot;,
+      &quot;foreground&quot;: &quot;#DCDFE4&quot;,
+      &quot;green&quot;: &quot;#98C379&quot;,
+      &quot;purple&quot;: &quot;#C678DD&quot;,
+      &quot;red&quot;: &quot;#E06C75&quot;,
+      &quot;white&quot;: &quot;#DCDFE4&quot;,
+      &quot;yellow&quot;: &quot;#E5C07B&quot;
+    }
+  ]
+}
+</code></pre>
+<blockquote>
+<p>GUID 可以使用这个<a href="https://www.guidgen.com" target="_blank" rel="noopener">在线网站</a> 或者 Visual Studio 自带的工具 guidgen 生成。</p>
+</blockquote>
+<h3 id="主题"><a class="header-anchor" href="#主题">¶</a>主题</h3>
+<p>除了我最喜欢的这个 One Half Dark，你还可以在<a href="https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/windowsterminal" target="_blank" rel="noopener">这里</a>选择自己喜欢的主题，复制到配置文件即可。</p>
+<h3 id="字体"><a class="header-anchor" href="#字体">¶</a>字体</h3>
+<p>我推荐使用 JetBrains 推出的字体 <a href="https://www.jetbrains.com/lp/mono/" target="_blank" rel="noopener">JetBrains Mono</a>，这是一款适合写代码的带连字的字体。类似的字体还有微软特意为 Windows Terminal 开发的 <a href="https://github.com/microsoft/cascadia-code" target="_blank" rel="noopener">Cascadia Code</a>，或者是 Mozilla 主推由 Nikita Prokopov 开发的 <a href="https://github.com/tonsky/FiraCode" target="_blank" rel="noopener">Fira Code</a>。</p>
+<p>这些字体都在积极的维护和更新中，除了双击安装之外，还可以使用 Scoop 安装方便更新。在 Scoop 的 nerd-fonts bucket 中。</p>
+<pre><code class="language-powershell">scoop install JetBrains-Mono
+</code></pre>
+<h2 id="PowerShell-Core"><a class="header-anchor" href="#PowerShell-Core">¶</a><a href="https://github.com/PowerShell/PowerShell" target="_blank" rel="noopener">PowerShell Core</a></h2>
+<p>PowerShell Core 是微软推出的基于 .Net Core 跨平台开源脚本语言，用于代替 PowerShell 和更加原始的 CMD。目前来看在国内基本上没什么影响力，国外相对好一些。除非大家都用 Windows Server 作为服务器，否则我感觉前景也不是很乐观。但是作为个人使用起来还是很好用的。</p>
+<p>PowerShell Core 也有自己的模块管理平台 <a href="https://www.powershellgallery.com" target="_blank" rel="noopener">PowerShell Gallery</a>。</p>
+<p>搜索</p>
+<pre><code class="language-powershell">Find-Module xxx
+</code></pre>
+<p>安装</p>
+<pre><code class="language-powershell">Install-Module xxx
+</code></pre>
+<p>卸载</p>
+<pre><code class="language-powershell">Uninstall-Module xxx
+</code></pre>
+<p>更新</p>
+<pre><code class="language-powershell">Update-Module xxx
+</code></pre>
+<p>类似于 <code>.bashrc</code> 之与 bash， <code>.zshrc</code> 之与 zsh，PowerShell 也有自己的配置文件<code>Microsoft.PowerShell_profile.ps1</code>，可以通过<code>$PROFILE</code>访问。</p>
+<p>使用模块<code>Module</code>时，</p>
+<pre><code class="language-powershell">Import-Module xxx
+</code></pre>
+<p>如果每次启动 PowerShell 都想引用该插件，则在<code>Microsoft.PowerShell_profile.ps1</code>中添加<code>Import-Module xxx</code>即可。</p>
+<h3 id="oh-my-posh"><a class="header-anchor" href="#oh-my-posh">¶</a><a href="https://github.com/JanDeDobbeleer/oh-my-posh" target="_blank" rel="noopener">oh-my-posh</a></h3>
+<p>这个是 oh-my-zsh 的 PowerShell 版本，但是只能管理主题。</p>
+<p><img src="http://davidz.cn/static/blog/2020-01-31-beauty-is-productivity-windows-terminal/robbyrussel.png" alt="robbyrussel"></p>
+<p>我比较喜欢的是这个 robbyrussel 主题，因为比较简洁。</p>
+<p><img src="http://davidz.cn/static/blog/2020-01-31-beauty-is-productivity-windows-terminal/my-theme.png" alt="my-theme"></p>
+<p>后来参考了<a href="https://github.com/spencerwooo/dotfiles#powershell" target="_blank" rel="noopener">dotfiles</a>，自己按照 oh-my-zsh 的 ys 主题魔改了一个，为了区分不同环境，我把最前面的符号改成了<code>PS</code>。</p>
+<p><a href="https://github.com/DavidZhang73/Config/blob/master/themes/MyTheme.psm1" target="_blank" rel="noopener">我的主题</a></p>
+<h3 id="z"><a class="header-anchor" href="#z">¶</a><a href="https://github.com/vincpa/z" target="_blank" rel="noopener">z</a></h3>
+<p>类似于 autojump，实现原理就是每次 cd 都记录下来，然后 z name 会去匹配访问最多的那个路径，直接跳转到。非常实用。</p>
+<h2 id="Linux-or-Windows-Subsystem-for-Linux"><a class="header-anchor" href="#Linux-or-Windows-Subsystem-for-Linux">¶</a>Linux or <a href="https://docs.microsoft.com/zh-cn/windows/wsl/about" target="_blank" rel="noopener">Windows Subsystem for Linux</a></h2>
+<p>我用了好久好久的 bash 才终于知道了还有像 zsh，fish 这样更加人性化的 shell。从前者切换到后者，就像从 dos 切换到 windows 一样惊艳。</p>
+<h3 id="ohmyzsh"><a class="header-anchor" href="#ohmyzsh">¶</a><a href="https://github.com/ohmyzsh/ohmyzsh" target="_blank" rel="noopener">ohmyzsh</a></h3>
+<p>这个是 zsh 的插件平台，支持添加主题，工具等等插件。</p>
+<h4 id="z（内置）"><a class="header-anchor" href="#z（内置）">¶</a>z（内置）</h4>
+<p>和上面 PowerShell 中的 z 是一样的。</p>
+<h4 id="git（内置）"><a class="header-anchor" href="#git（内置）">¶</a>git（内置）</h4>
+<p>这个主要是 git 命令的提示与自动补全（我没怎么用过）。</p>
+<h4 id="sudo（内置）"><a class="header-anchor" href="#sudo（内置）">¶</a>sudo（内置）</h4>
+<p>当你输入<code>apt update</code>提示无法获得锁的时候，按上键加两下<code>esc</code>就可以自动加上<code>sudo</code>啦。</p>
+<h4 id="extract（内置）"><a class="header-anchor" href="#extract（内置）">¶</a>extract（内置）</h4>
+<p>你背的过不同压缩文件的解压命令吗？？？背不过的话还是用用<code>extract</code>吧。</p>
+<h4 id="zsh-autosuggestions"><a class="header-anchor" href="#zsh-autosuggestions">¶</a><a href="https://github.com/zsh-users/zsh-autosuggestions/" target="_blank" rel="noopener">zsh-autosuggestions</a></h4>
+<p>根据命令历史记录自动建议，按右键自动补全。</p>
+<h4 id="zsh-syntax-highlighting"><a class="header-anchor" href="#zsh-syntax-highlighting">¶</a><a href="https://github.com/zsh-users/zsh-syntax-highlighting" target="_blank" rel="noopener">zsh-syntax-highlighting</a></h4>
+<p>命令高亮。</p>
+<p>具体的配置文件可以参考<a href="https://github.com/DavidZhang73/Config/blob/master/dotfiles/.zshrc" target="_blank" rel="noopener">这里</a>。同时，如果你和我一样闲的话，也可以写一个简单的<a href="https://github.com/DavidZhang73/Config" target="_blank" rel="noopener">一键配置脚本</a>，这样只需要有网络链接的环境下，就可以一键还原 zsh 环境了。</p>
+<h3 id="dircolors"><a class="header-anchor" href="#dircolors">¶</a>dircolors</h3>
+<p>在 WSL 里面使用默认的<code>.dircolors</code>可能会亮瞎眼，所以可以使用 <a href="https://github.com/seebi/dircolors-solarized" target="_blank" rel="noopener">dircolors-solarize</a>作为代替。</p>
+<p>下载后放到用户目录里面，在<code>.zshrc</code>里面添加</p>
+<pre><code class="language-shell">eval $(dircolors -b $HOME/.dircolors)
+</code></pre>
+<p>即可。</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls"
+                data-autoplay="false">
+                <source type="audio/mpeg" src="http://davidz.cn/static/blog/mp3/chenyixun---hongmeigui.mp3">
+            </audio>
+            
+            
+            
+    <div id='gitalk-container' class="comment link"
+        data-ae='true'
+        data-ci='489076c5dd3f5ba13f67'
+        data-cs='d6e3b245787b0b74d0dbe2639ef87f452a401194'
+        data-r='blog.davidz.cn'
+        data-o='DavidZhang73'
+        data-a='DavidZhang73'
+        data-d=''
+    >留言</div>
+
+
+            
+            
+        </div>
+        <div class="sidebar">
+            <div class="box animated fadeInRight">
+                <div class="subbox">
+                    <img src="http://davidz.cn/static/blog/img/avator.jpg" height=300 width=300></img>
+                    <p>DavidZ</p>
+                    <span>凡事都要留几分</span>
+                    <dl>
+                        <dd><a href="https://github.com/DavidZhang73" target="_blank"><span
+                                    class=" iconfont icon-github"></span></a></dd>
+                        <dd><a href="https://twitter.com/david731998" target="_blank"><span
+                                    class=" iconfont icon-twitter"></span></a></dd>
+                        <dd><a href="https://stackoverflow.com/users/12693553/davidz" target="_blank"><span
+                                    class=" iconfont icon-stack-overflow"></span></a></dd>
+                    </dl>
+                </div>
+                <ul>
+                    <li><a href="/">4 <p>文章</p></a></li>
+                    <li><a href="/categories">4 <p>分类</p></a></li>
+                    <li><a href="/tags">7 <p>标签</p></a></li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="box sticky animated fadeInRight faster">
+                <div id="toc" class="subbox">
+                    <h4>目录</h4>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#下载-安装"><span class="toc-number">1.</span> <span class="toc-text">¶下载&amp;安装</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#方法-1-通过-Windows-Store"><span class="toc-number">1.1.</span> <span class="toc-text">¶方法 1: 通过 Windows Store</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#方法-2-通过-Github"><span class="toc-number">1.2.</span> <span class="toc-text">¶方法 2: 通过 Github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#方法-3-通过-Scoop"><span class="toc-number">1.3.</span> <span class="toc-text">¶方法 3: 通过 Scoop</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置"><span class="toc-number">2.</span> <span class="toc-text">¶配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#主题"><span class="toc-number">2.1.</span> <span class="toc-text">¶主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#字体"><span class="toc-number">2.2.</span> <span class="toc-text">¶字体</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#PowerShell-Core"><span class="toc-number">3.</span> <span class="toc-text">¶PowerShell Core</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#oh-my-posh"><span class="toc-number">3.1.</span> <span class="toc-text">¶oh-my-posh</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#z"><span class="toc-number">3.2.</span> <span class="toc-text">¶z</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Linux-or-Windows-Subsystem-for-Linux"><span class="toc-number">4.</span> <span class="toc-text">¶Linux or Windows Subsystem for Linux</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ohmyzsh"><span class="toc-number">4.1.</span> <span class="toc-text">¶ohmyzsh</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#dircolors"><span class="toc-number">4.2.</span> <span class="toc-text">¶dircolors</span></a></li></ol></li></ol>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+    <div id="back-to-top" class="animated fadeIn faster">
+        <div class="flow"></div>
+        <span class="percentage animated fadeIn faster">0%</span>
+        <span class="iconfont icon-top02 animated fadeIn faster"></span>
+    </div>
+</body>
+<footer>
+    <p class="copyright" id="copyright">
+        &copy; 2020
+        <span class="gradient-text">
+            DavidZ
+        </span>.
+        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+        Theme
+        <span class="gradient-text">
+            <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
+        </span>
+        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.3" target="_blank" rel="noopener">v1.4.3</a></small>
+    </p>
+</footer>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "TeX",
+      availableFonts: ["STIX", "TeX"],
+      linebreaks: {
+        automatic: true
+      },
+      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      processEscapes: true,
+      ignoreClass: "tex2jax_ignore|dno",
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      noUndefined: {
+        attributes: {
+          mathcolor: "red",
+          mathbackground: "#FFEEEE",
+          mathsize: "90%"
+        }
+      },
+      Macros: {
+        href: "{}"
+      }
+    },
+    messageStyle: "none"
+  });
+</script>
+<script>
+  function initialMathJax() {
+    MathJax.Hub.Queue(function () {
+      var all = MathJax.Hub.getAllJax(),
+        i;
+      // console.log(all);
+      for (i = 0; i < all.length; i += 1) {
+        console.log(all[i].SourceElement().parentNode)
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  }
+
+  function reprocessMathJax() {
+    if (typeof MathJax !== 'undefined') {
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    }
+  }
+</script>
+
+
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+
+    
+<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/obsidian.js"></script>
+<script src="/js/jquery.truncate.js"></script>
+<script src="/js/search.js"></script>
+
+
+<script src="//cdn.bootcss.com/typed.js/2.0.10/typed.min.js"></script>
+
+
+<script src="//cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+
+<script src="https://cdn.bootcss.com/codemirror/5.48.4/codemirror.min.js"></script>
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/javascript/javascript.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/css/css.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/xml/xml.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/htmlmixed/htmlmixed.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/clike/clike.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/php/php.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/shell/shell.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/python/python.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/cmake/cmake.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/powershell/powershell.min.js"></script>
+
+
+
+
+    
+<script src="/js/busuanzi.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            if ($('span[id^="busuanzi_"]').length) {
+                initialBusuanzi();
+            }
+        });
+    </script>
+
+
+
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/default-skin/default-skin.min.css">
+
+
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+    function initialTyped () {
+        var typedTextEl = $('.typed-text');
+        if (typedTextEl && typedTextEl.length > 0) {
+            var typed = new Typed('.typed-text', {
+                strings: ["凡事都要留几分", "颜值是第一生产力"],
+                typeSpeed: 90,
+                loop: true,
+                loopCount: Infinity,
+                backSpeed: 20,
+            });
+        }
+    }
+
+    if ($('.article-header') && $('.article-header').length) {
+        $(document).ready(function () {
+            initialTyped();
+        });
+    }
+</script>
+
+
+
+
+</html>
