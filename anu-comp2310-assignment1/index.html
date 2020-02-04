@@ -88,7 +88,7 @@
             animation-duration: 1.2s;
             background-image: 
                 radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
-                url(http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/cover.png);">
+                url(//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/cover.png);">
         </div>
         <div class="else">
             <p class="animated fadeInDown">
@@ -151,7 +151,7 @@
 </blockquote>
 <p>这是 ANU <a href="http://courses.cecs.anu.edu.au/courses/COMP2310/" target="_blank" rel="noopener">COMP2310</a>的第一次大作业，历时一个月左右，也是这个学期我写的最认真的一次作业，所以在博客搭建伊始，我先把这个记录下来。</p>
 <h2 id="问题"><a class="header-anchor" href="#问题">¶</a>问题</h2>
-<p>根据<a href="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/assignment-1.pdf" target="_blank" rel="noopener">Assignment 1 PDF</a>中的描述，大概的意思就是在三维空间中有许多的<code>车</code>，具有速度和加速度（都是三维向量），而且不管是否加速，都会消耗一定的能量，当然加速也会加快能量的消耗。然后就是有一个或多个<code>能量球</code>，当然也是在运动中的，同样具有速度和加速度。当<code>车</code>和<code>能量球</code>靠近的时候，<code>车</code>能够获取到<code>能量球</code>的信息（加速度，速度，位置），并且加满能量，而当<code>车</code>与<code>车</code>靠近的时候，能够互相交换一次信息，这个信息的内容是自己定义的。<code>车</code>在能量耗尽后就消失了，而我们需要做的就是在一定的时间内，保证尽可能多的<code>车</code>存活。</p>
+<p>根据<a href="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/assignment-1.pdf" target="_blank" rel="noopener">Assignment 1 PDF</a>中的描述，大概的意思就是在三维空间中有许多的<code>车</code>，具有速度和加速度（都是三维向量），而且不管是否加速，都会消耗一定的能量，当然加速也会加快能量的消耗。然后就是有一个或多个<code>能量球</code>，当然也是在运动中的，同样具有速度和加速度。当<code>车</code>和<code>能量球</code>靠近的时候，<code>车</code>能够获取到<code>能量球</code>的信息（加速度，速度，位置），并且加满能量，而当<code>车</code>与<code>车</code>靠近的时候，能够互相交换一次信息，这个信息的内容是自己定义的。<code>车</code>在能量耗尽后就消失了，而我们需要做的就是在一定的时间内，保证尽可能多的<code>车</code>存活。</p>
 <h2 id="分析"><a class="header-anchor" href="#分析">¶</a>分析</h2>
 <p>其实这个问题最关键的地方在于，没有一个中央的控制节点，也就是说对于每一个<code>车</code>来说都是完全平等且独立的。所以我们需要他们能够尽可能的一直处在能够交流的状态，并且都能知道<code>能量球</code>在哪里。</p>
 <blockquote>
@@ -160,8 +160,8 @@
 我采用的是<strong>球形模型</strong>，这个模型参考于这次作业的 <a href="https://cs.anu.edu.au/courses/comp2310/1-Labs-Assignments.html" target="_blank" rel="noopener">Examples</a>。<br>
 在和我的同学互相交流时，这个模型是最普遍的，解决方案是最多的，效果也是相对最好的。</p>
 </blockquote>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure1.svg" alt="3D球形模型"></p>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure2.svg" alt="2D球形模型"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure1.svg" alt="3D球形模型"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure2.svg" alt="2D球形模型"></p>
 <p>球形模型设计的两大重点是：</p>
 <ol>
 <li>所有的<code>车</code>都均匀平等地分布在球面上（球面是个相对概念，可以是球壳？？？）。</li>
@@ -195,7 +195,7 @@
 <li>后面的 Stage 2,3,4 均不允许中央控制。</li>
 </ol>
 <h4 id="能量球位置估计（Energy-Globe-Position-Estimation）"><a class="header-anchor" href="#能量球位置估计（Energy-Globe-Position-Estimation）">¶</a>能量球位置估计（Energy Globe Position Estimation）</h4>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure3.svg" alt="能量球位置估计"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure3.svg" alt="能量球位置估计"></p>
 <p>这个问题类似于一个追击问题（红球是一个匀速导弹，蓝球是拦截导弹），我们需要求的是预计追击时间$T_e$。</p>
 <p><code>能量球</code>到追击点$P_m$，两个坐标相同，所以，</p>
 <p>$$<br>
@@ -224,7 +224,7 @@ $$</p>
 <pre><code class="language-ada">Left_Charge := Current_Charge - Current_Discharge_Per_Sec * Estimated_Time;
 </code></pre>
 <h4 id="半径决策（Radius-Determination）"><a class="header-anchor" href="#半径决策（Radius-Determination）">¶</a>半径决策（Radius Determination）</h4>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure4.svg" alt="半径决策"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure4.svg" alt="半径决策"></p>
 <p>半径向量：</p>
 <pre><code class="language-ada">Radius_Vector := Radius_Distance * Norm (Position - Vehicle_Message.EG.Position);
 </code></pre>
@@ -237,7 +237,7 @@ $$</p>
 <li><code>Destination</code>的初始值是<code>(0, 0, 0)</code>，这样能够避免一开始时<code>车</code>四散，导致失去联系，不能构成球形。</li>
 </ol>
 <h4 id="使用当前能量优化半径（Radius-Optimization-With-Current-Charge）"><a class="header-anchor" href="#使用当前能量优化半径（Radius-Optimization-With-Current-Charge）">¶</a>使用当前能量优化半径（Radius Optimization With Current Charge）</h4>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure5.svg" alt="使用当前能量优化半径"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure5.svg" alt="使用当前能量优化半径"></p>
 <pre><code class="language-ada">Radius_Vector = (0.75 + 0.25 * Current_Charge) * Radius_Vector;
 </code></pre>
 <p><code>0.75</code>和<code>0.25</code>都是人为确定的，没什么依据😄。</p>
@@ -246,7 +246,7 @@ $$</p>
 <p><strong>注意</strong><br>
 这个机制未经过控制变量实验验证，只是理论上分析得到的。</p>
 </blockquote>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure6.svg" alt="一个解决碰撞的机制"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure6.svg" alt="一个解决碰撞的机制"></p>
 <p>因为<code>车</code>和<code>车</code>离的足够近时会发生碰撞，表现为大家都减速不动。所以当一个<code>车</code>从外层到<code>能量球</code>去加油时，周围的<code>车</code>减速会一定程度的减少碰撞的发生。</p>
 <p>实现时，需要在消息结构中添加<code>Vehicle_Charge</code>来判断谁的能量更低。</p>
 <h3 id="Stage-C"><a class="header-anchor" href="#Stage-C">¶</a>Stage C</h3>
@@ -270,10 +270,10 @@ $$</p>
 </code></pre>
 <p>当上述条件为真时，<code>车</code>才会选择更新的信息。</p>
 <h4 id="使用旋转优化（Optimization-With-Rotation）"><a class="header-anchor" href="#使用旋转优化（Optimization-With-Rotation）">¶</a>使用旋转优化（Optimization With Rotation）</h4>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure7.svg" alt="旋转半径"></p>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure8.svg" alt="旋转轴"></p>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure9.svg" alt="2D旋转半径"></p>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure10.svg" alt="3D旋转"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure7.svg" alt="旋转半径"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure8.svg" alt="旋转轴"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure9.svg" alt="2D旋转半径"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure10.svg" alt="3D旋转"></p>
 <p>相对于静态的在球面等待，动态的在球面旋转在实验中取得了更稳定的表现。</p>
 <blockquote>
 <p><strong>注意</strong><br>
@@ -285,9 +285,9 @@ X_rX_a+Y_rY_a+Z_rZ_a=0<br>
 $$</p>
 <p>易得无数个解，但是为了尽量让两个<code>车</code>不会面对面相撞（随机赋值的话），这里手动赋值$X_a$和$Y_a$为$1$，求得唯一解。</p>
 <h4 id="自动半径适应（Automatic-Radius-Adaptation）"><a class="header-anchor" href="#自动半径适应（Automatic-Radius-Adaptation）">¶</a>自动半径适应（Automatic Radius Adaptation）</h4>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure11.svg" alt="通讯环"></p>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure12.svg" alt="通讯环内"></p>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure13.svg" alt="通讯环外"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure11.svg" alt="通讯环"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure12.svg" alt="通讯环内"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/figure13.svg" alt="通讯环外"></p>
 <p>我们在 Stage A&amp;B 中的半径是手动设置的，但是在 Stage C 中，每个球星模型的<code>车</code>的数量是动态的，如果半径不跟随数量变化，那么就有可能丢失通讯。</p>
 <p>在理想的球星模型中，我们可以发现一个通讯环，在通讯环中的所有<code>车</code>都是互联的，并且中心的<code>能量球</code>很难突破这层环。在<code>车</code>进出通讯环时，我们可以通过当时的位置，动态修正半径大小。</p>
 <p>我们分三种情况讨论该模型：</p>
@@ -321,7 +321,7 @@ $$</p>
 <p>经过实验，在 64 个<code>车</code>，缩减到 42 个的情况下，<code>Confirm_Time_Interval</code>设置为 1 秒就可以满足要求。</p>
 <h2 id="结果"><a class="header-anchor" href="#结果">¶</a>结果<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></h2>
 <h3 id="截图"><a class="header-anchor" href="#截图">¶</a>截图</h3>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/cover.png" alt="截图"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/cover.png" alt="截图"></p>
 <h3 id="Stage-A-B-Single-Globe-In-Orbit"><a class="header-anchor" href="#Stage-A-B-Single-Globe-In-Orbit">¶</a>Stage A&amp;B(<code>Single_Globe_In_Orbit</code>)</h3>
 <table>
 <thead>
@@ -374,7 +374,7 @@ $$</p>
 </tr>
 </tbody>
 </table>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/table1.svg" alt="Stage A&amp;B"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/table1.svg" alt="Stage A&amp;B"></p>
 <h3 id="Stage-C-Random-Globes-In-Orbits"><a class="header-anchor" href="#Stage-C-Random-Globes-In-Orbits">¶</a>Stage C(<code>Random_Globes_In_Orbits</code>)</h3>
 <table>
 <thead>
@@ -427,7 +427,7 @@ $$</p>
 </tr>
 </tbody>
 </table>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/table2.svg" alt="Stage C"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/table2.svg" alt="Stage C"></p>
 <h3 id="Stage-D-Random-Globes-In-Orbits"><a class="header-anchor" href="#Stage-D-Random-Globes-In-Orbits">¶</a>Stage D(<code>Random_Globes_In_Orbits</code>)</h3>
 <table>
 <thead>
@@ -480,7 +480,7 @@ $$</p>
 </tr>
 </tbody>
 </table>
-<p><img src="http://davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/table3.svg" alt="Stage D"></p>
+<p><img src="//davidz.cn/static/blog/2020-01-11-anu-comp2310-assignment1/table3.svg" alt="Stage D"></p>
 <h2 id="感谢"><a class="header-anchor" href="#感谢">¶</a>感谢</h2>
 <p>感谢所有在作业中帮助过我的同学，辅导员和老师❤️。</p>
 <hr class="footnotes-sep">
@@ -496,7 +496,7 @@ $$</p>
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls"
                 data-autoplay="false">
-                <source type="audio/mpeg" src="http://davidz.cn/static/blog/mp3/daiquan---qingshanbaiyun.mp3">
+                <source type="audio/mpeg" src="//davidz.cn/static/blog/mp3/daiquan---qingshanbaiyun.mp3">
             </audio>
             
             
@@ -518,7 +518,7 @@ $$</p>
         <div class="sidebar">
             <div class="box animated fadeInRight">
                 <div class="subbox">
-                    <img src="http://davidz.cn/static/blog/img/avator.jpg" height=300 width=300></img>
+                    <img src="//davidz.cn/static/blog/img/avator.jpg" height=300 width=300></img>
                     <p>DavidZ</p>
                     <span>凡事都要留几分</span>
                     <dl>
