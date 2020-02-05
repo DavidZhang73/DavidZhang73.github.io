@@ -30,10 +30,9 @@ function scrollSpy(menuSelector, options) {
     var fromTop = $(this).scrollTop() + offset;
 
     // Get id of current scroll item
-    var id = scollTarget.filter(function () {
+    var id = scollTarget.prevObject.filter(function () {
       return $(this).offset().top < fromTop;
-    }).last().parent().attr("id") || "";
-
+    }).last().attr("id") || "";
     if (lastId !== id) {
       active.removeClass(activeClassName);
       var newActive = [];
@@ -443,7 +442,6 @@ var Obsidian = {
     scrollSpy(tocContainer, {
       offset: 200
     });
-
     $(".toc-item").on("scrollspy", function () {
       var tocTop = toc.scrollTop(),
         link = $(this).children(".toc-link"),
@@ -465,7 +463,7 @@ var Obsidian = {
     var winWidth = $(window).width();
     var firstPostHeight = $('#post0').height();
     if (winWidth <= 900) {
-      postSpacing = 100;
+      postSpacing = 180;
     }
     if (firstPostHeight + postSpacing > winHeight || winWidth <= 900) {
       $('#mark').css('height', firstPostHeight + postSpacing + 'px');
