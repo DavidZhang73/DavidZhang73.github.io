@@ -30,6 +30,10 @@
   background: -webkit-linear-gradient(to right, var(--dark), var(--secondary), var(--primary)) !important;
   background: linear-gradient(to right, var(--dark), var(--secondary), var(--primary)) !important;
 }
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/font/JetBrainsMono.woff") format("woff"), url("/font/JetBrainsMono.ttf") format("truetype");
+}
 pre code .language-mark {
   position: absolute;
   top: 15px;
@@ -80,7 +84,7 @@ pre code .language-mark b {
 .CodeMirror .CodeMirror-gutters,
 .CodeMirror .CodeMirror-linenumber {
   background: #201c29 !important;
-  padding: 0 3px 0 15px;
+  padding: 0 3px 0 10px;
 }
 .CodeMirror .CodeMirror-scroll {
   padding: 55px 30px 60px 10px !important;
@@ -90,8 +94,8 @@ pre code .language-mark b {
   width: 100%;
 }
 .CodeMirror .CodeMirror-lines {
-  font-size: 0.8rem;
-  font-family: Rubik, Lato, lucida grande, lucida sans unicode, Tahoma, 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
+  font-size: 0.7rem;
+  font-family: "JetBrains Mono", Rubik, Lato, lucida grande, lucida sans unicode, Tahoma, 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
 }
 /* Responsive style */
 body {
@@ -220,7 +224,7 @@ html.loading {
 }
 a {
   text-decoration: none;
-  color: var(--secondary);
+  color: var(--secondary) !important;
 }
 a:hover {
   text-decoration: none;
@@ -2691,7 +2695,6 @@ h1.title {
   font-weight: bold;
 }
 .content a {
-  color: #ddd;
   transition: all 200ms ease-in-out;
   position: relative;
   font-weight: 900;
@@ -2956,7 +2959,7 @@ code {
   opacity: 0.9;
 }
 pre {
-  font-family: 'Rubik', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif !important;
+  font-family: 'JetBrains Mono', 'Rubik', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif !important;
   margin: 2em 0;
 }
 pre .comment {

@@ -422,7 +422,7 @@ var Obsidian = {
           item.empty();
 
           var myCodeMirror = CodeMirror(this, {
-            value: $code,
+            value: $code.slice(0, $code.length - 1),
             mode: Obsidian.getCodeMirrorMode(lang),
             lineNumbers: !item.is('.inline'),
             readOnly: true,
