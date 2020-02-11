@@ -130,53 +130,56 @@
             animation-duration: 2.8s;
             background-image:
                 radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.56), #100e17),
-                url(/img/cover.jpg);">
+                url(//davidz.cn/static/blog/2020-02-11-inspur-ip-guard-uninstallation/ip-guard.jpg);">
         </div>
     </div>
     
     <div id="post0" class="else">
         <p class="animated fadeInDown">
             
-            <a href="/categories/DevOps"><b>「
-                </b>DEVOPS<b> 」</b></a>
+            <a href="/categories/Internship"><b>「
+                </b>INTERNSHIP<b> 」</b></a>
             
-            二月 10, 2020
+            二月 11, 2020
         </p>
         <h3 class="post-title animated fadeInDown">
-            <a href="/kinsing-virus/" title="Kinsing - &quot;寄生&quot;于 Docker 的病毒" class="posttitle">Kinsing - &quot;寄生&quot;于 Docker 的病毒</a></h3>
+            <a href="/inspur-ip-guard-uninstallation/" title="卸载浪潮安装的 IP-GUARD 监控软件" class="posttitle">卸载浪潮安装的 IP-GUARD 监控软件</a></h3>
         
         <p class="post-count animated fadeInDown">
             
             <span>
                 <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                2k
+                3.6k
             </span>
             
             
             <span>
                 <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
-                2 mins.
+                3 mins.
             </span>
             
             
         </p>
         
         
-        <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Docker/" rel="tag">Docker</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Shell/" rel="tag">Shell</a></li></ul>
+        <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Windows/" rel="tag">Windows</a></li></ul>
         
         <div class="md-content animated fadeIn">
             
-            <p>2020 年开年不顺，2019 新型冠状病毒肺炎爆发，从年三十居家隔离到了正月十五，没想到自己的服务器也”感染“上了病毒 - Kinsing(进程的名字，姑且这样称呼)。</p>
+            <blockquote>
+<p>屋漏更遭连夜雨，船迟又遇打头风。</p>
+</blockquote>
+<p>刚刚处理完 Docker 里面的“病毒”，又发现自己的笔记本被安装了监控软件，身后一阵凉风。</p>
 
-<p></p>
-<p>偶然看了看服务器状态，发现 CPU 占用一直保持在 100%上下，有些蹊跷。</p>
-<p>难道是我的博客访问量<s>暴增</s>？？？那是当然不可能的，然后我去看了看<a href="https://github.com/portainer/portainer" target="_blank" rel="noopener">Portainer</a>看了看，果然，</p>
-<p></p>
-<p>这个随机名称的容器就是 Kinsing 基于 Ubuntu 的容器，CPU 占用 100%。</p>
-<p></p>
-<p>简单看了看容器里面的进程表，第一个运行了一个 shell 脚本，这个病毒就是这个脚本下载启动的关键，我打开看了看，<s>也没看懂</s>，大概是下载了几个可执行文件。...</p>
+<blockquote>
+<p>事发突然，因为影响我开发，所以也没有来得及截图。</p>
+</blockquote>
+<p>为了使用 WSL2 里面的 Docker，我加入了 <code>Windows 预览体验计划 - 慢</code>，把系统升级到了 Windows 10 2004。结果怪事就出现了——基本上所有的命令行都会在执行前显示一个错误。</p>
+<pre><code class="language-shell">ANOMALY: use of REX.w is meaningless (default operand size is 64)
+</code></pre>
+<p>从来没见过这个错误，我进入安全模式发现竟然也会报错，在百度 + 谷歌 + ...</p>
             
-            <span class="read-more"><a href="/kinsing-virus/" title="查看全文" class="posttitle">查看全文</a>
+            <span class="read-more"><a href="/inspur-ip-guard-uninstallation/" title="查看全文" class="posttitle">查看全文</a>
                 <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
     </div>
@@ -197,6 +200,60 @@
 
     <div id="primary">
         
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(//davidz.cn/static/blog/2020-02-10-kinsing-virus/netdata.png);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/DevOps">
+                  <b>「 </b>DEVOPS<b> 」</b>
+                </a>
+            
+            二月 10, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/kinsing-virus/" title="Kinsing - &quot;寄生&quot;于 Docker 的病毒" class="posttitle">Kinsing - &quot;寄生&quot;于 Docker 的病毒</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        2k
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        2 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Docker/" rel="tag">Docker</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Shell/" rel="tag">Shell</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <p>2020 年开年不顺，2019 新型冠状病毒肺炎爆发，从年三十居家隔离到了正月十五，没想到自己的服务器也”感染“上了病毒 - Kinsing(进程的名字，姑且这样称呼)。</p>
+
+<p></p>
+<p>偶然看了看服务器状态，发现 CPU 占用一直保持在 100%上下，有些蹊跷。</p>
+<p>难道是我的博客访问量<s>暴增</s>？？？那是当然不可能的，然后我去看了看<a href="https://github.com/portainer/portainer" target="_blank" rel="noopener">Portainer</a>看了看，果然，</p>
+<p></p>
+<p>这个随机名称的容器就是 Kinsing 基于 Ubuntu 的容器，CPU 占用 100%。</p>
+<p></p>
+<p>简单看了看容器里面的进程表，第一个运行了一个 shell...</p>
+            
+            <span class="read-more"><a href="/kinsing-virus/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+</div>
+
+
 <div class="post" id="post">
     <div class="post-cover animated fadeIn" style="
             background-image:
@@ -230,7 +287,7 @@
                 
             </p>
             
-                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Open-Source/" rel="tag">Open-Source</a></li></ul>
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Open-Source/" rel="tag">Open-Source</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Windows/" rel="tag">Windows</a></li></ul>
             
         
         <div class="md-content animated fadeIn">
@@ -286,7 +343,7 @@ $env:SCOOP...</code></pre>
                 
             </p>
             
-                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Microsoft/" rel="tag">Microsoft</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Open-Source/" rel="tag">Open-Source</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Terminal/" rel="tag">Terminal</a></li></ul>
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Open-Source/" rel="tag">Open-Source</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Terminal/" rel="tag">Terminal</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Windows/" rel="tag">Windows</a></li></ul>
             
         
         <div class="md-content animated fadeIn">
@@ -340,7 +397,7 @@ $env:SCOOP...</code></pre>
                 
             </p>
             
-                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Cpp/" rel="tag">Cpp</a></li></ul>
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Cpp/" rel="tag">Cpp</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Windows/" rel="tag">Windows</a></li></ul>
             
         
         <div class="md-content animated fadeIn">
