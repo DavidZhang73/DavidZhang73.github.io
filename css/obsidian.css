@@ -32,7 +32,7 @@
 }
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("/font/JetBrainsMono.woff") format("woff"), url("/font/JetBrainsMono.ttf") format("truetype");
+  src: url("/font/JetBrainsMono.woff2") format("woff2"), url("/font/JetBrainsMono.woff") format("woff");
 }
 pre code .language-mark {
   position: absolute;
