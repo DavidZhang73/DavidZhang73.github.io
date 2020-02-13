@@ -5,7 +5,7 @@
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>使用 Markdown 编写 Latex 报告 - Blog</title>
+    <title>使用 Markdown 编写基于 Latex 的 PDF 报告 - Blog</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
@@ -58,7 +58,7 @@
     <div class="navigation animated fadeIn fast delay-1s">
         <img id="home-icon" class="icon-home" src="/img/favicon.png" alt="" data-url="https://blog.davidz.cn">
         <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
-        <h3 class="subtitle">使用 Markdown 编写 Latex 报告</h3>
+        <h3 class="subtitle">使用 Markdown 编写基于 Latex 的 PDF 报告</h3>
         <div class="social">
             <!--        <div class="like-icon">-->
             <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
@@ -93,7 +93,7 @@
                 
                 二月 12, 2020
             </p>
-            <h3 class="post-title animated fadeInDown"><a href="/write-latex-report-with-markdown/" title="使用 Markdown 编写 Latex 报告" class="">使用 Markdown 编写 Latex 报告</a>
+            <h3 class="post-title animated fadeInDown"><a href="/write-latex-report-with-markdown/" title="使用 Markdown 编写基于 Latex 的 PDF 报告" class="">使用 Markdown 编写基于 Latex 的 PDF 报告</a>
             </h3>
             
             <p class="post-count animated fadeInDown">
@@ -145,7 +145,7 @@
 <p>后来到了澳国立，老师教授们们开始极力鼓吹 Latex 和 PDF，基本上算是软性要求我们使用 Latex 编写，还规定了衬线字体，非衬线字体，字号，段落等等，图片还需要是 SVG 格式的矢量图片（最奇葩的是竟然一整节课只讲这个😂），最后生成 PDF 提交（据说这样分数高一些）。所以我开始了漫漫 Latex 学习之路。然而整个过程十分痛苦，装个 TeX Live 跑了好几个小时，换个字体换的我一脸懵逼，预览竟然都不是实时的！！！我甚至觉得还不如 Word 好用，又开始找那些 Latex 编辑器（同学的 MacOS 上有很不错的，然而我是 Windows），之后是在线编辑器<a href="https://www.overleaf.com/" target="_blank" rel="noopener">Overleaf</a>，体验还行，但是一边学习 Latex 一边做实验写报告的体验实在是太差劲了，人都要<s>有丝</s>分裂了。我就先用 Markdown 记录下来，想着之后再改成 Latex 吧。然后，我用了 2 天左右的时间，找到了 Markdown 直接转报告的方法，就没再碰 Latex（<s>还是懒</s>）。</p>
 <h2 id="样例"><a class="header-anchor" href="#样例">¶</a>样例</h2>
 <p><a href="https://github.com/Wandmalfarbe/pandoc-latex-template/#example-images" target="_blank" rel="noopener">eisvogel 主题样例</a></p>
-<p>你也可以从这里看一下我的<a href="//davidz.cn/static/blog/2020-02-12-write-latex-report-with-markdown/report.pdf" target="_blank" rel="noopener">成果</a>作为参考，我觉得完全符合我的要求。</p>
+<p>你也可以从<a href="//davidz.cn/static/blog/2020-02-12-write-latex-report-with-markdown/report.pdf" target="_blank" rel="noopener">这里</a>看一下我的成果作为参考，我觉得完全符合我的要求。</p>
 <h2 id="思路"><a class="header-anchor" href="#思路">¶</a>思路</h2>
 <p>其实思路很简单，一切的一切都是因为<a href="https://pandoc.org/" target="_blank" rel="noopener">Pandoc</a>这个文档转换软件软件（类似于影音界的格式工厂？）的存在。它官网有一张巨型图片描述了它可以从那些格式转换成那些格式，基本上可以说覆盖了常见的所有文档格式。所以我们就可以用它把 Markown 语言写的文档转换成 PDF 格式的报告，过程中再用一套模板修饰一下就好啦。</p>
 <blockquote>
@@ -220,7 +220,7 @@ listings: true
 subfigGrid: true
 ---
 </code></pre>
-<p>在每个 Markdown 文件最上面形如上面 YAML 代码的叫做 YAML Front Matter，可以理解为对全文的配置。这里主要是一些对<a href="https://www.pandoc.org/MANUAL.html#variables" target="_blank" rel="noopener">Pandoc 的配置</a>以及对<a href="https://github.com/Wandmalfarbe/pandoc-latex-template#custom-template-variables" target="_blank" rel="noopener">Eisvogel 主题的配置</a>。</p>
+<p>在每个 Markdown 文件最上面形如上面 YAML 代码的叫做<code>YAML Front Matter</code>，可以理解为对全文的配置。这里主要是一些对<a href="https://www.pandoc.org/MANUAL.html#variables" target="_blank" rel="noopener">Pandoc 的配置</a>以及对<a href="https://github.com/Wandmalfarbe/pandoc-latex-template#custom-template-variables" target="_blank" rel="noopener">Eisvogel 主题的配置</a>。</p>
 <h2 id="生成"><a class="header-anchor" href="#生成">¶</a>生成</h2>
 <p>运行下面的命令就可以生成 PDF 啦😄。</p>
 <pre><code class="language-powershell">pandoc Report.md `
