@@ -1,14 +1,8 @@
 User-agent: *
-Allow: /
-Allow: /2020/
-Allow: /archives/
-Allow: /categories/
-Allow: /tags/
-
 Disallow: /js/
 Disallow: /img/
 Disallow: /css/
-Disallow: /fonts/
+Disallow: /font/
 Disallow: /statics/
 
 Sitemap: https://blog.davidz.cn/sitemap.xml
