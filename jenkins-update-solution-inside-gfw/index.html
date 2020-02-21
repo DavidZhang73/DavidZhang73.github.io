@@ -5,12 +5,15 @@
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Category: DevOps - Blog</title>
+    <title>墙内 Jenkins 插件下载的一种解决方案 - Blog</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Developer, Python, C++, JavaScript, Java,"> 
-    <meta name="description" content="DavidZ&#39;s Blog,"> 
+    <meta name="description" content="DavidZ&#39;s Blog,¶前言
+闲来无聊，在家折腾 DevOps，第一步当然是部署一个 Jenkins 啦，然而一顿操作猛如虎，插件一个都下载不下来，总不能给 Jenkins 加个代理吧，所以有了下面这一通折腾。
+¶原因
+,"> 
     <meta name="author" content="DavidZ"> 
     <link rel="alternative" href="atom.xml" title="Blog" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -50,134 +53,78 @@
     </div>
     <span id="config-title" style="display:none">Blog</span>
     <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/whoami/" title="ABOUT" external="false">ABOUT</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/categories/" title="CATEGORIES" external="false">CATEGORIES</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/tags/" title="TAGS" external="false">TAGS</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/archives/" title="ARCHIVES" external="false">ARCHIVES</a>
-        </li>
-        
-    </ul>
-    <p class="copyright" id="copyright">
-        &copy; 2020 DavidZ.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
-    </p>
+    <div id="single">
+    <div class="scrollbar gradient-bg-rev"></div>
+<div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <div class="navigation animated fadeIn fast delay-1s">
+        <img id="home-icon" class="icon-home" src="/img/favicon.png" alt="" data-url="https://blog.davidz.cn">
+        <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
+        <h3 class="subtitle">墙内 Jenkins 插件下载的一种解决方案</h3>
+        <div class="social">
+            <!--        <div class="like-icon">-->
+            <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+            <!--        </div>-->
+            <div>
+                <div class="share">
+                    
+                        <a href="javascript:;" class="iconfont icon-share1"></a>
+                        <div class="share-component-cc" data-disabled="facebook,douban,linkedin,diandian,tencent,google"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div id="container">
-    
-<div class="search-box">
-    <form class="site-search-form">
-        <span class="iconfont icon-search"></span>
-        <input type="text" id="local-search-input" class="st-search-input" />
-        <div class="iconfont icon-cross search-box-close"></div>
-    </form>
-    <div class="search-scrollable">
-        <div id="local-search-result" class="local-search-result-cls" data-initialise="首次搜索，正在载入索引文件，请稍后……"
-            data-start="输入关键词搜索。" data-empty="没有找到内容，请尝试更换检索词。">
-            <span>输入关键词搜索。</span>
-        </div>
-    </div>
-</div>
-<div id="header">
-    <div>
-        <div class="logo animated fadeInDown">
-            <img src="/img/favicon.png" alt="">
-            <a class="image-logo" href="/"></a>
-        </div>
-        <ul id="menu-menu" class="menu text-menu">
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/whoami/" title="ABOUT" external="false" class="menu-link">ABOUT</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/categories/" title="CATEGORIES" external="false" class="menu-link">CATEGORIES</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/tags/" title="TAGS" external="false" class="menu-link">TAGS</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/archives/" title="ARCHIVES" external="false" class="menu-link">ARCHIVES</a>
-            </li>
-            
-            
-            <li class="animated fadeInDown search-bar iconfont icon-search"></li>
-            
-        </ul>
-        <div class="iconfont icon-menu switchmenu gradient-text animated fadeInDown"></div>
-    </div>
-</div>
-<div id="screen">
-    <div id="mark">
-        <div class="cover animated fadeIn" style="
-            animation-delay: 900ms;
-            animation-duration: 2.8s;
-            background-image:
-                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.56), #100e17),
+    <div class="section">
+        <div class=article-header-wrapper>
+    <div class="article-header">
+        <div class="article-cover animated fadeIn" style="
+            animation-delay: 600ms;
+            animation-duration: 1.2s;
+            background-image: 
+                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
                 url(//davidz.cn/static/blog/2020-02-21-jenkins-update-solution-inside-gfw/intro.png);">
         </div>
-    </div>
-    
-    <div id="post0" class="else">
-        <p class="animated fadeInDown">
+        <div class="else">
+            <p class="animated fadeInDown">
+                
+                <a href="/categories/DevOps"><b>「
+                    </b>DEVOPS<b> 」</b></a>
+                
+                二月 21, 2020
+            </p>
+            <h3 class="post-title animated fadeInDown"><a href="/jenkins-update-solution-inside-gfw/" title="墙内 Jenkins 插件下载的一种解决方案" class="">墙内 Jenkins 插件下载的一种解决方案</a>
+            </h3>
             
-            <a href="/categories/DevOps"><b>「
-                </b>DEVOPS<b> 」</b></a>
-            
-            二月 21, 2020
-        </p>
-        <h3 class="post-title animated fadeInDown">
-            <a href="/jenkins-update-solution-inside-gfw/" title="墙内 Jenkins 插件下载的一种解决方案" class="posttitle">墙内 Jenkins 插件下载的一种解决方案</a></h3>
-        
-        <p class="post-count animated fadeInDown">
-            
-            <span>
-                <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                2.6k
-            </span>
-            
-            
-            <span>
-                <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
-                2 mins.
-            </span>
-            
-            
-        </p>
-        
-        
-        <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Linux/" rel="tag">Linux</a></li></ul>
-        
-        <div class="md-content animated fadeIn">
+            <p class="post-count animated fadeInDown">
+                
+                <span>
+                    <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                    2.6k
+                </span>
+                
+                
+                <span>
+                    <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                    2 mins.
+                </span>
+                
+                
+                
+                <span id="busuanzi_container_page_pv">
+                    <b class="iconfont icon-read"></b> <i>阅读次数</i>
+                    <span id="busuanzi_value_page_pv">0</span>
+                </span>
+                
+            </p>
             
             
-<p>闲来无聊，在家折腾 DevOps，第一步当然是部署一个 Jenkins 啦，然而一顿操作猛如虎，插件一个都下载不下来，总不能给 Jenkins 加个代理吧，所以有了下面这一通折腾。</p>
-
-<p></p>
-<p>根据经验，国外这些软件下载失败基本上都是因为链接不上服务器，换个源就好了。所以简单百度，找到大量相关教程，换了<a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华源</a>在内的四五个国内的源，均无效。</p>
-<p>这就非常奇怪了，所以我打开了清华源的<a href="https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json" target="_blank" rel="noopener">update-center.json</a>，仔细看了看，发现了蹊跷之处。原来，这个文件里面基本上所有插件的链接都指向了官网链接<code>http://updates.jenkins-ci.org/download/plugins/</code>。所以我们使用...</p>
+            <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Linux/" rel="tag">Linux</a></li></ul>
             
-            <span class="read-more"><a href="/jenkins-update-solution-inside-gfw/" title="查看全文" class="posttitle">查看全文</a>
-                <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
     </div>
-    
 </div>
 
 <div class="screen-gradient-after">
@@ -185,75 +132,106 @@
         <div class="screen-gradient-content-inside">
             <div class="bold-underline-links screen-gradient-sponsor">
                 <p>
-                    <span class="typed-text"></span>
+                    <span class="animated fadeIn delay-1s"></span>
                 </p>
             </div>
         </div>
     </div>
 </div>
 
-    <div id="primary">
-        
-<div class="post" id="post">
-    <div class="post-cover animated fadeIn" style="
-            background-image:
-            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
-            url(//davidz.cn/static/blog/2020-02-10-kinsing-virus/cover.jpg);">
-    </div>
-    <div class="else">
-        <p class="animated fadeInDown">
-            
-                <a href="/categories/DevOps">
-                  <b>「 </b>DEVOPS<b> 」</b>
-                </a>
-            
-            二月 10, 2020
-        </p>
-        <h3 class="post-title animated fadeInDown"><a href="/kinsing-virus/" title="&quot;寄生&quot;于 Docker 的病毒 - Kinsing" class="posttitle">&quot;寄生&quot;于 Docker 的病毒 - Kinsing</a></h3>
-        
-            <p class="post-count animated fadeInDown">
-                
-                    <span>
-                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                        2.1k
-                    </span>
-                
-                
-                    <span>
-                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
-                        2 mins.
-                    </span>
-                
-                
-            </p>
-            
-                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Docker/" rel="tag">Docker</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Shell/" rel="tag">Shell</a></li></ul>
-            
-        
-        <div class="md-content animated fadeIn">
-            
-                
-<p>2020 年开年不顺，2019 新型冠状病毒肺炎爆发，从年三十居家隔离到了正月十五，没想到自己的服务器也”感染“上了病毒 - Kinsing(进程的名字，姑且这样称呼)。</p>
+<div class="article">
+    <div class='main'>
+        <div class="content markdown animated fadeIn">
+            <h2 id="前言"><a class="header-anchor" href="#前言">¶</a>前言</h2>
+<p>闲来无聊，在家折腾 DevOps，第一步当然是部署一个 Jenkins 啦，然而一顿操作猛如虎，插件一个都下载不下来，总不能给 Jenkins 加个代理吧，所以有了下面这一通折腾。</p>
+<h2 id="原因"><a class="header-anchor" href="#原因">¶</a>原因</h2>
+<p><img src="//davidz.cn/static/blog/2020-02-21-jenkins-update-solution-inside-gfw/intro.png" alt="下载超时"></p>
+<p>根据经验，国外这些软件下载失败基本上都是因为链接不上服务器，换个源就好了。所以简单百度，找到大量相关教程，换了<a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华源</a>在内的四五个国内的源，均无效。</p>
+<p>这就非常奇怪了，所以我打开了清华源的<a href="https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json" target="_blank" rel="noopener">update-center.json</a>，仔细看了看，发现了蹊跷之处。原来，这个文件里面基本上所有插件的链接都指向了官网链接<code>http://updates.jenkins-ci.org/download/plugins/</code>。所以我们使用<code>https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json</code>只加速了下载这个文件的过程，而并没有加速下载插件的过程。</p>
+<h2 id="解决方案"><a class="header-anchor" href="#解决方案">¶</a>解决方案</h2>
+<p>那么解决方案就很简单了，我们只需要把<code>/var/jenkins_home/updates/default.json</code>这个文件中的所有</p>
+<pre><code class="language-htmlmixed">http://updates.jenkins-ci.org/download/plugins/
+</code></pre>
+<p>替换成，</p>
+<pre><code class="language-htmlmixed">https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/
+</code></pre>
+<p>这样就好啦，但是总不能每次都自己手动替换吧，所以有下面这两个稍微复杂一点的自动化解决方案。</p>
+<h3 id="方案-1-使用-nginx-重定向"><a class="header-anchor" href="#方案-1-使用-nginx-重定向">¶</a>方案 1 使用 nginx 重定向</h3>
+<p>这个方法是参考的<a href="https://my.oschina.net/VASKS/blog/3106314" target="_blank" rel="noopener">jenkins 插件下载加速最终方案</a></p>
+<p>具体我没有试，但是我之前写过 Nginx 的重定向，简单来讲就是遇到官方的地址，就重定向到清华源，配置起来稍微复杂一点。</p>
+<h3 id="方案-2-自己搭建-Jenkins-Update-Center"><a class="header-anchor" href="#方案-2-自己搭建-Jenkins-Update-Center">¶</a>方案 2 自己搭建 Jenkins Update Center</h3>
+<p>这个是我自己尝试出来的，原理就是我在服务器上定时（每小时）从清华源下载<code>update-center.json</code>，然后再把里面的 URL 替换成正确的地址，然后对外提供服务。</p>
+<p>但是 Jenkins 对于<code>update-center.json</code>的地址有验证，<a href="https://github.com/jenkins-zh/mirror-adapter" target="_blank" rel="noopener">具体验证方法</a>不清楚（<s>我实在是懒的研究了</s>）。</p>
+<blockquote>
+<p>山重水复疑无路，柳暗花明又一村</p>
+</blockquote>
+<p>我在 Jenkins 的 Issue 里面找到一个<a href="https://issues.jenkins-ci.org/browse/JENKINS-11598?focusedCommentId=212431&amp;page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-212431" target="_blank" rel="noopener">老哥</a>说验证这个功能可以通过属性参数关闭，于是，这个问题就很简单啦。</p>
+<pre><code class="language-shell">hudson.model.DownloadService.noSignatureCheck=true
+</code></pre>
+<p>加上这个属性就好啦。</p>
+<p><a href="https://jenkins-update.davidz.cn/" target="_blank" rel="noopener">具体教程</a></p>
+<p>哈，插件全秒！😄</p>
 
-<p></p>
-<p>偶然看了看服务器状态，发现 CPU 占用一直保持在 100%上下，有些蹊跷。</p>
-<p>难道是我的博客访问量<s>暴增</s>？？？那是当然不可能的，然后我去看了看<a href="https://github.com/portainer/portainer" target="_blank" rel="noopener">Portainer</a>看了看，果然，</p>
-<p></p>
-<p>这个随机名称的容器就是 Kinsing 基于 Ubuntu 的容器，CPU 占用 100%。</p>
-<p></p>
-<p>简单看了看容器里面的进程表，第一个运行了一个 shell...</p>
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls"
+                data-autoplay="false">
+                <source type="audio/mpeg" src="//davidz.cn/static/blog/mp3/guangliang---tonghua.mp3">
+            </audio>
             
-            <span class="read-more"><a href="/kinsing-virus/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+            
+            
+    <div id='gitalk-container' class="comment link"
+        data-ae='true'
+        data-ci='489076c5dd3f5ba13f67'
+        data-cs='d6e3b245787b0b74d0dbe2639ef87f452a401194'
+        data-r='blog.davidz.cn'
+        data-o='DavidZhang73'
+        data-a='DavidZhang73'
+        data-d=''
+    >留言</div>
+
+
+            
+            
+        </div>
+        <div class="sidebar">
+            <div class="box animated fadeInRight">
+                <div class="subbox">
+                    <img src="//davidz.cn/static/blog/img/avator.jpg" height=300 width=300></img>
+                    <p>DavidZ</p>
+                    <span>凡事都要留几分</span>
+                    <dl>
+                        <dd><a href="https://github.com/DavidZhang73" target="_blank"><span
+                                    class=" iconfont icon-github"></span></a></dd>
+                        <dd><a href="https://twitter.com/david731998" target="_blank"><span
+                                    class=" iconfont icon-twitter"></span></a></dd>
+                        <dd><a href="https://stackoverflow.com/users/12693553/davidz" target="_blank"><span
+                                    class=" iconfont icon-stack-overflow"></span></a></dd>
+                    </dl>
+                </div>
+                <ul>
+                    <li><a href="/">9 <p>文章</p></a></li>
+                    <li><a href="/categories">5 <p>分类</p></a></li>
+                    <li><a href="/tags">11 <p>标签</p></a></li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="box sticky animated fadeInRight faster">
+                <div id="toc" class="subbox">
+                    <h4>目录</h4>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">¶前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#原因"><span class="toc-number">2.</span> <span class="toc-text">¶原因</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#解决方案"><span class="toc-number">3.</span> <span class="toc-text">¶解决方案</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#方案-1-使用-nginx-重定向"><span class="toc-number">3.1.</span> <span class="toc-text">¶方案 1 使用 nginx 重定向</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#方案-2-自己搭建-Jenkins-Update-Center"><span class="toc-number">3.2.</span> <span class="toc-text">¶方案 2 自己搭建 Jenkins Update Center</span></a></li></ol></li></ol>
+                </div>
+            </div>
+            
+            
         </div>
     </div>
 </div>
 
-
     </div>
-    
 </div>
-<div id="preview"></div>
-
     <div id="back-to-top" class="animated fadeIn faster">
         <div class="flow"></div>
         <span class="percentage animated fadeIn faster">0%</span>

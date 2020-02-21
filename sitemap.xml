@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.davidz.cn/jenkins-update-solution-inside-gfw/</loc>
+    
+    <lastmod>2020-02-21T07:48:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.davidz.cn/write-latex-report-with-markdown/</loc>
     
     <lastmod>2020-02-12T11:17:06.000Z</lastmod>
