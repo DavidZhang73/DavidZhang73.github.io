@@ -149,13 +149,13 @@
             
             <span>
                 <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                2.6k
+                2.8k
             </span>
             
             
             <span>
                 <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
-                2 mins.
+                3 mins.
             </span>
             
             
@@ -166,12 +166,15 @@
         
         <div class="md-content animated fadeIn">
             
-            
+            <blockquote>
+<p>原创发表于 <a href="https://blog.davidz.cn">DavidZ Blog</a>，遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener">CC 4.0 BY-NC-SA</a> 版权协议，转载请附上原文出处链接及本声明。</p>
+</blockquote>
+
 <p>闲来无聊，在家折腾 DevOps，第一步当然是部署一个 Jenkins 啦，然而一顿操作猛如虎，插件一个都下载不下来，总不能给 Jenkins 加个代理吧，所以有了下面这一通折腾。</p>
 
 <p></p>
 <p>根据经验，国外这些软件下载失败基本上都是因为链接不上服务器，换个源就好了。所以简单百度，找到大量相关教程，换了<a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华源</a>在内的四五个镜像源，均无效。</p>
-<p>这就非常奇怪了，所以我打开了清华源的<a href="https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json" target="_blank" rel="noopener">update-center.json</a>，仔细看了看，发现了蹊跷之处。原来，这个文件里面基本上所有插件的链接都指向了官网链接<code>http://updates.jenkins-ci.org/download/plugins/</code>。所以我们使用<code>https...</code></p>
+<p>这就非常奇怪了，所以我打开了清华源的<a href="https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json" target="_blank" rel="noopener">update-center.json</a>，仔细看了看，发现了蹊跷之处。原来，这个文件里面基本上所有插件的链接都指...</p>
             
             <span class="read-more"><a href="/jenkins-update-solution-inside-gfw/" title="查看全文" class="posttitle">查看全文</a>
                 <b class="iconfont icon-arrow-right- gradient-text"></b></span>
@@ -215,7 +218,7 @@
                 
                     <span>
                         <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                        2.1k
+                        2.3k
                     </span>
                 
                 
@@ -232,16 +235,17 @@
         
         <div class="md-content animated fadeIn">
             
-                
+                <blockquote>
+<p>原创发表于 <a href="https://blog.davidz.cn">DavidZ Blog</a>，遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener">CC 4.0 BY-NC-SA</a> 版权协议，转载请附上原文出处链接及本声明。</p>
+</blockquote>
+
 <p>2020 年开年不顺，2019 新型冠状病毒肺炎爆发，从年三十居家隔离到了正月十五，没想到自己的服务器也”感染“上了病毒 - Kinsing(进程的名字，姑且这样称呼)。</p>
 
 <p></p>
 <p>偶然看了看服务器状态，发现 CPU 占用一直保持在 100%上下，有些蹊跷。</p>
 <p>难道是我的博客访问量<s>暴增</s>？？？那是当然不可能的，然后我去看了看<a href="https://github.com/portainer/portainer" target="_blank" rel="noopener">Portainer</a>看了看，果然，</p>
 <p></p>
-<p>这个随机名称的容器就是 Kinsing 基于 Ubuntu 的容器，CPU 占用 100%。</p>
-<p></p>
-<p>简单看了看容器里面的进程表，第一个运行了一个 shell...</p>
+<p>这个随机名称的容器就是 ...</p>
             
             <span class="read-more"><a href="/kinsing-virus/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
