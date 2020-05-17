@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>技巧速记：更改 Rattle 的语言</title>
+      <link href="/rattle-change-language/"/>
+      <url>/rattle-change-language/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>原创发表于 <a href="https://blog.davidz.cn">DavidZ Blog</a>，遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener">CC 4.0 BY-NC-SA</a> 版权协议，转载请附上原文出处链接及本声明。</p></blockquote><h2 id="Q"><a class="header-anchor" href="#Q">¶</a>Q</h2><p>如何把Rattle的语言设置成英文，从而避免显示<code>XXX</code>。</p><h2 id="A"><a class="header-anchor" href="#A">¶</a>A</h2><p>在<code>R_HOME/etc/Rprofile.site</code>的最后添加，</p><pre><code class="language-R">Sys.setenv(LANG=&quot;en&quot;)</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Workaround </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> R </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>墙内 Jenkins 插件下载的一种解决方案</title>
       <link href="/jenkins-update-solution-inside-gfw/"/>
       <url>/jenkins-update-solution-inside-gfw/</url>
