@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.davidz.cn/multiline-equation-in-hexo/</loc>
+    
+    <lastmod>2020-06-04T14:45:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.davidz.cn/SVD-for-homogeneous-linear-equation/</loc>
+    
+    <lastmod>2020-06-04T13:43:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.davidz.cn/rattle-change-language/</loc>
     
     <lastmod>2020-05-17T07:16:07.000Z</lastmod>

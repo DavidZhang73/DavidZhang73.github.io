@@ -5,7 +5,7 @@
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>卸载浪潮安装的 IP-GUARD 监控软件 - Blog</title>
+    <title>想法速记：SVD求齐次线性方程组 Ax=0 的解 - Blog</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
@@ -13,11 +13,7 @@
     <meta name="description" content="DavidZ&#39;s Blog,
 原创发表于 DavidZ Blog，遵循 CC 4.0 BY-NC-SA 版权协议，转载请附上原文出处链接及本声明。
 
-¶前言
-
-屋漏更遭连夜雨，船迟又遇打头风。
-
-刚刚处理完 Docker 里面,"> 
+众所周知，SVD(奇异值分解)可以用于最小二乘法求齐次线性方程组$A\vec,"> 
     <meta name="author" content="DavidZ"> 
     <link rel="alternative" href="atom.xml" title="Blog" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -64,7 +60,7 @@
     <div class="navigation animated fadeIn fast delay-1s">
         <img id="home-icon" class="icon-home" src="/img/favicon.png" alt="" data-url="https://blog.davidz.cn">
         <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
-        <h3 class="subtitle">卸载浪潮安装的 IP-GUARD 监控软件</h3>
+        <h3 class="subtitle">想法速记：SVD求齐次线性方程组 Ax=0 的解</h3>
         <div class="social">
             <!--        <div class="like-icon">-->
             <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
@@ -89,30 +85,30 @@
             animation-duration: 1.2s;
             background-image: 
                 radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
-                url(//davidz.cn/static/blog/2020-02-11-inspur-ip-guard-uninstallation/cover.svg) ">
+                url(//davidz.cn/static/blog/img/workaround.jpg) ">
         </div>
         <div class="else">
             <p class="animated fadeInDown">
                 
-                <a href="/categories/Internship"><b>「
-                    </b>INTERNSHIP<b> 」</b></a>
+                <a href="/categories/Idea"><b>「
+                    </b>IDEA<b> 」</b></a>
                 
-                二月 11, 2020
+                六月 04, 2020
             </p>
-            <h3 class="post-title animated fadeInDown"><a href="/inspur-ip-guard-uninstallation/" title="卸载浪潮安装的 IP-GUARD 监控软件" class="">卸载浪潮安装的 IP-GUARD 监控软件</a>
+            <h3 class="post-title animated fadeInDown"><a href="/SVD-for-homogeneous-linear-equation/" title="想法速记：SVD求齐次线性方程组 Ax&#x3D;0 的解" class="">想法速记：SVD求齐次线性方程组 Ax&#x3D;0 的解</a>
             </h3>
             
             <p class="post-count animated fadeInDown">
                 
                 <span>
                     <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                    6.2k
+                    2.9k
                 </span>
                 
                 
                 <span>
                     <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
-                    6 mins.
+                    3 mins.
                 </span>
                 
                 
@@ -124,8 +120,6 @@
                 
             </p>
             
-            
-            <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Windows/" rel="tag">Windows</a></li></ul>
             
         </div>
     </div>
@@ -149,119 +143,80 @@
             <blockquote>
 <p>原创发表于 <a href="https://blog.davidz.cn">DavidZ Blog</a>，遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener">CC 4.0 BY-NC-SA</a> 版权协议，转载请附上原文出处链接及本声明。</p>
 </blockquote>
-<h2 id="前言"><a class="header-anchor" href="#前言">¶</a>前言</h2>
-<blockquote>
-<p>屋漏更遭连夜雨，船迟又遇打头风。</p>
-</blockquote>
-<p>刚刚处理完 Docker 里面的“病毒”，又发现自己的笔记本被安装了监控软件，身后一阵凉风。</p>
-<h2 id="发现"><a class="header-anchor" href="#发现">¶</a>发现</h2>
-<blockquote>
-<p>事发突然，因为影响我开发，所以也没有来得及截图。</p>
-</blockquote>
-<p>为了使用 WSL2 里面的 Docker，我加入了 <code>Windows 预览体验计划 - 慢</code>，把系统升级到了 Windows 10 2004。结果怪事就出现了——基本上所有的命令行都会在执行前显示一个错误。</p>
-<pre><code class="language-shell">ANOMALY: use of REX.w is meaningless (default operand size is 64)
-</code></pre>
-<p>从来没见过这个错误，我进入安全模式发现竟然也会报错，在百度 + 谷歌 + stackoverflow 依然无任何有效答案后，陷入了绝望😢。</p>
-<p>本来呢，这个只是报个错，并不是什么大问题（<s>我本身有一点强迫症，不能忍</s>），但是 JetBrains 全家桶全部报错找不到 Git，CLion 报错找不到 VS。这就严重影响我开发了。Windows 预览体验计划还非常坑，不能回退，于是我又尝试了<code>Windows 预览体验计划 - 快</code>，结果问题依旧。</p>
-<p>终于我突发奇想在 Github 上搜了一下（<s>不是到我当时咋想的，病急乱投医把</s>），发现了一个叫<a href="https://github.com/martona/mhook" target="_blank" rel="noopener">mhook</a>的项目，在其类库代码中发现了<a href="https://github.com/martona/mhook/blob/master/disasm-lib/disasm_x86.c#L1749" target="_blank" rel="noopener">disasm_x86</a>这个文件，在第 1749 行发现了错误提示的源代码。</p>
-<pre><code class="language-c">if (!SuppressErrors) printf(&quot;[0x%08I64X] ANOMALY: use of REX.w is meaningless (default operand size is 64)\n&quot;, VIRTUAL_ADDRESS);
-</code></pre>
-<p>现在我大体知道了这个问题产生的原因。</p>
+<p>众所周知，SVD(奇异值分解)可以用于最小二乘法求齐次线性方程组$A\vec{x}=\vec{0}$的解。我看了很多资料，大多使用数学公式推导，得出结论。但是，曾经线性代数差点挂科的我，总觉得有些蹊跷。想了两天，终于有了一些感性的认知（不一定是对的😂），赶紧记录下来。</p>
+<h2 id="矩阵有何意义"><a class="header-anchor" href="#矩阵有何意义">¶</a>矩阵有何意义</h2>
+<p>按照我的理解，一个矩阵的实际意义是对应一个线性变换，这个变换可以理解为瞬间运动。例如，一个旋转矩阵，</p>
+<p>$$<br>
+A=\begin{bmatrix}<br>
+cos\theta &amp; sin\theta \\\<br>
+-sin\theta &amp; cos\theta<br>
+\end{bmatrix}<br>
+$$</p>
+<p>它的意思是，把一个向量顺时针旋转$\theta$。也就是说，给定一个$\vec{v_1}=[-1, 1]^T$, 那么变换的结果就是$\vec{v_2}=A\vec{v_1}=[1, 1]^T$.</p>
+<p>除了旋转，矩阵还可以表示包括缩放，投影在内的所有<strong>线性变换</strong>。</p>
+<p>十分推荐大家去看 3Blue1Brown 的 <em>线性代数的本质</em>，B 站有<a href="https://www.bilibili.com/video/BV1ys411472E" target="_blank" rel="noopener">官方翻译版</a>，它完全颠覆了我对线性代数的认知。</p>
+<h2 id="SVD到底干了什么"><a class="header-anchor" href="#SVD到底干了什么">¶</a>SVD到底干了什么</h2>
+<p>$$<br>
+A = U\Sigma V^T<br>
+$$</p>
+<p>SVD把矩阵$A(m\times n)$分解成了,</p>
+<ul>
+<li>$U(m\times m)$: 左奇异矩阵</li>
+<li>$\Sigma(m\times n)$: 奇异值矩阵</li>
+<li>$V(n\times n)$: 右奇异矩阵</li>
+</ul>
+<p>重点来了，SVD的意思就是，把一个本来由矩阵$A$表示的变换，转化成一个由$U,\Sigma,V$表示的变换。这个变换是，把一个向量，从以$V$为基向量的空间线性变换到成以$U$为基向量的空间中去（$\Sigma$的意义可以说是缩放，待证实，暂时忽略）。这样我们就可以更深入的理解这个变换了。</p>
+<p>例如旋转$\vec{v_1}$90度得到$\vec{v_2}$，</p>
+<p><img src="//davidz.cn/static/blog/2020-06-04-SVD-for-homogeneous-linear-equation/rotate90.svg" alt="rotate 90"></p>
+<p>其中，</p>
+<p>$$<br>
+U=\begin{bmatrix}<br>
+0 &amp; 1 \\\<br>
+1 &amp; 0<br>
+\end{bmatrix}<br>
+$$</p>
+<p>$$<br>
+\Sigma=\begin{bmatrix}<br>
+1 &amp; 1<br>
+\end{bmatrix}<br>
+$$</p>
+<p>$$<br>
+V=\begin{bmatrix}<br>
+-1 &amp; 0 \\\<br>
+0 &amp; 1<br>
+\end{bmatrix}<br>
+$$</p>
+<p>也就是说，矩阵$A$可以被理解为，我们把一个向量$\vec{v_1}$，从以$\vec{e_1}=[-1, 0]^T,\vec{e_2}=[0, 1]^T$为基向量的空间线性变换到了以$\vec{e_1}=[0, 1]^T,\vec{e_2}=[1, 0]^T$为基向量的空间中。这个变换表现为旋转了90度。</p>
+<h2 id="所以如何理解"><a class="header-anchor" href="#所以如何理解">¶</a>所以如何理解</h2>
+<p>说回求齐次线性方程组$Ax=0$的解来。</p>
+<p>按照矩阵的意义，我们这里要求的是，已知一个线性变换$A$，给定一个$\vec{x}$，使得线性变换后的结果为$\vec{0}$。</p>
+<p>此时非常重要的是，如果$x=\vec{0}$，那一定成立，但是我们想找一个非平凡的解。</p>
+<p>我们暂时不关心这个解是否存在，也就是说如果不存在，我们就找个最接近的（最小二乘法思想），我们直接使用SVD分解矩阵$A$，得到对应的$U,\Sigma,V$。</p>
+<p>按照SVD的作用，我们现在可以说，矩阵$A$这个线性变换，把一个$\vec{x}$，从以$V$为基向量的空间线性变换到了以$U$为基向量的空间中，而我们想找，在以$V$为基向量的空间中，哪个向量会在投影后趋近于或者等于$\vec{0}$。更重要的是，我们只在乎这个向量的方向，而不在乎他的大小，因为它等于$\vec{0}$是个平凡解，这就像最小二乘法中，我们规定$|\vec{x}|=1$。</p>
+<p>这时，答案就开始变得清晰了，因为我们想找的$\vec{x}$，应该就是$V$这组基向量中特异值$\sigma$最小的那一个$\vec{e_{min}}$，也就是说$\vec{x}=\vec{e_{min}}$。此时有两种情况，</p>
 <ol>
-<li>disasm 是一个 hook（钩子）库，可以注入到别的程序。</li>
-<li>更新系统后，这个钩子库和新的系统发生了冲突，于是报错，理论上所有被注入的程序都会报错。</li>
-<li>这个钩子应该是个<strong>监控软件</strong>或者病毒木马之类的。</li>
+<li>$\sigma=0$， 那么$\vec{x}$投影后的就是$\vec{0}$。</li>
+<li>$\sigma\neq0$，那么$\vec{x}$投影后是使$A\vec{x}$最小的解。因为如果$\vec{x}\neq\vec{e_{min}}$，也就是说它偏离了$\vec{e_{min}}$，那么它一定由$\vec{e_{min}}$和另一个基向量线性组合，而无论怎么组合，$\sigma_{combine}\geq\sigma_{min}$。</li>
 </ol>
-<p>我想起了在浪潮实习的时候，我的老师给我说浪潮作为面向政府国企的公司，对内部信息安全非常重视，所以会在员工的电脑里面安装监控软件，监控员工的一举一动，我当时感觉应该不会对实习生下手吧，想不到。。。回想起来，应该是入职浪潮的时候安装的那个上网小助手吧。</p>
-<p>于是我下载了<a href="https://www.freefixer.com/" target="_blank" rel="noopener">freefixer</a>，查找注入的钩子，果不出其然，发现了在系统中安装的<a href="http://www.ip-guard.net/" target="_blank" rel="noopener">IP-GUARD</a>。按照官网的介绍，监控能力之强，范围之广令人汗颜，从网络到文件，邮件，应用等等，简直神通广大。</p>
-<h2 id="处理"><a class="header-anchor" href="#处理">¶</a>处理</h2>
-<p>我已经离职多日，第一时间肯定是卸载这个监控软件，直接删除文件肯定不行，结果 freefixer 也卸不掉（卸载完重启又出现），没有办法，只能到 WinPE 中手动逐一筛查，删除。</p>
-<p>基本步骤如下</p>
-<h3 id="1-进入-WinPE"><a class="header-anchor" href="#1-进入-WinPE">¶</a>1. 进入 WinPE</h3>
-<blockquote>
-<p>安全模式也会打开例如 explorer.exe 这样的系统进程，而监控软件也注入到了其中，所以安装全模式也不能删除</p>
-</blockquote>
-<p>这里免费帮<a href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=404842" target="_blank" rel="noopener">优启通</a>做个广告。</p>
-<p>下载上面这个 PE 安装到本地或者 U 盘 都行，然后重启进入 WinPE 就好了。</p>
-<h3 id="2-到系统盘中删除对应的所有文件"><a class="header-anchor" href="#2-到系统盘中删除对应的所有文件">¶</a>2. 到系统盘中删除对应的所有文件</h3>
-<p>想不到这个公司还是很良心的，所有程序文件都签了名，在 freefixer 上查得到，叫<a href="https://www.freefixer.com/library/publisher/t.e.c%20solutions%20(g.z.)limited/" target="_blank" rel="noopener">T.E.C Solutions (G.Z.)Limited</a>。</p>
-<blockquote>
-<p>下面这些文件都是在 freefixer 上有记录的文件，可以作为检测 IP-GUARD 是否安装的标志。</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">File Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/ONacAgent.exe-211770/" target="_blank" rel="noopener">ONacAgent.exe</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/TIjtdrvd64.dll-261434/" target="_blank" rel="noopener">TIjtdrvd64.dll</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/thooksv364.dll-261436/" target="_blank" rel="noopener">thooksv364.dll</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/ONacAgent.exe-206855/" target="_blank" rel="noopener">ONacAgent.exe</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/winhadnt64.dll-95360/" target="_blank" rel="noopener">winhadnt64.dll</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/DtFrame32.dll-206842/" target="_blank" rel="noopener">DtFrame32.dll</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/winrdgv3.exe-122257/" target="_blank" rel="noopener">winrdgv3.exe</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/winrdlv3.exe-177929/" target="_blank" rel="noopener">winrdlv3.exe</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/winhafnt64.dll-211772/" target="_blank" rel="noopener">winhafnt64.dll</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/TIjtdrvd64.dll-211775/" target="_blank" rel="noopener">TIjtdrvd64.dll</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/ipnpf.sys-225950/" target="_blank" rel="noopener">ipnpf.sys</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/thooksv364.dll-211779/" target="_blank" rel="noopener">thooksv364.dll</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><a href="https://www.freefixer.com/library/file/winhadnt.dll-239634/" target="_blank" rel="noopener">winhadnt.dll</a></td>
-</tr>
-</tbody>
-</table>
-<p>我们可以利用 Windows Explorer 的按公司分组，快速找到所有相关文件。</p>
+<p>因此，我们求解$A\vec{x}=0$的过程就是，</p>
 <ol>
-<li>打开系统盘（这里假设是 C 盘），右键 - 分组依据 - 更多 - 勾选 公司 - 确定。</li>
-<li>右键 - 分组依据 - 公司。</li>
-<li>查看 - 选项 - 查看 - 应用到文件夹。</li>
-<li>在下面的路径中找到所有公司为<code>T.E.C Solutions (G.Z.)Limited</code>的文件，删除。</li>
+<li>$U,\Sigma,V^T=SVD(A)$</li>
+<li>$\vec{x}=V[:, -1]$</li>
 </ol>
-<pre><code class="language-cmd">C:\Program Files\Common Files\System
-C:\Program Files (x86)\Common Files\System
-C:\WINDOWS
-C:\WINDOWS\System32
-C:\WINDOWS\System32\drivers
-C:\WINDOWS\SysWOW64
-C:\WINDOWS\SysWOW64\drivers
-</code></pre>
-<h3 id="3-重启"><a class="header-anchor" href="#3-重启">¶</a>3. 重启</h3>
-<p>再次运行 freefixer 检查是否删干净了。</p>
-<h2 id="想法"><a class="header-anchor" href="#想法">¶</a>想法</h2>
-<p>像浪潮这样主要客户是政府，国企的企业，确实需要证明其安全能力，在他的员工的电脑上安装监控软件确实是有效措施，我能够理解。但是，这么大一企业，安装监控时没有主动告知（至少应该告知监控我的哪些行为），毕竟是我自己私人的笔记本，不是企业配发的，也没让我签字。离职时就算知道了也找不到卸载方法（那个上网小助手也是我进入安全模式手动删除的，因为正常卸载需要密码，我嫌麻烦就自己删了），所有面向实习生的文档教程都只有安装方法，我不知道是不是因为实习生的缘故，全程只有我的那个老师给我口头说了一声，我现在感觉自己受到了欺骗，个人隐私受到了严重侵犯，很难受，同时也非常生气，可是又很无力，因为这件事情可大可小，从网上的评论来看在各大企业中都很正常。</p>
-<p>希望这样的事情以后不会发生了吧。🙏</p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls"
                 data-autoplay="false">
-                <source type="audio/mpeg" src="//davidz.cn/static/blog/mp3/mowenwei---yintian.mp3">
+                <source type="audio/mpeg" src="">
             </audio>
+            
+            <ul id="audio-list" style="display:none">
+                
+                
+                <li title='0' data-url='/statics/chengdu.mp3'></li>
+                
+                    
+            </ul>
             
             
             
@@ -306,7 +261,7 @@ C:\WINDOWS\SysWOW64\drivers
             <div class="box sticky animated fadeInRight faster">
                 <div id="toc" class="subbox">
                     <h4>目录</h4>
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">¶前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#发现"><span class="toc-number">2.</span> <span class="toc-text">¶发现</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#处理"><span class="toc-number">3.</span> <span class="toc-text">¶处理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-进入-WinPE"><span class="toc-number">3.1.</span> <span class="toc-text">¶1. 进入 WinPE</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-到系统盘中删除对应的所有文件"><span class="toc-number">3.2.</span> <span class="toc-text">¶2. 到系统盘中删除对应的所有文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-重启"><span class="toc-number">3.3.</span> <span class="toc-text">¶3. 重启</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#想法"><span class="toc-number">4.</span> <span class="toc-text">¶想法</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#矩阵有何意义"><span class="toc-number">1.</span> <span class="toc-text">¶矩阵有何意义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SVD到底干了什么"><span class="toc-number">2.</span> <span class="toc-text">¶SVD到底干了什么</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#所以如何理解"><span class="toc-number">3.</span> <span class="toc-text">¶所以如何理解</span></a></li></ol>
                 </div>
             </div>
             
