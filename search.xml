@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>技巧速记：Windows 10 透明效果无法正常工作</title>
+      <link href="/acrylic-not-working/"/>
+      <url>/acrylic-not-working/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>原创发表于 <a href="https://blog.davidz.cn">DavidZ Blog</a>，遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener">CC 4.0 BY-NC-SA</a> 版权协议，转载请附上原文出处链接及本声明。</p></blockquote><h2 id="Q"><a class="header-anchor" href="#Q">¶</a>Q</h2><p>一开始我发现 <a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener">Windows Terminal</a> 的 <code>useAcrylic</code> 选项无效，github 之后发现 <a href="https://github.com/microsoft/terminal/issues/1414" target="_blank" rel="noopener">Acrylic transparency not working</a>，这个 Issue 里面有好几个描述的和我一样，不仅仅是 Windows Terminal，很多系统的透明特效也都不工作。</p><p>原来，Windows Terminal 是使用 <a href="https://www.microsoft.com/design/fluent/#/" target="_blank" rel="noopener">Fluent Design</a> 里面的 Acrylic 效果实现的透明，所以说，这个问题是个系统层面的，而不是 Windows Terminal 本身的。</p><p>问题的具体表现为，除了任务栏是透明的之外，其余所有的透明特效都不工作。所以我直接到 <a href="https://github.com/microsoft/microsoft-ui-xaml" target="_blank" rel="noopener">microsoft/microsoft-ui-xaml</a> 提了一个 <a href="https://github.com/microsoft/microsoft-ui-xaml/issues/2737" target="_blank" rel="noopener">Issue</a>。</p><h2 id="A"><a class="header-anchor" href="#A">¶</a>A</h2><p><a href="https://github.com/microsoft/microsoft-ui-xaml/issues/2737#issuecomment-650471950" target="_blank" rel="noopener">解决方案</a>，把英特尔显卡控制面板里面的输入范围调整成<code>全</code>，重启电脑即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Workaround </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>技巧速记：如何在Hexo中插入多行公式</title>
       <link href="/multiline-equation-in-hexo/"/>
       <url>/multiline-equation-in-hexo/</url>

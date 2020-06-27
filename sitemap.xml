@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.davidz.cn/acrylic-not-working/</loc>
+    
+    <lastmod>2020-06-27T04:42:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.davidz.cn/multiline-equation-in-hexo/</loc>
     
     <lastmod>2020-06-04T14:45:58.000Z</lastmod>

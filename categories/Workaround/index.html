@@ -140,16 +140,16 @@
             <a href="/categories/Workaround"><b>「
                 </b>WORKAROUND<b> 」</b></a>
             
-            六月 04, 2020
+            六月 27, 2020
         </p>
         <h3 class="post-title animated fadeInDown">
-            <a href="/multiline-equation-in-hexo/" title="技巧速记：如何在Hexo中插入多行公式" class="posttitle">技巧速记：如何在Hexo中插入多行公式</a></h3>
+            <a href="/acrylic-not-working/" title="技巧速记：Windows 10 透明效果无法正常工作" class="posttitle">技巧速记：Windows 10 透明效果无法正常工作</a></h3>
         
         <p class="post-count animated fadeInDown">
             
             <span>
                 <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                1.2k
+                1.4k
             </span>
             
             
@@ -162,7 +162,7 @@
         </p>
         
         
-        <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Markdown/" rel="tag">Markdown</a></li></ul>
+        <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Windows/" rel="tag">Windows</a></li></ul>
         
         <div class="md-content animated fadeIn">
             
@@ -170,25 +170,10 @@
 <p>原创发表于 <a href="https://blog.davidz.cn">DavidZ Blog</a>，遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener">CC 4.0 BY-NC-SA</a> 版权协议，转载请附上原文出处链接及本声明。</p>
 </blockquote>
 
-<p>我在博客中写公式的时候使用双斜线<code>\\</code>来代表换行，效果是这样的，</p>
-<p>$$<br>
-\begin{bmatrix}<br>
-cos\theta &amp; sin\theta \<br>
--sin\theta &amp; cos\theta<br>
-\end{bmatrix}<br>
-$$</p>
-<pre><code class="language-latex">$$
-\begin{bmatrix}
-cos\theta &amp; sin\theta \\
--sin\theta &amp; cos\theta
-\end{bmatrix}
-$$
-</code></pre>
-<p>那么如何插入多行公式呢？</p>
-
-<p>根据<a href="https://github.com/gcushen/hugo-academic/issues/291#issuecomment-334746889" target="_blank" rel="noopener">Multiple...</a></p>
+<p>一开始我发现 <a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener">Windows Terminal</a> 的 <code>useAcrylic</code> 选项无效，github 之后发现 <a href="https://github.com/microsoft/terminal/issues/1414" target="_blank" rel="noopener">Acrylic transparency not working</a>，这个 Issue 里面有好几个描述的和我一样，不仅仅是 Windows Terminal，很多系统的透明特效也都不工作。</p>
+<p>原来，Windows Terminal 是使用 <a href="https://www.microsoft.com/design/fluent/#/" target="_blank" rel="noopener">Fluent Design</a> 里面的 Acrylic 效果实现的透明，所以说，这个问题是个系统层面的，而不是 Windows Terminal...</p>
             
-            <span class="read-more"><a href="/multiline-equation-in-hexo/" title="查看全文" class="posttitle">查看全文</a>
+            <span class="read-more"><a href="/acrylic-not-working/" title="查看全文" class="posttitle">查看全文</a>
                 <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
     </div>
@@ -209,6 +194,66 @@ $$
 
     <div id="primary">
         
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(//davidz.cn/static/blog/img/workaround.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Workaround">
+                  <b>「 </b>WORKAROUND<b> 」</b>
+                </a>
+            
+            六月 04, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/multiline-equation-in-hexo/" title="技巧速记：如何在Hexo中插入多行公式" class="posttitle">技巧速记：如何在Hexo中插入多行公式</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        1.2k
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        1 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Markdown/" rel="tag">Markdown</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <blockquote>
+<p>原创发表于 <a href="https://blog.davidz.cn">DavidZ Blog</a>，遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener">CC 4.0 BY-NC-SA</a> 版权协议，转载请附上原文出处链接及本声明。</p>
+</blockquote>
+
+<p>我在博客中写公式的时候使用双斜线<code>\\</code>来代表换行，效果是这样的，</p>
+<p>$$<br>
+\begin{bmatrix}<br>
+cos\theta &amp; sin\theta \<br>
+-sin\theta &amp; cos\theta<br>
+\end{bmatrix}<br>
+$$</p>
+<pre><code class="language-latex">$$
+\begin{bmatrix}
+cos\theta &amp; sin\theta \\
+-sin\theta &amp; ...</code></pre>
+            
+            <span class="read-more"><a href="/multiline-equation-in-hexo/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+</div>
+
+
 <div class="post" id="post">
     <div class="post-cover animated fadeIn" style="
             background-image:
