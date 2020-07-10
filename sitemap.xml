@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.davidz.cn/whoami/</loc>
+    
+    <lastmod>2020-07-10T03:54:55.950Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.davidz.cn/acrylic-not-working/</loc>
     
     <lastmod>2020-06-27T04:42:36.000Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>https://blog.davidz.cn/kinsing-virus/</loc>
     
     <lastmod>2020-02-10T09:20:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.davidz.cn/whoami/</loc>
-    
-    <lastmod>2020-02-04T13:39:45.850Z</lastmod>
     
   </url>
   
