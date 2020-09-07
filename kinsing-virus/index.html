@@ -86,7 +86,7 @@
             animation-duration: 1.2s;
             background-image: 
                 radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
-                url(//davidz.cn/static/blog/2020-02-10-kinsing-virus/cover.jpg) ">
+                url(https://davidz-blog.oss-cn-beijing.aliyuncs.com/img/netdata-1599485973.png) ">
         </div>
         <div class="else">
             <p class="animated fadeInDown">
@@ -103,7 +103,7 @@
                 
                 <span>
                     <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                    2.3k
+                    2.4k
                 </span>
                 
                 
@@ -149,15 +149,15 @@
 <h2 id="前言"><a class="header-anchor" href="#前言">¶</a>前言</h2>
 <p>2020 年开年不顺，2019 新型冠状病毒肺炎爆发，从年三十居家隔离到了正月十五，没想到自己的服务器也”感染“上了病毒 - Kinsing(进程的名字，姑且这样称呼)。</p>
 <h2 id="发现"><a class="header-anchor" href="#发现">¶</a>发现</h2>
-<p><img src="//davidz.cn/static/blog/2020-02-10-kinsing-virus/netdata.png" alt="netdata"></p>
+<p><img src="https://davidz-blog.oss-cn-beijing.aliyuncs.com/img/netdata-1599485973.png" alt="netdata"></p>
 <p>偶然看了看服务器状态，发现 CPU 占用一直保持在 100%上下，有些蹊跷。</p>
 <p>难道是我的博客访问量<s>暴增</s>？？？那是当然不可能的，然后我去看了看<a href="https://github.com/portainer/portainer" target="_blank" rel="noopener">Portainer</a>看了看，果然，</p>
-<p><img src="//davidz.cn/static/blog/2020-02-10-kinsing-virus/portainer.png" alt="portainer"></p>
+<p><img src="https://davidz-blog.oss-cn-beijing.aliyuncs.com/img/portainer-1599485974.png" alt="portainer"></p>
 <p>这个随机名称的容器就是 Kinsing 基于 Ubuntu 的容器，CPU 占用 100%。</p>
-<p><img src="//davidz.cn/static/blog/2020-02-10-kinsing-virus/process.png" alt="进程"></p>
+<p><img src="https://davidz-blog.oss-cn-beijing.aliyuncs.com/img/%E8%BF%9B%E7%A8%8B-1599485975.png" alt="进程"></p>
 <p>简单看了看容器里面的进程表，第一个运行了一个 shell 脚本，这个病毒就是这个脚本下载启动的关键，我打开看了看，<s>也没看懂</s>，大概是下载了几个可执行文件。第二个是 cron，这个是定时脚本，我猜应该是病毒定时检查一下运行情况？第三个好像是个守护进程，第四个应该是用于容器保持，第五个在网上能搜到，是个<a href="https://www.baidu.com/s?wd=kdevtmpfsi" target="_blank" rel="noopener">挖矿的程序</a>。</p>
 <p>无聊的我还简单看了看这个脚本的服务器 IP，</p>
-<p><img src="//davidz.cn/static/blog/2020-02-10-kinsing-virus/ip.png" alt="ip"></p>
+<p><img src="https://davidz-blog.oss-cn-beijing.aliyuncs.com/img/ip-1599485976.png" alt="ip"></p>
 <p>难道是俄罗斯大佬？？？</p>
 <p>这个时候我突然想起来，前几天为了调试<a href="https://certbot.eff.org/" target="_blank" rel="noopener">certbot</a>的 Dockerfile, 我直接打开了 Docker 的<a href="https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-socket-option" target="_blank" rel="noopener">远程访问</a>，在默认的情况下是没有任何加密措施的。</p>
 <p>这样，就真相大白了，这个病毒通过未加密的接口，在我的服务器上运行了挖矿的容器来盈利，同时也占用了服务器全部的 CPU😢.</p>
@@ -181,7 +181,7 @@
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls"
                 data-autoplay="false">
-                <source type="audio/mpeg" src="//davidz.cn/static/blog/mp3/lironghao---maque.mp3">
+                <source type="audio/mpeg" src="https://davidz-blog.oss-cn-beijing.aliyuncs.com/music/汪苏泷 _ BY2 - 有点甜.mp3">
             </audio>
             
             
@@ -203,7 +203,7 @@
         <div class="sidebar">
             <div class="box animated fadeInRight">
                 <div class="subbox">
-                    <img src="//davidz.cn/static/blog/img/avator.jpg" height=300 width=300></img>
+                    <img src="https://davidz-blog.oss-cn-beijing.aliyuncs.com/img/2019-1599483796.jpg" height=300 width=300></img>
                     <p>DavidZ</p>
                     <span>凡事都要留几分</span>
                     <dl>
