@@ -151,7 +151,7 @@
 <p>后来到了澳国立，老师教授们开始极力鼓吹 Latex 和 PDF，基本上算是软性要求我们使用 Latex 编写，还规定了衬线字体，非衬线字体，字号，段落等等，图片还需要是 SVG 格式的矢量图片（最奇葩的是竟然一整节课只讲这个😂），最后生成 PDF 提交（据说这样分数高一些）。所以我开始了漫漫 Latex 学习之路。然而整个过程十分痛苦，装个 TeX Live 跑了好几个小时，换个字体换的我一脸懵逼，预览竟然都不是实时的！！！我甚至觉得还不如 Word 好用，又开始找那些 Latex 编辑器（同学的 MacOS 上有很不错的，然而我是 Windows），之后是在线编辑器<a href="https://www.overleaf.com/" target="_blank" rel="noopener">Overleaf</a>，体验还行，但是一边学习 Latex 一边做实验写报告的体验实在是太差劲了，人都要<s>有丝</s>分裂了。我就先用 Markdown 记录下来，想着之后再改成 Latex 吧。然后，我用了 2 天左右的时间，找到了 Markdown 直接转报告的方法，就没再碰 Latex（<s>还是懒</s>）。</p>
 <h2 id="样例"><a class="header-anchor" href="#样例">¶</a>样例</h2>
 <p><a href="https://github.com/Wandmalfarbe/pandoc-latex-template/#example-images" target="_blank" rel="noopener">eisvogel 主题样例</a></p>
-<p>你也可以从<a href="//davidz.cn/static/blog/2020-02-12-write-latex-report-with-markdown/report.pdf" target="_blank" rel="noopener">这里</a>看一下我的成果作为参考，我觉得完全符合我的要求。</p>
+<p>你也可以从<a href="https://davidz-blog.oss-cn-beijing.aliyuncs.com/asset/Report.pdf" target="_blank" rel="noopener">这里</a>看一下我的成果作为参考，我觉得完全符合我的要求。</p>
 <h2 id="思路"><a class="header-anchor" href="#思路">¶</a>思路</h2>
 <p>其实思路很简单，一切的一切都是因为<a href="https://pandoc.org/" target="_blank" rel="noopener">Pandoc</a>这个文档转换软件软件（类似于影音界的格式工厂？）的存在。它官网有一张巨型图片描述了它可以从那些格式转换成那些格式，基本上可以说覆盖了常见的所有文档格式。所以我们就可以用它把 Markown 语言写的文档转换成 PDF 格式的报告，过程中再用一套模板修饰一下就好啦。</p>
 <blockquote>
