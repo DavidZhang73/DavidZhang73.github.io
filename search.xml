@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>宜家家居组装数据集</title>
+      <link href="/IKEA-ASM-Dataset/"/>
+      <url>/IKEA-ASM-Dataset/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>原创发表于 <a href="https://blog.davidz.cn">DavidZ Blog</a>，遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener">CC 4.0 BY-NC-SA</a> 版权协议，转载请附上原文出处链接及本声明。</p></blockquote><h2 id="简介"><a class="header-anchor" href="#简介">¶</a>简介</h2><table><thead><tr><th style="text-align:center">Title</th><th style="text-align:center">The IKEA ASM Dataset: Understanding People Assembling Furniture through Actions, Objects and Pose</th></tr></thead><tbody><tr><td style="text-align:center">Author</td><td style="text-align:center">Yizhak Ben-Shabat</td></tr><tr><td style="text-align:center">Publish Year</td><td style="text-align:center">2020</td></tr><tr><td style="text-align:center">Link</td><td style="text-align:center"><a href="https://arxiv.org/abs/2007.00394" target="_blank" rel="noopener">https://arxiv.org/abs/2007.00394</a></td></tr><tr><td style="text-align:center">Code</td><td style="text-align:center"><a href="https://github.com/IkeaASM/IKEA_ASM_Dataset" target="_blank" rel="noopener">https://github.com/IkeaASM/IKEA_ASM_Dataset</a></td></tr></tbody></table><p>这个是我的导师小组里的研究员 Itzik 发布的一个组装宜家家居的视频数据集。其中数据集包括三个视角的 RGBD 图像，原子动作标注，人体姿势标注，物体分割标注，相机标定以及相关的辅助代码。</p><h2 id="总结"><a class="header-anchor" href="#总结">¶</a>总结</h2><h3 id="数据集"><a class="header-anchor" href="#数据集">¶</a>数据集</h3><p>背景方面，有 48 个人物，5 个场景，场景是动态的，存在有无关人员走过的情况。每个场景下都组装两遍，一次在桌子上，一次在地板上，所以一共是 10 中场景设置。</p><p>家具方面，4 种家居，side table, coffee table, TV bench, and drawer，每种三个颜色，white, oak, and black。</p><p>标注方面，人工标注视频的$1%$左右，人工复核过。</p><h3 id="基准"><a class="header-anchor" href="#基准">¶</a>基准</h3><h4 id="Action-recognition"><a class="header-anchor" href="#Action-recognition">¶</a>Action recognition</h4><p><img src="https://davidz-blog.oss-cn-beijing.aliyuncs.com/img/table2-1602211486.png" alt="Action recognition"></p><h4 id="Multi-view-and-multi-modal-action-recognition"><a class="header-anchor" href="#Multi-view-and-multi-modal-action-recognition">¶</a>Multi-view and multi-modal action recognition</h4><p><img src="https://davidz-blog.oss-cn-beijing.aliyuncs.com/img/table3-1602211507.png" alt="Multi-view and multi-modal action recognition"></p><h4 id="Instance-segmentation"><a class="header-anchor" href="#Instance-segmentation">¶</a>Instance segmentation</h4><h4 id="Multiple-furniture-part-tracking"><a class="header-anchor" href="#Multiple-furniture-part-tracking">¶</a>Multiple furniture part tracking</h4><h4 id="Human-pose"><a class="header-anchor" href="#Human-pose">¶</a>Human pose</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> Paper Review </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CV </tag>
+            
+            <tag> Dataset </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>技巧速记：Windows 10 透明效果无法正常工作</title>
       <link href="/acrylic-not-working/"/>
       <url>/acrylic-not-working/</url>
