@@ -36,6 +36,9 @@
 <link rel="stylesheet" href="/css/ball-atom.min.css">
 
     
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+
 <meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
 
 
@@ -266,7 +269,11 @@
 </tr>
 <tr>
 <td style="text-align:center">Link</td>
-<td style="text-align:center"><a href="https://arxiv.org/abs/2007.00394" target="_blank" rel="noopener">https://arxiv.org/abs/2007...</a></td></tr></tbody></table>
+<td style="text-align:center"><a href="https://arxiv.org/abs/2007.00394" target="_blank" rel="noopener">https://arxiv.org/abs/2007.00394</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Code</td>
+<td style="text-align:center"><a href="https://github.com/IkeaASM/IKEA_ASM_Dataset" target="_blank" rel="noopener">https://github.com/IkeaASM/IKEA_ASM_Dataset...</a></td></tr></tbody></table>
             
             <span class="read-more"><a href="/IKEA-ASM-Dataset/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
@@ -317,7 +324,7 @@
 </blockquote>
 
 <p>一开始我发现 <a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener">Windows Terminal</a> 的 <code>useAcrylic</code> 选项无效，github 之后发现 <a href="https://github.com/microsoft/terminal/issues/1414" target="_blank" rel="noopener">Acrylic transparency not working</a>，这个 Issue 里面有好几个描述的和我一样，不仅仅是 Windows Terminal，很多系统的透明特效也都不工作。</p>
-<p>原来，Windows Terminal 是使用 <a href="https://www.microsoft.com/design/fluent/#/" target="_blank" rel="noopener">Fluent Design</a> 里面...</p>
+<p>原来，Windows Terminal 是使用 <a href="https://www.microsoft.com/design/fluent/#/" target="_blank" rel="noopener">Fluent Design</a> 里面的 Acrylic 效果实现的透明，所以说，这个问题是个系统层面的，而不是 Windows Terminal...</p>
             
             <span class="read-more"><a href="/acrylic-not-working/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
@@ -377,7 +384,13 @@ $$</p>
 <pre><code class="language-latex">$$
 \begin{bmatrix}
 cos\theta &amp; sin\theta \\
--sin\theta &amp; ...</code></pre>
+-sin\theta &amp; cos\theta
+\end{bmatrix}
+$$
+</code></pre>
+<p>那么如何插入多行公式呢？</p>
+
+<p>根据<a href="https://github.com/gcushen/hugo-academic/issues/291#issuecomment-334746889" target="_blank" rel="noopener">Multiple...</a></p>
             
             <span class="read-more"><a href="/multiline-equation-in-hexo/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
@@ -427,7 +440,10 @@ cos\theta &amp; sin\theta \\
 <p>众所周知，SVD(奇异值分解)可以用于最小二乘法求齐次线性方程组$A\vec{x}=\vec{0}$的解。我看了很多资料，大多使用数学公式推导，得出结论。但是，曾经线性代数差点挂科的我，总觉得有些蹊跷。想了两天，终于有了一些感性的认知（不一定是对的😂），赶紧记录下来。</p>
 
 <p>按照我的理解，一个矩阵的实际意义是对应一个线性变换，这个变换可以理解为瞬间运动。例如，一个旋转矩阵，</p>
-<p>$$...</p>
+<p>$$<br>
+A=\begin{bmatrix}<br>
+cos\theta &amp; sin\theta \\\<br>
+-...</p>
             
             <span class="read-more"><a href="/SVD-for-homogeneous-linear-equation/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
@@ -536,7 +552,7 @@ cos\theta &amp; sin\theta \\
 
 <p></p>
 <p>根据经验，国外这些软件下载失败基本上都是因为链接不上服务器，换个源就好了。所以简单百度，找到大量相关教程，换了<a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华源</a>在内的四五个镜像源，均无效。</p>
-<p>这就非常奇怪了，所以我打开了清华源的<a href="https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json" target="_blank" rel="noopener">update...</a></p>
+<p>这就非常奇怪了，所以我打开了清华源的<a href="https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json" target="_blank" rel="noopener">update-center.json</a>，仔细看了看，发现了蹊跷之处。原来，这个文件里面基本上所有插件的链接都指...</p>
             
             <span class="read-more"><a href="/jenkins-update-solution-inside-gfw/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
@@ -587,7 +603,7 @@ cos\theta &amp; sin\theta \\
 </blockquote>
 
 <p>计算机这个专业，有很多报告要做。在山威的时候，报告格式没有什么限制 Word，PDF 都可以，那个时候我开始使用 Markdown 作为我的排版工具，因为实在是没有时间经历去研究 Word 的各种高级功能（<s>主要是懒</s>）。Markdown 十分简单，易学，在<a href="https://github.com" target="_blank" rel="noopener">Github</a>等计算机专业相关平台使用也非常广泛，还可以通过各种模板快速生成<strong>好看</strong>，<strong>美观</strong>，<strong>专业</strong>的文档。</p>
-<p>后来到了澳国立，老师教...</p>
+<p>后来到了澳国立，老师教授们开始极力鼓吹 Latex 和 PDF，基本上算是软性要求我们使用 Latex 编写，还规定了衬线...</p>
             
             <span class="read-more"><a href="/write-latex-report-with-markdown/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
@@ -645,7 +661,8 @@ cos\theta &amp; sin\theta \\
 <blockquote>
 <p>事发突然，因为影响我开发，所以也没有来得及截图。</p>
 </blockquote>
-<p>为了使用 WSL2 里面的 Docker，我加入了 <code>Windows 预览体验计划 - 慢</code>，把系统升级到了 Windows 10 2004。结果怪事就出现了——基本上所有的命令行都会在执行前...</p>
+<p>为了使用 WSL2 里面的 Docker，我加入了 <code>Windows 预览体验计划 - 慢</code>，把系统升级到了 Windows 10 2004。结果怪事就出现了——基本上所有的命令行都会在执行前显示一个错误。</p>
+<pre><code class="language-shell">ANOMALY: use of REX.w is meaningless (default...</code></pre>
             
             <span class="read-more"><a href="/inspur-ip-guard-uninstallation/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
@@ -701,7 +718,9 @@ cos\theta &amp; sin\theta \\
 <p>偶然看了看服务器状态，发现 CPU 占用一直保持在 100%上下，有些蹊跷。</p>
 <p>难道是我的博客访问量<s>暴增</s>？？？那是当然不可能的，然后我去看了看<a href="https://github.com/portainer/portainer" target="_blank" rel="noopener">Portainer</a>看了看，果然，</p>
 <p></p>
-<p>这个随机名称的容器就是 ...</p>
+<p>这个随机名称的容器就是 Kinsing 基于 Ubuntu 的容器，CPU 占用 100%。</p>
+<p></p>
+<p>简单看了看容器里面的进程表，...</p>
             
             <span class="read-more"><a href="/kinsing-virus/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
@@ -733,7 +752,15 @@ cos\theta &amp; sin\theta \\
         <span class="gradient-text">
             <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
         </span>
-        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.5" target="_blank" rel="noopener">v1.4.5</a></small>
+        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.7" target="_blank" rel="noopener">v1.4.7</a></small>
+        
+        </br>
+        鲁ICP备
+        <span class="gradient-text">
+            <a href="https://beian.miit.gov.cn/" title="19008089号-1" target="_blank" rel="noopener">19008089号-1</a>
+        </span>
+        
+        
     </p>
 </footer>
 
