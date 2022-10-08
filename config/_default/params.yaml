@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'davidz.cn'
+    description: 'Academic Page abouth Jiahao Zhang'
+    twitter: 'academic-davidz'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -32,9 +32,9 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
+    align: r
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: true
@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} DavidZ. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

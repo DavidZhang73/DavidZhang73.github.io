@@ -6,17 +6,35 @@
 en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+  languageCode: zh-Hans
+  contentDir: content/zh
+  title: Academic-DavidZ
+  params:
+    description: 张家豪的个人学术主页
+  menu:
+    main:
+      - name: 主页
+        url: "#about"
+        weight: 10
+      - name: 文章
+        url: "#featured"
+        weight: 20
+      - name: 项目
+        url: "#projects"
+        weight: 30
+      - name: 经历
+        url: "#experience"
+        weight: 40
+      - name: 技术栈
+        url: "#skills"
+        weight: 50
+      - name: 获奖
+        url: "#accomplishments"
+        weight: 60
+      - name: 简历
+        url: "https://cv.davidz.cn/"
+        weight: 60
