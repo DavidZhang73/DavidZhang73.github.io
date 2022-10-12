@@ -55,9 +55,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/DavidZhang73
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  # - icon: graduation-cap
+  #   icon_pack: fas
+  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: address-card
     icon_pack: fas
     link: https://cv.davidz.cn
@@ -76,4 +76,4 @@ email: davidbill@outlook.com
 highlight_name: true
 ---
 
-He is currently a Ph.D. student in the [Research School of Computer Science](https://comp.anu.edu.au/), [The Australian National University](https://www.anu.edu.au/). He used to be an active web developer, but now he is a passionate starter in academic research and interested in many deep learning topics, particularly human action recognition. He is now doing a research project supervised by [Professor Stephen Gould](https://users.cecs.anu.edu.au/~sgould/), [Dr. Yizhak Ben-Shabat](https://www.itzikbs.com/), [Dr. Anoop Cherian](https://users.cecs.anu.edu.au/~cherian/) and [Dr. Cristian Rodriguez](https://crodriguezo.github.io/).
+I am currently a Ph.D. student in the [Research School of Computer Science](https://comp.anu.edu.au/), [The Australian National University](https://www.anu.edu.au/). I used to be an active web developer, but now I'm a passionate starter in academic research and interested in many deep learning topics, particularly human action recognition. I'm currently doing a research project supervised by [Professor Stephen Gould](https://users.cecs.anu.edu.au/~sgould/), [Dr. Yizhak Ben-Shabat](https://www.itzikbs.com/), [Dr. Anoop Cherian](https://users.cecs.anu.edu.au/~cherian/) and [Dr. Cristian Rodriguez](https://crodriguezo.github.io/).
