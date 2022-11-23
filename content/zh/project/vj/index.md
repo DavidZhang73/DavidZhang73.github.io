@@ -3,6 +3,7 @@ title: Virtual Judge
 summary: Virtual Judge for ACM practice.
 tags:
   - Web Development
+  - Tool
 date: 2020-06-25T01:55:20+08:00
 
 # Optional external URL for project (replaces project detail page).
