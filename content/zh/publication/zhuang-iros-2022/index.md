@@ -5,7 +5,7 @@ title: 'GoferBot: A Visual Guided Human-Robot Collaborative Assembly System'
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Zheyu Zhuang
+  - 庄哲宇
   - Yizhak Ben-Shabat
   - admin
   - Stephen Gould
@@ -13,8 +13,8 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - '相同贡献'
+  - '相同贡献'
 
 date: '2022-10-01T00:00:00Z'
 doi: '10.1109/IROS47612.2022.9981122'
@@ -37,7 +37,8 @@ abstract: The current transformation towards smart manufacturing has led to a gr
 # Summary. An optional shortened abstract.
 summary: GoferBot is a novel assembly system that seamlessly integrates all sub-modules by utilising implicit semantic information purely from visual perception.
 
-tags: []
+tags:
+  - Deep Learning
 
 # Display this page in the Featured widget?
 featured: true
@@ -59,7 +60,7 @@ url_video: 'https://www.youtube.com/watch?v=Fo5XI5OJ4QQ'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 

@@ -3,6 +3,7 @@ title: Vidat
 summary: An in-browser video annotation tool developed by ANU CVML.
 tags:
   - Web Development
+  - Tool
 date: 2020-10-09T14:39:15+08:00
 
 # Optional external URL for project (replaces project detail page).
