@@ -55,9 +55,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/DavidZhang73
-  # - icon: graduation-cap
-  #   icon_pack: fas
-  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=r040KUgAAAAJ
   - icon: address-card
     icon_pack: fas
     link: https://cv.davidz.cn
