@@ -28,7 +28,7 @@ experience:
     company_logo: anu
     location: Canberra, Australia
     date_start: '2022-07-11'
-    date_end: ''
+    date_end: '2022-11-30'
     description: >-
       Tutor for [COMP3670 - Introduction to Machine Learning](https://programsandcourses.anu.edu.au/2019/course/comp3670) and [COMP4650 - Document Analysis](https://programsandcourses.anu.edu.au/2023/course/COMP4650).
 
@@ -40,7 +40,7 @@ experience:
     date_start: '2022-05-09'
     date_end: ''
     description: >-
-      Web maintainer for [InfluenceMap](https://influencemap.cmlab.dev/) and [CSMetrics](http://csmetrics.org/).
+      Web maintainer for [InfluenceMap](https://influencemap.cmlab.dev/) and [CSMetrics](https://csmetrics.net/).
 
   - title: Intern Software Development Engineer
     company: Inspur
