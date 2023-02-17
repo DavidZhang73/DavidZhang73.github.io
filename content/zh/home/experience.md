@@ -27,6 +27,15 @@ experience:
     company_url: 'https://www.anu.edu.au/'
     company_logo: anu
     location: Canberra, Australia
+    date_start: '2023-02-20'
+    date_end: ''
+    description: >-
+      Tutor for [COMP2420 - Introduction to Data Management, Analysis and Security](https://programsandcourses.anu.edu.au/course/comp2420).
+  - title: Teaching Assistant
+    company: The Australian National University
+    company_url: 'https://www.anu.edu.au/'
+    company_logo: anu
+    location: Canberra, Australia
     date_start: '2022-07-11'
     date_end: '2022-11-30'
     description: >-
