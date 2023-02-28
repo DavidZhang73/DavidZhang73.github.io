@@ -41,7 +41,7 @@ tags:
   - Deep Learning
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
@@ -60,6 +60,7 @@ url_video: 'https://www.youtube.com/watch?v=Fo5XI5OJ4QQ'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
+  placement: 2
   caption: ''
   focal_point: ''
   preview_only: false
