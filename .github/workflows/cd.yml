@@ -34,4 +34,7 @@ jobs:
           REMOTE_HOST: davidz.cn
           REMOTE_USER: root
           TARGET: /docker/academic/
-
+      - name: Deploy to GitHub Page
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public
