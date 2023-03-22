@@ -1,0 +1,33 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container .author-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2em 0 1em 0;
+}
+
+.container .author-container .author {
+    margin: 1em;
+    text-align: center;
+}
+
+.container .author-container .author .image {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.container .affiliation-container {
+    text-align: center;
+}
+
+.container .affiliation-container a {
+    margin-right: 20px;
+}
