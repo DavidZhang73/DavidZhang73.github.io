@@ -25,9 +25,29 @@
 }
 
 .container .affiliation-container {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.container .affiliation-container a {
-    margin-right: 20px;
+.container .affiliation-container div {
+    padding: 0 20px;
+}
+
+.article-container video{
+    margin: 1em 0;
+}
+
+.article-container .subfigure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.article-container .caption {
+    font-size: 0.8em;
 }
