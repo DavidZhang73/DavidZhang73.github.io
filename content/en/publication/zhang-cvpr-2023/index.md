@@ -55,6 +55,8 @@ featured: true
 links:
   - name: ArXiv
     url: TODO
+  - name: Supplementary
+    url: static\supplementary.pdf
 
 url_pdf: TODO
 url_code: https://github.com/DavidZhang73/AssemblyVideoManualAlignment
