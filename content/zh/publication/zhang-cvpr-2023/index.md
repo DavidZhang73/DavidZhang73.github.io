@@ -47,11 +47,11 @@ featured: true
 # Custom links (uncomment lines below)
 links:
   - name: ArXiv
-    url: TODO
+    url: https://arxiv.org/abs/2303.13800
   - name: Supplementary
     url: supplementary.pdf
 
-url_pdf: TODO
+url_pdf: https://arxiv.org/pdf/2303.13800.pdf
 url_code: https://github.com/DavidZhang73/AssemblyVideoManualAlignment
 url_dataset: https://iaw.davidz.cn
 url_poster:
