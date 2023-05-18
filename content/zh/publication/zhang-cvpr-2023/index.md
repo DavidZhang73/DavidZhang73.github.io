@@ -48,13 +48,13 @@ featured: true
 links:
   - name: ArXiv
     url: https://arxiv.org/abs/2303.13800
-  - name: Supplementary
+  - name: 补充材料
     url: supplementary.pdf
 
 url_pdf: https://arxiv.org/pdf/2303.13800.pdf
 url_code: https://github.com/DavidZhang73/AssemblyVideoManualAlignment
 url_dataset: https://iaw.davidz.cn
-url_poster:
+url_poster: poster.pdf
 url_project: https://academic.davidz.cn/en/publication/zhang-cvpr-2023/
 url_slides:
 url_source:
