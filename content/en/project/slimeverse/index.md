@@ -6,7 +6,7 @@ tags:
 date: 2021-08-11T00:00:00+08:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: http://slimeverse.net/
+external_link: http://slimeverse.davidz.cn/
 
 image:
   caption: SlimeVerse
