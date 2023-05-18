@@ -58,7 +58,7 @@ links:
   - name: Supplementary
     url: supplementary.pdf
 
-url_pdf: https://arxiv.org/pdf/2303.13800.pdf
+url_pdf: https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Aligning_Step-by-Step_Instructional_Diagrams_to_Video_Demonstrations_CVPR_2023_paper.pdf
 url_code: https://github.com/DavidZhang73/AssemblyVideoManualAlignment
 url_dataset: https://iaw.davidz.cn
 url_poster: poster.pdf
