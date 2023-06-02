@@ -54,11 +54,11 @@ links:
 url_pdf: https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Aligning_Step-by-Step_Instructional_Diagrams_to_Video_Demonstrations_CVPR_2023_paper.pdf
 url_code: https://github.com/DavidZhang73/AssemblyVideoManualAlignment
 url_dataset: https://iaw.davidz.cn
-url_poster: poster.pdf
+url_poster: https://cvpr2023.thecvf.com/media/PosterPDFs/CVPR%202023/22280.png
 url_project: https://academic.davidz.cn/en/publication/zhang-cvpr-2023/
-url_slides:
+url_slides: https://cvpr2023.thecvf.com/media/cvpr-2023/Slides/22280.pdf
 url_source:
-url_video:
+url_video: https://www.youtube.com/watch?v=8iC5QyP8U6o
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
