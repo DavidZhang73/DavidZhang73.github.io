@@ -28,7 +28,7 @@ experience:
     company_logo: anu
     location: Canberra, Australia
     date_start: '2023-02-20'
-    date_end: ''
+    date_end: '2023-02-20'
     description: >-
       Tutor for [COMP2420 - Introduction to Data Management, Analysis and Security](https://programsandcourses.anu.edu.au/course/comp2420).
   - title: Teaching Assistant
@@ -47,7 +47,7 @@ experience:
     company_logo: anu
     location: Canberra, Australia
     date_start: '2022-05-09'
-    date_end: ''
+    date_end: '2023-02-20'
     description: >-
       Web maintainer for [InfluenceMap](https://influencemap.cmlab.dev/) and [CSMetrics](https://csmetrics.net/).
 
