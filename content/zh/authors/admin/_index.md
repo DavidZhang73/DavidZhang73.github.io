@@ -58,8 +58,8 @@ social:
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.co.uk/citations?user=r040KUgAAAAJ
-  - icon: address-card
-    icon_pack: fas
+  - icon: cv
+    icon_pack: ai
     link: https://cv.davidz.cn
 
 # Link to a PDF of your resume/CV.
@@ -76,4 +76,4 @@ email: davidbill@outlook.com
 highlight_name: true
 ---
 
-[澳大利亚国立大学](https://www.anu.edu.au/)计算机科学博士在读。研究兴趣方向：深度学习，计算机视觉以及网页开发。导师[Professor Stephen Gould](https://users.cecs.anu.edu.au/~sgould/), [Dr. Yizhak Ben-Shabat](https://www.itzikbs.com/), [Dr. Anoop Cherian](https://users.cecs.anu.edu.au/~cherian/) 以及 [Dr. Cristian Rodriguez](https://crodriguezo.github.io/).
+目前，他是[澳大利亚国立大学](https://www.anu.edu.au/)计算机科学研究学院的二年级博士研究生。他不仅是一位充满激情的学术研究新人，对众多深度学习主题都有浓厚的兴趣，特别是在视频理解，人类行为识别领域。同时，他还是一名活跃的全栈网站开发人员。目前，他正在进行一个由[Stephen Gould教授](https://users.cecs.anu.edu.au/~sgould/)、[Yizhak Ben-Shabat博士](https://www.itzikbs.com/)、[Anoop Cherian博士](https://users.cecs.anu.edu.au/~cherian/)和[Cristian Rodriguez博士](https://crodriguezo.github.io/)指导的研究项目。在此之前，他于2021年分别从[澳大利亚国立大学](https://www.anu.edu.au/)和[山东大学威海分校](http://www.wh.sdu.edu.cn/)获得了高级计算（荣誉）学士学位和计算机科学与技术学士学位。

@@ -58,8 +58,8 @@ social:
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.co.uk/citations?user=r040KUgAAAAJ
-  - icon: address-card
-    icon_pack: fas
+  - icon: cv
+    icon_pack: ai
     link: https://cv.davidz.cn
 
 # Link to a PDF of your resume/CV.
@@ -76,4 +76,4 @@ email: davidbill@outlook.com
 highlight_name: true
 ---
 
-I am currently a Ph.D. student in the [Research School of Computer Science](https://comp.anu.edu.au/), [The Australian National University](https://www.anu.edu.au/). I used to be an active web developer, but now I'm a passionate starter in academic research and interested in many deep learning topics, particularly human action recognition. I'm currently doing a research project supervised by [Professor Stephen Gould](https://users.cecs.anu.edu.au/~sgould/), [Dr. Yizhak Ben-Shabat](https://www.itzikbs.com/), [Dr. Anoop Cherian](https://users.cecs.anu.edu.au/~cherian/) and [Dr. Cristian Rodriguez](https://crodriguezo.github.io/).
+He is currently a second-year Ph.D. student in the [Research School of Computer Science](https://comp.anu.edu.au/), [The Australian National University](https://www.anu.edu.au/). On the one hand, he is a passionate starter in academic research and interested in many deep learning topics, particularly video understanding, human action recognition. On the other hand, he is an active full-stack web developer. He is currently doing a research project supervised by [Professor Stephen Gould](https://users.cecs.anu.edu.au/~sgould/), [Dr. Yizhak Ben-Shabat](https://www.itzikbs.com/), [Dr. Anoop Cherian](https://users.cecs.anu.edu.au/~cherian/), and [Dr. Cristian Rodriguez](https://crodriguezo.github.io/). Before that, in 2021, he received his bachelor's degree in Advanced Computing (honours) and Computer Science and Technology from [The Australian National University](https://www.anu.edu.au/) and [Shandong University, Weihai](http://www.wh.sdu.edu.cn/) respectively.
