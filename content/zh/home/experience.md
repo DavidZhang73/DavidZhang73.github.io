@@ -27,10 +27,21 @@ experience:
     company_url: 'https://www.anu.edu.au/'
     company_logo: anu
     location: Canberra, Australia
-    date_start: '2023-02-20'
-    date_end: '2023-02-20'
+    date_start: '2024-02-19'
+    date_end: ''
     description: >-
-      Tutor for [COMP2420 - Introduction to Data Management, Analysis and Security](https://programsandcourses.anu.edu.au/course/comp2420).
+      Tutor for [COMP4528/COMP6528 - Computer Vision](https://programsandcourses.anu.edu.au/2024/course/COMP4528).
+
+  - title: Teaching Assistant
+    company: The Australian National University
+    company_url: 'https://www.anu.edu.au/'
+    company_logo: anu
+    location: Canberra, Australia
+    date_start: '2023-02-20'
+    date_end: '2023-06-01'
+    description: >-
+      Tutor for [COMP2420/COMP6420 - Introduction to Data Management, Analysis and Security](https://programsandcourses.anu.edu.au/course/comp2420).
+
   - title: Teaching Assistant
     company: The Australian National University
     company_url: 'https://www.anu.edu.au/'
@@ -39,7 +50,7 @@ experience:
     date_start: '2022-07-11'
     date_end: '2022-11-30'
     description: >-
-      Tutor for [COMP3670 - Introduction to Machine Learning](https://programsandcourses.anu.edu.au/2019/course/comp3670) and [COMP4650 - Document Analysis](https://programsandcourses.anu.edu.au/2023/course/COMP4650).
+      Tutor for [COMP3670/COMP6670 - Introduction to Machine Learning](https://programsandcourses.anu.edu.au/2019/course/comp3670) and [COMP4650 - Document Analysis](https://programsandcourses.anu.edu.au/2023/course/COMP4650).
 
   - title: Research Assistant
     company: The Australian National University
