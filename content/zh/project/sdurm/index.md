@@ -1,6 +1,6 @@
 ---
-title: SDU Research Management System
-summary: SDU Research CMS.
+title: 学术成果管理系统
+summary: 为实验室开发的学术成果管理系统。
 tags:
   - Web Development
 date: 2022-05-29T00:00:00+08:00

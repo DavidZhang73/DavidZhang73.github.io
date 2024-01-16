@@ -1,6 +1,6 @@
 ---
 title: Pytorch Lightning Template
-summary: A template for simple deep learning projects using Lightning.
+summary: 一个使用Lightning全家桶的简单深度学习项目模板。
 tags:
   - Tool
 date: 2023-03-11T12:00:00+08:00

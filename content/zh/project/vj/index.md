@@ -1,6 +1,6 @@
 ---
 title: Virtual Judge
-summary: Virtual Judge for ACM practice.
+summary: 为学院ACM训练开发的在线评测系统。
 tags:
   - Web Development
   - Tool

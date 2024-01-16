@@ -80,7 +80,7 @@ experience:
     date_start: '2019-05-06'
     date_end: '2019-07-01'
     description: >-
-      I was an independent developer of the Booking System designed to simplify the appointment process. The system is in-use till now, and maintained by a junior student.
+      I was an independent developer of the Booking System designed to simplify the appointment process. The system is in-use till now.
 
   - title: Major Developer of Weihai Construction Consulting System
     company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering
@@ -90,7 +90,7 @@ experience:
     date_start: '2019-03-18'
     date_end: '2019-07-01'
     description: >-
-      I was a major developer(one of six) of the Weihai Construction Consulting System, which is an enterprise-level business projects, and still in active development(from V1 to V2).
+      I was a major developer(one of six) of the Weihai Construction Consulting System, which is an enterprise-level business projects.
 
   - title: Major Maintainer for VJ
     company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering

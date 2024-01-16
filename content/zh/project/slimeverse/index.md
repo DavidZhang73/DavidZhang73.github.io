@@ -1,6 +1,6 @@
 ---
 title: SlimeVerse
-summary: Official website of SlimeVerse.
+summary: SlimeVerse 官方主页。
 tags:
   - Web Development
 date: 2021-08-11T00:00:00+08:00

@@ -1,6 +1,6 @@
 ---
 title: Plugin Manager
-summary: A plugin Manager based on Cpp Micro Service.
+summary: 使用 Cpp Micro Service 开发的分布式插件系统。
 tags:
   - C/CPP Development
 date: 2020-06-25T02:21:29+08:00

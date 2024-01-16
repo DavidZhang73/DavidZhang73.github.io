@@ -1,6 +1,6 @@
 ---
-title: Weihai Construction Consulting System
-summary: An enterprise-level business projects(CMS for construction companies).
+title: 威海建筑咨询管理系统
+summary: 企业级商业项目，建筑咨询管理公司的内容管理系统。
 tags:
   - Web Development
 date: 2020-06-25T02:07:13+08:00

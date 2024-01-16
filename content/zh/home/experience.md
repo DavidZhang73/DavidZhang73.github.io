@@ -26,82 +26,81 @@ experience:
     company: The Australian National University
     company_url: 'https://www.anu.edu.au/'
     company_logo: anu
-    location: Canberra, Australia
+    location: 堪培拉，澳大利亚
     date_start: '2024-02-19'
     date_end: ''
     description: >-
-      Tutor for [COMP4528/COMP6528 - Computer Vision](https://programsandcourses.anu.edu.au/2024/course/COMP4528).
+      我是[COMP3600/COMP6466 - Computer Graphics](https://programsandcourses.anu.edu.au/2024/course/COMP3600)的助教。
 
   - title: Teaching Assistant
     company: The Australian National University
     company_url: 'https://www.anu.edu.au/'
     company_logo: anu
-    location: Canberra, Australia
+    location: 堪培拉，澳大利亚
     date_start: '2023-02-20'
     date_end: '2023-06-01'
     description: >-
-      Tutor for [COMP2420/COMP6420 - Introduction to Data Management, Analysis and Security](https://programsandcourses.anu.edu.au/course/comp2420).
+      我是[COMP2420/COMP6420 - Introduction to Data Management, Analysis and Security](https://programsandcourses.anu.edu.au/course/comp2420)的助教。
 
   - title: Teaching Assistant
     company: The Australian National University
     company_url: 'https://www.anu.edu.au/'
     company_logo: anu
-    location: Canberra, Australia
+    location: 堪培拉，澳大利亚
     date_start: '2022-07-11'
     date_end: '2022-11-30'
     description: >-
-      Tutor for [COMP3670/COMP6670 - Introduction to Machine Learning](https://programsandcourses.anu.edu.au/2019/course/comp3670) and [COMP4650 - Document Analysis](https://programsandcourses.anu.edu.au/2023/course/COMP4650).
+      我是[COMP3670/COMP6670 - Introduction to Machine Learning](https://programsandcourses.anu.edu.au/2019/course/comp3670)和[COMP4650 - Document Analysis](https://programsandcourses.anu.edu.au/2023/course/COMP4650)的助教。
 
   - title: Research Assistant
     company: The Australian National University
     company_url: 'https://www.anu.edu.au/'
     company_logo: anu
-    location: Canberra, Australia
+    location: 堪培拉，澳大利亚
     date_start: '2022-05-09'
     date_end: '2023-02-20'
     description: >-
-      Web maintainer for [InfluenceMap](https://influencemap.cmlab.dev/) and [CSMetrics](https://csmetrics.net/).
+      我负责[InfluenceMap](https://influencemap.cmlab.dev/)和[CSMetrics](https://csmetrics.net/)网站的容器化工作。
 
-  - title: Intern Software Development Engineer
-    company: Inspur
+  - title: 软件开发工程师(实习)
+    company: 浪潮
     company_url: 'https://www.inspur.com/'
     company_logo: inspur
-    location: Jinan, China
+    location: 济南，中国
     date_start: '2019-11-20'
     date_end: '2020-01-31'
     description: >-
-      I was an intern at the Inspur, which is a Server and Cloud company in China. I helped to build a plugin management system based on [Cpp Micro Service](http://cppmicroservices.org/).
+      我在浪潮实习期间，帮助开发了一个基于[Cpp Micro Service](http://cppmicroservices.org/)的插件管理系统。
 
-  - title: Developer of School Booking System
-    company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering
+  - title: 威海机电学院预约系统开发者
+    company: 山东大学(威海)，机电与信息工程学院
     company_url: 'https://ie.wh.sdu.edu.cn/'
     company_logo: sdu
-    location: Weihai, China
+    location: 威海，中国
     date_start: '2019-05-06'
     date_end: '2019-07-01'
     description: >-
-      I was an independent developer of the Booking System designed to simplify the appointment process. The system is in-use till now, and maintained by a junior student.
+      我独立开发了学院的预约系统，该系统旨在简化预约流程。该系统目前仍在使用。
 
-  - title: Major Developer of Weihai Construction Consulting System
-    company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering
+  - title: 威海建筑咨询系统开发者
+    company: 山东大学(威海)，机电与信息工程学院
     company_url: 'https://ie.wh.sdu.edu.cn/'
     company_logo: sdu
-    location: Weihai, China
+    location: 威海，中国
     date_start: '2019-03-18'
     date_end: '2019-07-01'
     description: >-
-      I was a major developer(one of six) of the Weihai Construction Consulting System, which is an enterprise-level business projects, and still in active development(from V1 to V2).
+      我是威海建筑咨询系统的主要开发者之一(六人团队)，该系统是一个企业级的业务项目。
 
-  - title: Major Maintainer for VJ
-    company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering
+  - title: VJ维护人员
+    company: 山东大学(威海)，机电与信息工程学院
     company_url: 'https://ie.wh.sdu.edu.cn/'
     company_logo: sdu
-    location: Weihai, China
+    location: 威海，中国
     date_start: '2018-02-01'
     date_end: '2019-07-01'
     description: >-
-      I was the major maintainer(one of three) of the VJ(Virtual Judge for ACM practice) system developed by a senior student. The system has more than 10K submissions since first published in 2017.
-
+      我是学院ACM训练用VJ(Virtual Judge)系统的主要维护者之一。该系统自2017年发布以来已经有超过1万次提交。
 
 design:
   columns: '2'

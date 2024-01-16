@@ -1,6 +1,6 @@
 ---
-title: School Booking System
-summary: A booking system designed for school.
+title: 学院自习室预约系统
+summary: 学院自用的自习室预约系统。
 tags:
   - Web Development
 date: 2020-06-25T02:06:13+08:00

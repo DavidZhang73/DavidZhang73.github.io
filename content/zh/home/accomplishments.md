@@ -29,7 +29,7 @@ item:
     description:
     organization: ANU
     organization_url: https://www.anu.edu.au/
-    title: Chancellor's Letter of Commendation
+    title: 校长表扬信
     url: https://davidz-blog.oss-cn-beijing.aliyuncs.com/asset/Chancellor'sLetterofCommendation.pdf
   - certificate_url:
     date_end:
@@ -37,7 +37,7 @@ item:
     description:
     organization: SDU
     organization_url: https://www.wh.sdu.edu.cn/
-    title: First Scholarship of Studying Abroad
+    title: 海外留学一等奖学金
     url:
   - certificate_url:
     date_end:
@@ -45,7 +45,7 @@ item:
     description:
     organization: SDU
     organization_url: https://www.wh.sdu.edu.cn/
-    title: First Scholarship of Abroad Special
+    title: 海外留学一等奖学金
     url:
   - certificate_url:
     date_end:
@@ -53,7 +53,7 @@ item:
     description:
     organization: SDU
     organization_url: https://www.wh.sdu.edu.cn/
-    title: Third Scholarship of University
+    title: 校三等奖学金
     url:
   - certificate_url:
     date_end:
@@ -61,7 +61,7 @@ item:
     description:
     organization: SDU
     organization_url: https://www.wh.sdu.edu.cn/
-    title: Second Scholarship of Research and Innovation
+    title: 校科研创新二等奖学金
     url:
   - certificate_url:
     date_end:
@@ -69,7 +69,7 @@ item:
     description:
     organization: SDU
     organization_url: https://www.wh.sdu.edu.cn/
-    title: Third Scholarship of University
+    title: 校三等奖学金
     url:
   - certificate_url:
     date_end:
@@ -77,7 +77,7 @@ item:
     description:
     organization: LanQiao
     organization_url: http://dasai.lanqiao.cn/
-    title: 'LanQiao Programming Competition Province-Level Second Prize'
+    title: '蓝桥杯省赛二等奖'
     url:
 
 design:

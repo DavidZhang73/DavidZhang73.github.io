@@ -1,6 +1,6 @@
 ---
 title: Image Caption Generator
-summary: An encoder(Resnet152)-decoder(LSTM) implementation of image caption model.
+summary: 一个基于 encoder(Resnet152)-decoder(LSTM) 的图像描述模型实现。
 tags:
   - Deep Learning
 date: 2020-06-25T02:23:04+08:00
