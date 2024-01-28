@@ -1,0 +1,4 @@
+{
+    "name": "Hugo extended",
+    "image": "hugomods/hugo:git" // https://hugomods.com/docs/docker/#image-tags
+}
