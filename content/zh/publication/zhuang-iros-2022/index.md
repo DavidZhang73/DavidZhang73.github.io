@@ -44,9 +44,9 @@ tags:
 featured: false
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+  - name: ArXiv
+    url: https://arxiv.org/abs/2304.08840
 
 url_pdf: 'https://ieeexplore.ieee.org/abstract/document/9981122'
 url_code: ''
