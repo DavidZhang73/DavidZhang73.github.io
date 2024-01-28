@@ -1,4 +1,8 @@
 {
     "name": "Hugo extended",
-    "image": "hugomods/hugo:git" // https://hugomods.com/docs/docker/#image-tags
+    "features": {
+        "ghcr.io/devcontainers/features/hugo:1": {
+            "extended": true
+        }
+    }
 }
