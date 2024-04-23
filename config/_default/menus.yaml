@@ -16,15 +16,12 @@ main:
   - name: Experience
     url: '#experience'
     weight: 40
-  - name: Skills
-    url: '#skills'
-    weight: 50
   - name: Accomplishments
     url: '#accomplishments'
-    weight: 60
+    weight: 50
   - name: Curriculum Vitae
     url: 'https://cv.davidz.cn/'
-    weight: 70
+    weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

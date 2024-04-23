@@ -76,4 +76,4 @@ email: davidbill@outlook.com
 highlight_name: true
 ---
 
-他是[澳大利亚国立大学](https://www.anu.edu.au/)计算机科学研究学院的二年级博士研究生。他不仅是一位充满激情的学术研究新人，对众多深度学习主题都有浓厚的兴趣，特别是在视频理解，人类行为识别领域。同时，他还是一名活跃的全栈网站开发人员。目前，他正在进行一个由[Stephen Gould教授](https://users.cecs.anu.edu.au/~sgould/)、[Yizhak Ben-Shabat博士](https://www.itzikbs.com/)、[Anoop Cherian博士](https://users.cecs.anu.edu.au/~cherian/)和[Cristian Rodriguez博士](https://crodriguezo.github.io/)指导的研究项目。在此之前，他于2021年分别从[澳大利亚国立大学](https://www.anu.edu.au/)和[山东大学威海分校](http://www.wh.sdu.edu.cn/)获得了高级计算（荣誉）学士学位和计算机科学与技术学士学位。
+他是[澳大利亚国立大学](https://www.anu.edu.au/)计算机科学研究学院的三年级博士研究生。他不仅是一位充满激情的学术研究新人，对众多深度学习主题都有浓厚的兴趣，特别是在视频理解，人类行为识别领域。同时，他还是一名活跃的全栈网站开发人员。目前，他正在进行一个由[Stephen Gould教授](https://users.cecs.anu.edu.au/~sgould/)、[Yizhak Ben-Shabat博士](https://www.itzikbs.com/)、[Anoop Cherian博士](https://users.cecs.anu.edu.au/~cherian/)和[Cristian Rodriguez博士](https://crodriguezo.github.io/)指导的研究项目。在此之前，他于2021年分别从[澳大利亚国立大学](https://www.anu.edu.au/)和[山东大学威海分校](http://www.wh.sdu.edu.cn/)获得了高级计算（荣誉）学士学位和计算机科学与技术学士学位。

@@ -9,7 +9,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Disable quotePath
         run: git config core.quotePath false
       - name: Setup Hugo
@@ -17,7 +17,7 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
@@ -27,7 +27,7 @@ jobs:
         run: hugo --gc --minify
       - name: Deploy with ssh
         uses: easingthemes/ssh-deploy@main
-        env:
+        with:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           ARGS: "-rltgoDzvO --delete"
           SOURCE: "public/"

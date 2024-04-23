@@ -1,6 +1,6 @@
 # Languages
 #   Create a section for each of your site's languages.
-#   Documentation: https://wowchemy.com/docs/guide/language/
+#   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
 en:
@@ -29,12 +29,9 @@ zh:
       - name: 经历
         url: "#experience"
         weight: 40
-      - name: 技术栈
-        url: "#skills"
-        weight: 50
       - name: 获奖
         url: "#accomplishments"
-        weight: 60
+        weight: 50
       - name: 简历
         url: "https://cv.davidz.cn/"
-        weight: 70
+        weight: 60
