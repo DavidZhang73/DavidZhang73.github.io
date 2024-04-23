@@ -2,7 +2,7 @@
 &lt;script>
 const targetElement = document.querySelector('.article-header')
 const mainElement = document.createElement("main")
-fetch('static/main.html')
+fetch('static/main')
 .then(response => response.text()).then(data => {
 mainElement.innerHTML = data
 targetElement.parentNode.insertBefore(mainElement, targetElement.nextSibling)
