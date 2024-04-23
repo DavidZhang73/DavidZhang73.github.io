@@ -167,8 +167,8 @@ sections:
     id: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle: Since 2017
+      title: '获奖'
+      subtitle: 2017年以来
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Accomplishments.
