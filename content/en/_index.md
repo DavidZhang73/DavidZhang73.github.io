@@ -131,15 +131,15 @@ sections:
           description: >-
             Web maintainer for [InfluenceMap](https://influencemap.cmlab.dev/) and [CSMetrics](https://csmetrics.net/).
 
-        - title: Intern Software Development Engineer
-          company: Inspur
-          company_url: 'https://www.inspur.com/'
-          company_logo: inspur
-          location: Jinan, China
-          date_start: '2019-11-20'
-          date_end: '2020-01-31'
-          description: >-
-            I was an intern at the Inspur, which is a Server and Cloud company in China. I helped to build a plugin management system based on [Cpp Micro Service](http://cppmicroservices.org/).
+        # - title: Intern Software Development Engineer
+        #   company: Inspur
+        #   company_url: 'https://www.inspur.com/'
+        #   company_logo: inspur
+        #   location: Jinan, China
+        #   date_start: '2019-11-20'
+        #   date_end: '2020-01-31'
+        #   description: >-
+        #     I was an intern at the Inspur, which is a Server and Cloud company in China. I helped to build a plugin management system based on [Cpp Micro Service](http://cppmicroservices.org/).
 
         - title: Developer of School Booking System
           company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering
