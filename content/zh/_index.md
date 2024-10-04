@@ -131,15 +131,15 @@ sections:
           description: >-
             我负责[InfluenceMap](https://influencemap.cmlab.dev/)和[CSMetrics](https://csmetrics.net/)网站的容器化工作。
 
-        # - title: 软件开发工程师(实习)
-        #   company: 浪潮
-        #   company_url: 'https://www.inspur.com/'
-        #   company_logo: inspur
-        #   location: 济南，中国
-        #   date_start: '2019-11-20'
-        #   date_end: '2020-01-31'
-        #   description: >-
-        #     我在浪潮实习期间，帮助开发了一个基于[Cpp Micro Service](http://cppmicroservices.org/)的插件管理系统。
+        - title: 软件开发工程师(实习)
+          company: 浪潮
+          company_url: 'https://www.inspur.com/'
+          company_logo: inspur
+          location: 济南，中国
+          date_start: '2019-11-20'
+          date_end: '2020-01-31'
+          description: >-
+            我在浪潮实习期间，帮助开发了一个基于[Cpp Micro Service](http://cppmicroservices.org/)的插件管理系统。
 
         - title: 威海机电学院预约系统开发者
           company: 山东大学(威海)，机电与信息工程学院
