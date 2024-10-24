@@ -18,7 +18,7 @@ authors:
 #   - 'Equal contribution'
 
 date: "2023-02-28T00:00:00Z"
-# doi: ''
+doi: "10.1109/CVPR52729.2023.00245"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2022-10-07T00:00:00Z'
@@ -62,7 +62,7 @@ url_pdf: https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Aligning_St
 url_code: https://github.com/DavidZhang73/AssemblyVideoManualAlignment
 url_dataset: https://iaw.davidz.cn
 url_poster: https://cvpr2023.thecvf.com/media/PosterPDFs/CVPR%202023/22280.png
-url_project: https://academic.davidz.cn/en/publication/zhang-cvpr-2023/
+url_project:
 url_slides: https://cvpr2023.thecvf.com/media/cvpr-2023/Slides/22280.pdf
 url_source:
 url_video: https://www.youtube.com/watch?v=8iC5QyP8U6o
