@@ -7,7 +7,7 @@ title: 'Aligning Step-by-Step Instructional Diagrams to Video Demonstrations'
 authors:
   - admin
   - Anoop Cherian
-  - 刘彦斌
+  - Yanbin Liu
   - Yizhak Ben-Shabat
   - Cristian Rodriguez
   - Stephen Gould
