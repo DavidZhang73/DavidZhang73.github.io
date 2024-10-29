@@ -1,5 +1,5 @@
 ---
-title: "Aligning Step-by-Step Instructional Diagrams to Video Demonstrations"
+title: "Temporally Grounding Instructional Diagrams in Unconstrained Videos"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
