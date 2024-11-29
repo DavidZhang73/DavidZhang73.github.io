@@ -189,9 +189,16 @@ sections:
       items:
         - certificate_url:
           date_end:
+          date_start: '2022-03-24'
+          description:
+          organization: 澳大利亚国立大学
+          organization_url: https://www.anu.edu.au/
+          title: "博士奖学金（全奖）"
+        - certificate_url:
+          date_end:
           date_start: '2021-05-04'
           description:
-          organization: ANU
+          organization: 澳大利亚国立大学
           organization_url: https://www.anu.edu.au/
           title: 校长表扬信
           url: https://davidz-blog.oss-cn-beijing.aliyuncs.com/asset/Chancellor'sLetterofCommendation.pdf
@@ -199,7 +206,7 @@ sections:
           date_end:
           date_start: '2020-10-15'
           description:
-          organization: SDU
+          organization: 山东大学
           organization_url: https://www.wh.sdu.edu.cn/
           title: 海外留学一等奖学金
           url:
@@ -207,7 +214,7 @@ sections:
           date_end:
           date_start: '2019-07-02'
           description:
-          organization: SDU
+          organization: 山东大学
           organization_url: https://www.wh.sdu.edu.cn/
           title: 海外留学一等奖学金
           url:
@@ -215,15 +222,15 @@ sections:
           date_end:
           date_start: '2019-07-01'
           description:
-          organization: SDU
+          organization: 山东大学
           organization_url: https://www.wh.sdu.edu.cn/
-          title: 校三等奖学金
+          title: 校学业三等奖学金
           url:
         - certificate_url:
           date_end:
           date_start: '2018-07-02'
           description:
-          organization: SDU
+          organization: 山东大学
           organization_url: https://www.wh.sdu.edu.cn/
           title: 校科研创新二等奖学金
           url:
@@ -231,15 +238,15 @@ sections:
           date_end:
           date_start: '2018-07-01'
           description:
-          organization: SDU
+          organization: 山东大学
           organization_url: https://www.wh.sdu.edu.cn/
-          title: 校三等奖学金
+          title: 校学业三等奖学金
           url:
         - certificate_url:
           date_end:
           date_start: '2018-06-01'
           description:
-          organization: LanQiao
+          organization: 蓝桥杯
           organization_url: http://dasai.lanqiao.cn/
           title: '蓝桥杯省赛二等奖'
           url:

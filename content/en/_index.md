@@ -189,6 +189,13 @@ sections:
       items:
         - certificate_url:
           date_end:
+          date_start: '2022-03-24'
+          description:
+          organization: ANU
+          organization_url: https://www.anu.edu.au/
+          title: "Postgraduate Research Scholarship"
+        - certificate_url:
+          date_end:
           date_start: '2021-05-04'
           description:
           organization: ANU
