@@ -87,7 +87,7 @@ sections:
           company_logo: anu
           location: 堪培拉，澳大利亚
           date_start: '2024-07-22'
-          date_end: ''
+          date_end: '2024-11-18'
           description: >-
             我是[COMP8536 - Advanced Topics in Deep Learning for Computer Vision](https://programsandcourses.anu.edu.au/2024/course/comp8536)的助教。
 

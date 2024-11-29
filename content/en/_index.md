@@ -87,7 +87,7 @@ sections:
           company_logo: anu
           location: Canberra, Australia
           date_start: '2024-07-22'
-          date_end: ''
+          date_end: '2024-11-18'
           description: >-
             Tutor for [COMP8536 - Advanced Topics in Deep Learning for Computer Vision](https://programsandcourses.anu.edu.au/2024/course/comp8536).
 
