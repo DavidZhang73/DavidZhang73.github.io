@@ -10,7 +10,7 @@ last_name: Zhang
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student
+role: Ph.D. Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,12 +18,12 @@ organizations:
     url: https://www.anu.edu.au/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Deep Learning, Computer Vision and Web Development.
+bio: My research interests include Computer Vision, Video Understanding and Web Development.
 
 # Interests to show in About widget
 interests:
-  - Deep Learning
   - Computer Vision
+  - Video Understanding
   - Web Development
 
 # Education to show in About widget
@@ -36,7 +36,7 @@ education:
       institution: The Australian National University
       year: 2019 - 2021
     - course: Bachelor of Computer Science and Technology
-      institution: Shandong University, Weihai
+      institution: Shandong University
       year: 2017 - 2019
 
 # Social/Academic Networking
@@ -76,4 +76,4 @@ email: davidbill@outlook.com
 highlight_name: true
 ---
 
-He is currently a third-year Ph.D. student in the [Research School of Computer Science](https://comp.anu.edu.au/), [The Australian National University](https://www.anu.edu.au/). On the one hand, he is a passionate starter in academic research and interested in many deep learning topics, particularly video understanding, human action recognition. On the other hand, he is an active full-stack web developer. He is currently doing a research project supervised by [Professor Stephen Gould](https://users.cecs.anu.edu.au/~sgould/), [Dr. Yizhak Ben-Shabat](https://www.itzikbs.com/), [Dr. Anoop Cherian](https://users.cecs.anu.edu.au/~cherian/), and [Dr. Cristian Rodriguez](https://crodriguezo.github.io/). Before that, in 2021, he received his bachelor's degree in Advanced Computing (honours) and Computer Science and Technology from [The Australian National University](https://www.anu.edu.au/) and [Shandong University, Weihai](http://www.wh.sdu.edu.cn/) respectively.
+He is currently a third-year Ph.D. student in the [Research School of Computing](https://comp.anu.edu.au/), [The Australian National University](https://www.anu.edu.au/). On the one hand, he is a passionate starter in academic research and interested in many deep learning topics, particularly computer vision and video understanding. On the other hand, he is an active full-stack web developer. He is currently doing a research project supervised by [Professor Stephen Gould](https://users.cecs.anu.edu.au/~sgould/), [Dr. Anoop Cherian](https://users.cecs.anu.edu.au/~cherian/), [Dr. Yizhak Ben-Shabat](https://www.itzikbs.com/), and [Dr. Cristian Rodriguez](https://crodriguezo.github.io/). Before that, in 2021, he received his bachelor's degree in Advanced Computing (honours) and Computer Science and Technology from [The Australian National University](https://www.anu.edu.au/) and [Shandong University](http://www.wh.sdu.edu.cn/) respectively.
