@@ -79,3 +79,7 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides:
 ---
+
+<video controls muted loop autoplay>
+  <source src="animation_composed_rotate.mp4" type="video/mp4">
+</video>
