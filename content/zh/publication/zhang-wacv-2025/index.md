@@ -50,7 +50,7 @@ links:
     url: https://arxiv.org/abs/2407.12066
 
 url_pdf: https://arxiv.org/pdf/2407.12066
-url_code:
+url_code: https://github.com/DavidZhang73/TDGV
 url_poster:
 url_project:
 url_slides:
