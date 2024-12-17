@@ -1,19 +1,19 @@
 ---
-title: Ikea Assembly In the Wild (IAW) 数据集主页
-summary: 前端项目，用于介绍 IAW 数据集。
+title: TDGV
+summary: WACV'25 Temporal Instructional Diagram Grounding in Unconstrained Videos 的官方实现.
 tags:
-  - Web Development
-date: 2023-03-24T12:00:00+08:00
+  - Deep Learning
+date: 2024-12-17T12:00:00+08:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://iaw.davidz.cn/
+external_link: https://github.com/DavidZhang73/TDGV
 
 image:
-  caption: 首页头图截屏.
+  caption: TDGV
   focal_point: Smart
 
 links:
-url_code: https://github.com/DavidZhang73/iaw-website
+url_code: https://github.com/DavidZhang73/TDGV
 url_pdf: ''
 url_slides: ''
 url_video: ''

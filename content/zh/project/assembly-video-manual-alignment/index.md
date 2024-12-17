@@ -1,6 +1,6 @@
 ---
 title: Assembly Video Manual Alignment
-summary: CVPR'23 Aligning Step-by-Step Instructional Diagrams to Video Demonstrations的官方Pytorch实现。
+summary: CVPR 2023 Aligning Step-by-Step Instructional Diagrams to Video Demonstrations 的官方实现。
 tags:
   - Deep Learning
 date: 2023-04-14T12:00:00+08:00

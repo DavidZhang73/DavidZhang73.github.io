@@ -25,7 +25,7 @@ sections:
   - block: collection
     content:
       title: Publications
-      subtitle: 'Since 2022'
+      subtitle:
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -41,7 +41,7 @@ sections:
     id: projects
     content:
       title: Projects
-      subtitle: Since 2017
+      subtitle:
       filters:
         folders:
           - project
@@ -71,7 +71,7 @@ sections:
     id: experience
     content:
       title: Experience
-      subtitle: Since 2017
+      subtitle:
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -178,7 +178,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Awards'
-      subtitle: Since 2017
+      subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Accomplishments.

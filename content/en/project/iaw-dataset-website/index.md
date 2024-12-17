@@ -1,6 +1,6 @@
 ---
 title: Homepage for Ikea Assembly In the Wild (IAW) dataset
-summary: A frontend only project to introduce the IAW dataset.
+summary: A frontend project to introduce the IAW dataset.
 tags:
   - Web Development
 date: 2023-03-24T12:00:00+08:00

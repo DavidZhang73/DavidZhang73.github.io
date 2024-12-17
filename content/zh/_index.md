@@ -25,7 +25,7 @@ sections:
   - block: collection
     content:
       title: 文章
-      subtitle: 2022年以来
+      subtitle:
       text: |-
         {{% callout note %}}
         [查看更多](./publication/).
@@ -41,7 +41,7 @@ sections:
     id: projects
     content:
       title: 项目
-      subtitle: 2017年以来
+      subtitle:
       filters:
         folders:
           - project
@@ -71,7 +71,7 @@ sections:
     id: experience
     content:
       title: 经历
-      subtitle: 2017年以来
+      subtitle:
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -178,7 +178,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: '获奖'
-      subtitle: 2017年以来
+      subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Accomplishments.
