@@ -49,7 +49,7 @@ links:
     url: https://arxiv.org/abs/2411.18011
 
 url_pdf: https://arxiv.org/pdf/2411.18011
-url_code:
+url_code: https://github.com/DavidZhang73/Manual-PA
 url_dataset:
 url_poster:
 url_project:
