@@ -1,6 +1,6 @@
 ---
 title: TDGV
-summary: WACV'25 Temporal Instructional Diagram Grounding in Unconstrained Videos 的官方实现.
+summary: WACV 2025 Temporal Instructional Diagram Grounding in Unconstrained Videos 的官方实现.
 tags:
   - Deep Learning
 date: 2024-12-17T12:00:00+08:00
