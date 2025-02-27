@@ -49,7 +49,7 @@ links:
   - name: ArXiv
     url: https://arxiv.org/abs/2407.12066
 
-url_pdf: https://arxiv.org/pdf/2407.12066
+url_pdf: https://openaccess.thecvf.com/content/WACV2025/papers/Zhang_Temporally_Grounding_Instructional_Diagrams_in_Unconstrained_Videos_WACV_2025_paper.pdf
 url_code: https://github.com/DavidZhang73/TDGV
 url_poster:
 url_project:
