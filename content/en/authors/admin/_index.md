@@ -18,12 +18,12 @@ organizations:
     url: https://www.anu.edu.au/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Computer Vision, Video Understanding and Web Development.
+bio: My research interests include video understanding and video generation, as well as web development.
 
 # Interests to show in About widget
 interests:
-  - Computer Vision
   - Video Understanding
+  - Video Generation
   - Web Development
 
 # Education to show in About widget
@@ -76,4 +76,4 @@ email: davidbill@outlook.com
 highlight_name: true
 ---
 
-He is currently a third-year Ph.D. student in the [Research School of Computing](https://comp.anu.edu.au/), [The Australian National University](https://www.anu.edu.au/). On the one hand, he is a passionate starter in academic research and interested in many deep learning topics, particularly computer vision and video understanding. On the other hand, he is an active full-stack web developer. He is currently doing a research project supervised by [Professor Stephen Gould](https://users.cecs.anu.edu.au/~sgould/), [Dr. Anoop Cherian](https://users.cecs.anu.edu.au/~cherian/), [Dr. Yizhak Ben-Shabat](https://www.itzikbs.com/), and [Dr. Cristian Rodriguez](https://crodriguezo.github.io/). Before that, in 2021, he received his bachelor's degree in Advanced Computing (honours) and Computer Science and Technology from [The Australian National University](https://www.anu.edu.au/) and [Shandong University](http://www.wh.sdu.edu.cn/) respectively.
+He is currently a third-year Ph.D. student in the [Research School of Computing](https://comp.anu.edu.au/), [The Australian National University](https://www.anu.edu.au/). On the one hand, he is a passionate starter in academic research and interested in many deep learning topics, particularly video understanding and generation. On the other hand, he is an active full-stack web developer. He is currently doing a research project supervised by [Professor Stephen Gould](https://users.cecs.anu.edu.au/~sgould/), [Dr. Anoop Cherian](https://users.cecs.anu.edu.au/~cherian/), [Dr. Yizhak Ben-Shabat](https://www.itzikbs.com/), and [Dr. Cristian Rodriguez](https://crodriguezo.github.io/). Before that, in 2021, he received his bachelor's degree in Advanced Computing (honours) and Computer Science and Technology from [The Australian National University](https://www.anu.edu.au/) and [Shandong University](http://www.wh.sdu.edu.cn/) respectively.
