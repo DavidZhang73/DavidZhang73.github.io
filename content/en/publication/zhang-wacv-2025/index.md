@@ -48,15 +48,13 @@ featured: true
 links:
   - name: ArXiv
     url: https://arxiv.org/abs/2407.12066
-  - name: Dataset
-    url: https://huggingface.co/datasets/DavidZhang73/TDGVDatasets
 
 url_pdf: https://openaccess.thecvf.com/content/WACV2025/papers/Zhang_Temporally_Grounding_Instructional_Diagrams_in_Unconstrained_Videos_WACV_2025_paper.pdf
-url_code: https://github.com/DavidZhang73/TDGV
-url_poster: media/wacv25-126-poster.pdf
 url_project:
+url_code: https://github.com/DavidZhang73/TDGV
+url_dataset: https://huggingface.co/datasets/DavidZhang73/TDGVDatasets
+url_poster: media/wacv25-126-poster.pdf
 url_slides: media/wacv25-126-slides.pdf
-url_source:
 url_video:
 
 # Featured image

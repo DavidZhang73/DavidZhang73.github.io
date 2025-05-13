@@ -48,14 +48,14 @@ featured: false
 # Custom links (uncomment lines below)
 # links:
 #   - name: ArXiv
-#     url: https://arxiv.org/abs/xxxx.xxxx
+#     url:
 
 url_pdf:
-url_code:
-url_poster:
 url_project:
+url_code:
+url_dataset:
+url_poster:
 url_slides:
-url_source:
 url_video:
 
 # Featured image
