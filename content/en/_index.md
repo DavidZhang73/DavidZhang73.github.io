@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: ""
 date: 2024-02-23
 type: landing
 
@@ -20,7 +20,7 @@ sections:
           - publication
         featured_only: true
     design:
-      columns: '2'
+      columns: "2"
       view: card
   - block: collection
     content:
@@ -35,7 +35,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      columns: '1'
+      columns: "1"
       view: citation
   - block: portfolio
     id: projects
@@ -54,7 +54,7 @@ sections:
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
         - name: All
-          tag: '*'
+          tag: "*"
         - name: Deep Learning
           tag: Deep Learning
         - name: Web Development
@@ -63,7 +63,7 @@ sections:
           tag: Tool
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: "1"
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: true
@@ -81,103 +81,121 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Intern
+          company: Mitsubishi Electric Research Laboratories (MERL)
+          company_url: "https://www.merl.com/"
+          company_logo: merl
+          location: Boston, USA
+          date_start: "2025-09-29"
+          date_end: "2026-01-23"
+          description: >-
+
+        - title: Research Intern
+          company: Roblox
+          company_url: "https://www.roblox.com/"
+          company_logo: roblox
+          location: San Mateo, USA
+          date_start: "2025-07-08"
+          date_end: "2025-09-26"
+          description: >-
+
         - title: Teaching Assistant
           company: The Australian National University
-          company_url: 'https://www.anu.edu.au/'
+          company_url: "https://www.anu.edu.au/"
           company_logo: anu
           location: Canberra, Australia
-          date_start: '2024-07-22'
-          date_end: '2024-11-18'
+          date_start: "2024-07-22"
+          date_end: "2024-11-18"
           description: >-
             Tutor for [COMP8536 - Advanced Topics in Deep Learning for Computer Vision](https://programsandcourses.anu.edu.au/2024/course/comp8536).
 
         - title: Teaching Assistant
           company: The Australian National University
-          company_url: 'https://www.anu.edu.au/'
+          company_url: "https://www.anu.edu.au/"
           company_logo: anu
           location: Canberra, Australia
-          date_start: '2024-02-19'
-          date_end: '2024-05-24'
+          date_start: "2024-02-19"
+          date_end: "2024-05-24"
           description: >-
             Tutor for [COMP4528/COMP6528 - Computer Vision](https://programsandcourses.anu.edu.au/2024/course/COMP4528).
 
         - title: Teaching Assistant
           company: The Australian National University
-          company_url: 'https://www.anu.edu.au/'
+          company_url: "https://www.anu.edu.au/"
           company_logo: anu
           location: Canberra, Australia
-          date_start: '2023-02-20'
-          date_end: '2023-06-01'
+          date_start: "2023-02-20"
+          date_end: "2023-06-01"
           description: >-
             Tutor for [COMP2420/COMP6420 - Introduction to Data Management, Analysis and Security](https://programsandcourses.anu.edu.au/course/comp2420).
 
         - title: Teaching Assistant
           company: The Australian National University
-          company_url: 'https://www.anu.edu.au/'
+          company_url: "https://www.anu.edu.au/"
           company_logo: anu
           location: Canberra, Australia
-          date_start: '2022-07-11'
-          date_end: '2022-11-30'
+          date_start: "2022-07-11"
+          date_end: "2022-11-30"
           description: >-
             Tutor for [COMP3670/COMP6670 - Introduction to Machine Learning](https://programsandcourses.anu.edu.au/2019/course/comp3670) and [COMP4650 - Document Analysis](https://programsandcourses.anu.edu.au/2023/course/COMP4650).
 
         - title: Research Assistant
           company: The Australian National University
-          company_url: 'https://www.anu.edu.au/'
+          company_url: "https://www.anu.edu.au/"
           company_logo: anu
           location: Canberra, Australia
-          date_start: '2022-05-09'
-          date_end: '2023-02-20'
+          date_start: "2022-05-09"
+          date_end: "2023-02-20"
           description: >-
             Web maintainer for [InfluenceMap](https://influencemap.cmlab.dev/) and [CSMetrics](https://csmetrics.net/).
 
         - title: Intern Software Development Engineer
           company: Inspur
-          company_url: 'https://www.inspur.com/'
+          company_url: "https://www.inspur.com/"
           company_logo: inspur
           location: Jinan, China
-          date_start: '2019-11-20'
-          date_end: '2020-01-31'
+          date_start: "2019-11-20"
+          date_end: "2020-01-31"
           description: >-
             I was an intern at the Inspur, which is a Server and Cloud company in China. I helped to build a plugin management system based on [Cpp Micro Service](http://cppmicroservices.org/).
 
         - title: Developer of School Booking System
           company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering
-          company_url: 'https://ie.wh.sdu.edu.cn/'
+          company_url: "https://ie.wh.sdu.edu.cn/"
           company_logo: sdu
           location: Weihai, China
-          date_start: '2019-05-06'
-          date_end: '2019-07-01'
+          date_start: "2019-05-06"
+          date_end: "2019-07-01"
           description: >-
             I was an independent developer of the Booking System designed to simplify the appointment process. The system is in-use till now.
 
         - title: Major Developer of Weihai Construction Consulting System
           company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering
-          company_url: 'https://ie.wh.sdu.edu.cn/'
+          company_url: "https://ie.wh.sdu.edu.cn/"
           company_logo: sdu
           location: Weihai, China
-          date_start: '2019-03-18'
-          date_end: '2019-07-01'
+          date_start: "2019-03-18"
+          date_end: "2019-07-01"
           description: >-
             I was a major developer(one of six) of the Weihai Construction Consulting System, which is an enterprise-level business projects.
 
         - title: Major Maintainer for VJ
           company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering
-          company_url: 'https://ie.wh.sdu.edu.cn/'
+          company_url: "https://ie.wh.sdu.edu.cn/"
           company_logo: sdu
           location: Weihai, China
-          date_start: '2018-02-01'
-          date_end: '2019-07-01'
+          date_start: "2018-02-01"
+          date_end: "2019-07-01"
           description: >-
             I was the major maintainer(one of three) of the VJ(Virtual Judge for ACM practice) system developed by a senior student. The system has more than 10K submissions since first published in 2017.
 
     design:
-      columns: '2'
+      columns: "2"
   - block: accomplishments
     id: awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Awards'
+      title: "Awards"
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -189,14 +207,14 @@ sections:
       items:
         - certificate_url:
           date_end:
-          date_start: '2022-03-24'
+          date_start: "2022-03-24"
           description:
           organization: ANU
           organization_url: https://www.anu.edu.au/
           title: "Postgraduate Research Scholarship"
         - certificate_url:
           date_end:
-          date_start: '2021-05-04'
+          date_start: "2021-05-04"
           description:
           organization: ANU
           organization_url: https://www.anu.edu.au/
@@ -204,7 +222,7 @@ sections:
           url: "https://davidz-blog.oss-cn-beijing.aliyuncs.com/asset/Chancellor'sLetterofCommendation.pdf"
         - certificate_url:
           date_end:
-          date_start: '2020-10-15'
+          date_start: "2020-10-15"
           description:
           organization: SDU
           organization_url: https://www.wh.sdu.edu.cn/
@@ -212,7 +230,7 @@ sections:
           url:
         - certificate_url:
           date_end:
-          date_start: '2019-07-02'
+          date_start: "2019-07-02"
           description:
           organization: SDU
           organization_url: https://www.wh.sdu.edu.cn/
@@ -220,7 +238,7 @@ sections:
           url:
         - certificate_url:
           date_end:
-          date_start: '2019-07-01'
+          date_start: "2019-07-01"
           description:
           organization: SDU
           organization_url: https://www.wh.sdu.edu.cn/
@@ -228,7 +246,7 @@ sections:
           url:
         - certificate_url:
           date_end:
-          date_start: '2018-07-02'
+          date_start: "2018-07-02"
           description:
           organization: SDU
           organization_url: https://www.wh.sdu.edu.cn/
@@ -236,7 +254,7 @@ sections:
           url:
         - certificate_url:
           date_end:
-          date_start: '2018-07-01'
+          date_start: "2018-07-01"
           description:
           organization: SDU
           organization_url: https://www.wh.sdu.edu.cn/
@@ -244,12 +262,12 @@ sections:
           url:
         - certificate_url:
           date_end:
-          date_start: '2018-06-01'
+          date_start: "2018-06-01"
           description:
           organization: LanQiao
           organization_url: http://dasai.lanqiao.cn/
-          title: 'LanQiao Programming Competition Province-Level Second Prize'
+          title: "LanQiao Programming Competition Province-Level Second Prize"
           url:
     design:
-      columns: '1'
+      columns: "1"
 ---
