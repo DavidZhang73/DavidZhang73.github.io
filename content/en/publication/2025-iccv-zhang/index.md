@@ -16,7 +16,7 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: "2024-11-28T00:00:00Z"
+date: "2025-06-26T00:00:00Z"
 doi:
 
 # Schedule page publish date (NOT publication's date).
@@ -29,13 +29,13 @@ doi:
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ArXiv Preprint
-publication_short: ArXiv Preprint
+publication: In *International Conference on Computer Vision 2025*
+publication_short: In *ICCV 2025*
 
 abstract: "Assembling furniture amounts to solving the discrete-continuous optimization task of selecting the furniture parts to assemble and estimating their connecting poses in a physically realistic manner. The problem is hampered by its combinatorially large yet sparse solution space thus making learning to assemble a challenging task for current machine learning models. In this paper, we attempt to solve this task by leveraging the assembly instructions provided in diagrammatic manuals that typically accompany the furniture parts. Our key insight is to use the cues in these diagrams to split the problem into discrete and continuous phases. Specifically, we present Manual-PA, a transformer-based instruction Manual-guided 3D Part Assembly framework that learns to semantically align 3D parts with their illustrations in the manuals using a contrastive learning backbone towards predicting the assembly order and infers the 6D pose of each part via relating it to the final furniture depicted in the manual. To validate the efficacy of our method, we conduct experiments on the benchmark PartNet dataset. Our results show that using the diagrams and the order of the parts lead to significant improvements in assembly performance against the state of the art. Further, Manual-PA demonstrates strong generalization to real-world IKEA furniture assembly on the IKEA-Manual dataset."
 
 # Summary. An optional shortened abstract.
-summary: "我们提出了Manual-PA，一种基于Transformer的框架，通过利用装配说明书中的图示信息，引导家具零件的选择与6D位姿估计，实现高效且真实的3D装配，能够将零件与说明书图示进行语义对齐。"
+summary: "We introduce Manual-PA, a transformer-based framework that leverages diagrammatic assembly manuals to guide both the selection and 6D pose estimation of furniture parts, enabling efficient and realistic 3D assembly by aligning parts with instructional illustrations."
 
 tags:
   - Deep Learning
