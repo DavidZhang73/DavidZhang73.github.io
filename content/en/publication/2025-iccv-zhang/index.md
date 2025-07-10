@@ -51,7 +51,7 @@ links:
 url_pdf: https://arxiv.org/pdf/2411.18011
 url_project:
 url_code: https://github.com/DavidZhang73/Manual-PA
-url_dataset:
+url_dataset: https://huggingface.co/datasets/DavidZhang73/ManualPADatasets
 url_poster:
 url_slides:
 url_video:

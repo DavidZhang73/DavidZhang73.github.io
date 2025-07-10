@@ -86,8 +86,8 @@ sections:
           company_url: "https://www.merl.com/"
           company_logo: merl
           location: 波士顿，美国
-          date_start: "2025-09-29"
-          date_end: "2026-01-23"
+          date_start: "2025-10-27"
+          date_end: "2026-02-20"
           description: >-
 
         - title: Research Intern
@@ -104,8 +104,8 @@ sections:
           company_url: "https://www.anu.edu.au/"
           company_logo: anu
           location: 堪培拉，澳大利亚
-          date_start: "2024-07-22"
-          date_end: "2024-11-18"
+          date_start: "2025-07-21"
+          date_end: "2025-10-17"
           description: >-
             我是[COMP8536 - Advanced Topics in Deep Learning for Computer Vision](https://programsandcourses.anu.edu.au/2024/course/comp8536)的助教。
 

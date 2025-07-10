@@ -86,8 +86,8 @@ sections:
           company_url: "https://www.merl.com/"
           company_logo: merl
           location: Boston, USA
-          date_start: "2025-09-29"
-          date_end: "2026-01-23"
+          date_start: "2025-10-27"
+          date_end: "2026-02-20"
           description: >-
 
         - title: Research Intern
@@ -95,8 +95,8 @@ sections:
           company_url: "https://www.roblox.com/"
           company_logo: roblox
           location: San Mateo, USA
-          date_start: "2025-07-08"
-          date_end: "2025-09-26"
+          date_start: "2025-07-21"
+          date_end: "2025-10-17"
           description: >-
 
         - title: Teaching Assistant

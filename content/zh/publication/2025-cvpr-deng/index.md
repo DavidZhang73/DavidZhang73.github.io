@@ -51,11 +51,11 @@ featured: false
 #     url:
 
 url_pdf: https://openaccess.thecvf.com/content/CVPR2025/papers/Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Objects_Made_Easy_CVPR_2025_paper.pdf
-url_project:
+url_project: https://pos3r.rios.ai/
 url_code:
 url_dataset:
-url_poster:
-url_slides:
+url_poster: https://pos3r.rios.ai/resources/poster.pdf
+url_slides: https://pos3r.rios.ai/resources/slides.pdf
 url_video: https://www.youtube.com/watch?v=_a9q_O8yN4E
 
 # Featured image
