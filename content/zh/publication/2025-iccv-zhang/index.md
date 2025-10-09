@@ -53,8 +53,8 @@ url_project:
 url_code: https://github.com/DavidZhang73/Manual-PA
 url_dataset: https://huggingface.co/datasets/DavidZhang73/ManualPADatasets
 url_poster: media/iccv25-8993-poster.pdf
-url_slides:
-url_video:
+url_slides: media/iccv25-8993-slides.pdf
+url_video: https://www.youtube.com/watch?v=ViO4U0HjSfk
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
