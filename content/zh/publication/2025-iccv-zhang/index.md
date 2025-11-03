@@ -48,7 +48,7 @@ links:
   - name: ArXiv
     url: https://arxiv.org/abs/2411.18011
 
-url_pdf: https://arxiv.org/pdf/2411.18011
+url_pdf: https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Manual-PA_Learning_3D_Part_Assembly_from_Instruction_Diagrams_ICCV_2025_paper.pdf
 url_project:
 url_code: https://github.com/DavidZhang73/Manual-PA
 url_dataset: https://huggingface.co/datasets/DavidZhang73/ManualPADatasets
