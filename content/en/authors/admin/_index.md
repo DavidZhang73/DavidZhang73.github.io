@@ -18,12 +18,12 @@ organizations:
     url: https://www.anu.edu.au/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include video understanding and video generation, as well as web development.
+bio: My research interests include video understanding and generation, agentic and embodied AI as well as web development.
 
 # Interests to show in About widget
 interests:
-  - Video Understanding
-  - Video Generation
+  - Video Understanding & Generation
+  - Agentic & Embodied AI
   - Web Development
 
 # Education to show in About widget
@@ -31,7 +31,7 @@ education:
   courses:
     - course: Ph.D. of Computer Science
       institution: The Australian National University
-      year: 2022 - Present
+      year: 2022 - 2026
     - course: Bachelor of Advanced Computing (Honours)
       institution: The Australian National University
       year: 2019 - 2021
