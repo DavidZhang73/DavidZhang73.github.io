@@ -2,7 +2,7 @@ content:
   - name: publication
     label: Publications
     type: collection
-    path: 'content/zh/publication'
+    path: content/zh/publication
     view:
       fields: [ title ]
     fields:
