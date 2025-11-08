@@ -1,0 +1,11 @@
+content:
+  - name: publication
+    label: Publications
+    type: collection
+    path: 'content/zh/publication'
+    view:
+      fields: [ title ]
+    fields:
+      - name: title
+        label: Title
+        type: string
