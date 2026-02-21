@@ -9,7 +9,7 @@ date: 2022-05-29T00:00:00+08:00
 external_link: https://sdurm.davidz.cn/
 
 image:
-  caption: SDU Research Management
+  caption: SDU 科研管理系统
   focal_point: Smart
 
 links:

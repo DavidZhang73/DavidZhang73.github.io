@@ -9,7 +9,7 @@ date: 2020-06-25T02:23:04+08:00
 external_link: https://github.com/DavidZhang73/ImageCaptionGenerator
 
 image:
-  caption: Image Caption Generator
+  caption: 图像描述生成器
   focal_point: Smart
 
 links:

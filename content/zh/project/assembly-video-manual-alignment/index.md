@@ -9,7 +9,7 @@ date: 2023-04-14T12:00:00+08:00
 external_link: https://github.com/DavidZhang73/AssemblyVideoManualAlignment
 
 image:
-  caption: Assembly Video Manual Alignment
+  caption: 装配视频与说明书对齐
   focal_point: Smart
 
 links:

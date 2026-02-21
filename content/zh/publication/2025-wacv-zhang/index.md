@@ -33,7 +33,7 @@ publication_types: ["1"]
 publication: In *Winter Conference on Applications of Computer Vision 2025*
 publication_short: In *WACV 2025*
 
-abstract: "We study the challenging problem of simultaneously localizing a sequence of queries in the form of instructional diagrams in a video. This requires understanding not only the individual queries but also their interrelationships. However, most existing methods focus on grounding one query at a time, ignoring the inherent structures among queries such as the general mutual exclusiveness and the temporal order. Consequently, the predicted timespans of different step diagrams may overlap considerably or violate the temporal order, thus harming the accuracy. In this paper, we tackle this issue by simultaneously grounding a sequence of step diagrams. Specifically, we propose composite queries, constructed by exhaustively pairing up the visual content features of the step diagrams and a fixed number of learnable positional embeddings. Our insight is that self-attention among composite queries carrying different content features suppress each other to reduce timespan overlaps in predictions, while the cross-attention corrects the temporal misalignment via content and position joint guidance. We demonstrate the effectiveness of our approach on the IAW dataset for grounding step diagrams and the YouCook2 benchmark for grounding natural language queries, significantly outperforming existing methods while simultaneously grounding multiple queries."
+abstract: "我们研究一个具有挑战性的问题：在视频中同时定位一组以说明书步骤图形式给出的查询。这不仅要求理解各个查询本身，还要建模它们之间的关系。然而，大多数现有方法一次只处理一个查询，忽略了查询间固有结构，如互斥关系与时间顺序。因此，不同步骤图预测的时间区间可能严重重叠或违反时序，从而降低精度。本文通过同时ground一系列步骤图来解决该问题。具体而言，我们提出复合查询：将步骤图的视觉内容特征与固定数量、可学习的位置嵌入进行穷举配对构建而成。我们的核心观察是，携带不同内容特征的复合查询之间的自注意力可相互抑制，从而减少预测时间区间重叠；同时，交叉注意力通过内容与位置的联合引导纠正时间错位。我们在IAW数据集的步骤图grounding任务和YouCook2基准的自然语言查询grounding任务上验证了方法有效性，在同时定位多个查询的设定下显著优于现有方法。"
 
 # Summary. An optional shortened abstract.
 summary: "我们提出了一种新方法，通过建模说明书步骤图之间的关系和时序，实现了在视频中同时定位多个步骤图，而非单独处理每一步。"
@@ -61,7 +61,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   placement: 2
-  caption: "An illustration of the temporal instructional diagram grounding task between a YouTube video (top) [xPNkHAii3fU](https://www.youtube.com/watch?v=xPNkHAii3fU) and an Ikea furniture manual (bottom) [00352894](https://www.ikea.com/au/en/p/hemnes-bookcase-white-stain-00352894/). This task aims to predict the start and end timestamps for all step diagrams simultaneously."
+  caption: "时序说明图定位任务示意图：上方为 YouTube 视频 [xPNkHAii3fU](https://www.youtube.com/watch?v=xPNkHAii3fU)，下方为 IKEA 家具说明书 [00352894](https://www.ikea.com/au/en/p/hemnes-bookcase-white-stain-00352894/)。该任务目标是同时预测所有步骤图对应的起止时间戳。"
   focal_point: fit
   preview_only: false
 

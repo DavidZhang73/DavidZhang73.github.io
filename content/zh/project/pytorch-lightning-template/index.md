@@ -9,7 +9,7 @@ date: 2023-03-11T12:00:00+08:00
 external_link: https://github.com/DavidZhang73/pytorch-lightning-template
 
 image:
-  caption: Pytorch Lightning Template
+  caption: PyTorch Lightning 模板
   focal_point: Smart
 
 links:

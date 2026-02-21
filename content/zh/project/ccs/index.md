@@ -9,7 +9,7 @@ date: 2020-06-25T02:07:13+08:00
 external_link: ''
 
 image:
-  caption: Weihai Construction Consulting System
+  caption: 威海建设咨询系统
   focal_point: Smart
 
 links:

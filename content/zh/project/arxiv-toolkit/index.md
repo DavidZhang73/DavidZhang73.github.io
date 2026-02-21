@@ -9,7 +9,7 @@ date: 2025-03-27T12:00:00+08:00
 external_link: https://github.com/DavidZhang73/arxiv-toolkit
 
 image:
-  caption: ArXiv Toolkit
+  caption: ArXiv 工具箱
   focal_point: Smart
 
 links:

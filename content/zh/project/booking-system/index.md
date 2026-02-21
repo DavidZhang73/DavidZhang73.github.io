@@ -9,7 +9,7 @@ date: 2020-06-25T02:06:13+08:00
 external_link: https://git.davidz.cn/david/BookingService
 
 image:
-  caption: School Booking System
+  caption: 学校预约系统
   focal_point: Smart
 
 links:

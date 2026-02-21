@@ -10,7 +10,7 @@ date: 2022-05-01T12:00:00+08:00
 external_link: https://csmetrics.net/
 
 image:
-  caption: CSMetrics
+  caption: CSMetrics 项目
   focal_point: Smart
 
 links:

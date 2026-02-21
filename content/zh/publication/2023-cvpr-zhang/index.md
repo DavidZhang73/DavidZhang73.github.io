@@ -33,7 +33,7 @@ publication_types: ['1']
 publication: In *Conference on Computer Vision and Pattern Recognition 2023*
 publication_short: In *CVPR 2023*
 
-abstract: 'Multimodal alignment facilitates the retrieval of instances from one modality when queried using another. In this paper, we consider a novel setting where such an alignment is between (i) instruction steps that are depicted as assembly diagrams (commonly seen in Ikea assembly manuals) and (ii) video segments from in-the-wild videos; these videos comprising an enactment of the assembly actions in the real world. To learn this alignment, we introduce a novel supervised contrastive learning method that learns to align videos with the subtle details in the assembly diagrams, guided by a set of novel losses. To study this problem and demonstrate the effectiveness of our method, we introduce a novel dataset: IAW---for Ikea assembly in the wild---consisting of 183 hours of videos from diverse furniture assembly collections and nearly 8,300 illustrations from their associated instruction manuals and annotated for their ground truth alignments. We define two tasks on this dataset: First, nearest neighbor retrieval between video segments and illustrations, and, second, alignment of instruction steps and the segments for each video. Extensive experiments on IAW demonstrate superior performances of our approach against alternatives.'
+abstract: "跨模态对齐能够在一种模态中发起查询，并在另一种模态中检索对应实例。本文研究一种新的对齐设定：在(i)以装配图示形式呈现的说明步骤（常见于宜家装配手册）与(ii)野外视频中的片段之间建立对应关系，这些视频展示了现实世界中的装配动作。为学习这种对齐，我们提出一种新的有监督对比学习方法，在一组新设计损失的引导下，使视频与装配图示中的细粒度细节对齐。为研究该问题并验证方法有效性，我们构建了新数据集IAW（Ikea Assembly in the Wild），包含来自多种家具装配场景的183小时视频、近8,300张对应说明书图示，并标注其真实对齐关系。我们在该数据集上定义了两个任务：其一是视频片段与图示之间的最近邻检索；其二是对每个视频中的说明步骤与片段进行对齐。IAW上的大量实验表明，我们的方法显著优于现有替代方案。"
 
 # Summary. An optional shortened abstract.
 summary: "我们提出了一套新框架和数据集（IAW），用于将装配说明书中的图示步骤与真实世界的装配视频片段进行对齐，实现图文与视频间的跨模态检索和逐步对应。"
@@ -63,9 +63,7 @@ url_video: https://www.youtube.com/watch?v=8iC5QyP8U6o
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   placement: 2
-  caption: "An illustration of video-diagram alignment between
-  a YouTube video (top) [He0pCeCTJQM](https://www.youtube.com/watch?v=He0pCeCTJQM) and
-  an Ikea furniture manual (bottom) [s49069795](https://www.ikea.com/au/en/p/tarva-bed-frame-pine-luroey-s49069795/)"
+  caption: "视频-图示对齐任务示意图：上方为 YouTube 视频 [He0pCeCTJQM](https://www.youtube.com/watch?v=He0pCeCTJQM)，下方为 IKEA 家具说明书 [s49069795](https://www.ikea.com/au/en/p/tarva-bed-frame-pine-luroey-s49069795/)。"
   focal_point: 'fit'
   preview_only: false
 

@@ -9,7 +9,7 @@ date: 2020-10-09T14:39:15+08:00
 external_link: https://github.com/anucvml/vidat
 
 image:
-  caption: Vidat
+  caption: Vidat 项目
   focal_point: Smart
 
 links:

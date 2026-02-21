@@ -10,7 +10,7 @@ date: 2022-05-01T12:00:00+08:00
 external_link: https://influencemap.cmlab.dev/
 
 image:
-  caption: Influence Flower
+  caption: 影响力花图
   focal_point: Smart
 
 links:

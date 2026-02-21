@@ -9,7 +9,7 @@ date: 2021-08-11T00:00:00+08:00
 external_link: http://slimeverse.davidz.cn/
 
 image:
-  caption: SlimeVerse
+  caption: SlimeVerse 项目
   focal_point: Smart
 
 links:

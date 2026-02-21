@@ -9,7 +9,7 @@ date: 2024-12-17T12:00:00+08:00
 external_link: https://github.com/DavidZhang73/Manual-PA
 
 image:
-  caption: Manual-PA
+  caption: Manual-PA 项目
   focal_point: Smart
 
 links:

@@ -9,7 +9,7 @@ date: 2020-06-25T02:21:29+08:00
 external_link: https://blog.davidz.cn/inspur-internship/
 
 image:
-  caption: Plugin Manager
+  caption: 插件管理器
   focal_point: Smart
 
 links:
