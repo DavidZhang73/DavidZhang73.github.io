@@ -87,7 +87,7 @@ sections:
           company_logo: merl
           location: 波士顿，美国
           date_start: "2025-10-27"
-          date_end: "2026-02-20"
+          date_end: "2026-03-20"
           description: >-
 
         - title: Research Intern
