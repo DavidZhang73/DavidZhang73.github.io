@@ -22,8 +22,8 @@ bio: My research interests include video understanding and generation, agentic a
 
 # Interests to show in About widget
 interests:
-  - Video Understanding & Generation
-  - Agentic & Embodied AI
+  - Agentic AI
+  - Embodied AI
   - Web Development
 
 # Education to show in About widget

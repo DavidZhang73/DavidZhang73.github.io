@@ -22,8 +22,8 @@ bio: 研究方向：视频理解与生成，代理与具身人工智能以及网
 
 # Interests to show in About widget
 interests:
-  - 视频理解与生成
-  - 代理与具身人工智能
+  - Agentic AI
+  - 具身智能
   - 网页开发
 
 # Education to show in About widget
