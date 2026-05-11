@@ -88,8 +88,7 @@ sections:
           location: 波士顿，美国
           date_start: "2025-10-27"
           date_end: "2026-03-20"
-          description: >-
-
+          description: ""
         - title: Research Intern
           company: Roblox
           company_url: "https://www.roblox.com/"
@@ -97,8 +96,7 @@ sections:
           location: 湾区，美国
           date_start: "2025-07-08"
           date_end: "2025-09-26"
-          description: >-
-
+          description: ""
         - title: Teaching Assistant
           company: The Australian National University
           company_url: "https://www.anu.edu.au/"

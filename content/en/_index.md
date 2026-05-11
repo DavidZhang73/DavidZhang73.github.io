@@ -88,8 +88,7 @@ sections:
           location: Boston, USA
           date_start: "2025-10-27"
           date_end: "2026-03-20"
-          description: >-
-
+          description: ""
         - title: Research Intern
           company: Roblox
           company_url: "https://www.roblox.com/"
@@ -97,8 +96,7 @@ sections:
           location: San Mateo, USA
           date_start: "2025-07-21"
           date_end: "2025-10-17"
-          description: >-
-
+          description: ""
         - title: Teaching Assistant
           company: The Australian National University
           company_url: "https://www.anu.edu.au/"
