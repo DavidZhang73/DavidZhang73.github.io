@@ -48,12 +48,12 @@ featured: false
 # Custom links (uncomment lines below)
 links:
   - name: ArXiv
-    url:
+    url: https://arxiv.org/pdf/2605.12845
 
 url_pdf:
-url_project:
-url_code:
-url_dataset:
+url_project: https://merl.com/research/highlights/assemblybench
+url_code: https://github.com/merlresearch/AssemblyBench
+url_dataset: https://zenodo.org/records/19742725
 url_poster:
 url_slides:
 url_video:
