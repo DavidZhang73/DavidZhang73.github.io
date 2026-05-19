@@ -56,10 +56,10 @@ links:
     url:
 
 url_pdf:
-url_project:
+url_project: https://davidzhang73.github.io/romo-website/
 url_code:
 url_dataset:
-url_poster:
+url_poster: media/cvpr26-31605-poster.pdf
 url_slides:
 url_video:
 
