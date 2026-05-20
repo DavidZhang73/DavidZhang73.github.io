@@ -61,7 +61,7 @@ url_code:
 url_dataset:
 url_poster: media/cvpr26-31605-poster.pdf
 url_slides:
-url_video:
+url_video: https://www.youtube.com/watch?v=mVibnhb-KcU
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
