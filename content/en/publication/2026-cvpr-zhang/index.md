@@ -57,10 +57,10 @@ links:
 
 url_pdf:
 url_project: https://davidzhang73.github.io/romo-website/
-url_code:
-url_dataset:
+url_code: https://github.com/RoMoDataset/motion-toolbox
+url_dataset: https://huggingface.co/datasets/RoMoDataset/RoMo-SMPLX
 url_poster: media/cvpr26-31605-poster.pdf
-url_slides:
+url_slides: media/cvpr26-31605-slides.pdf
 url_video: https://www.youtube.com/watch?v=mVibnhb-KcU
 
 # Featured image
