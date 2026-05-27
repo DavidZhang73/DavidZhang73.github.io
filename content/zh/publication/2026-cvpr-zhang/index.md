@@ -53,7 +53,7 @@ featured: true
 # Custom links (uncomment lines below)
 links:
   - name: ArXiv
-    url:
+    url: https://arxiv.org/pdf/2605.26241
 
 url_pdf:
 url_project: https://davidzhang73.github.io/romo-website/
