@@ -50,13 +50,13 @@ links:
   - name: ArXiv
     url: https://arxiv.org/pdf/2605.12845
 
-url_pdf:
+url_pdf: https://openaccess.thecvf.com/content/CVPR2026/papers/Li_AssemblyBench_Physics-Aware_Assembly_of_Complex_Industrial_Objects_CVPR_2026_paper.pdf
 url_project: https://merl.com/research/highlights/assemblybench
 url_code: https://github.com/merlresearch/AssemblyBench
 url_dataset: https://zenodo.org/records/19742725
-url_poster:
+url_poster: media/cvpr-36574-poster.pdf
 url_slides:
-url_video:
+url_video: https://www.youtube.com/watch?v=Uoi5yyz0FC8
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

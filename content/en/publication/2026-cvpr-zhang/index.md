@@ -55,7 +55,7 @@ links:
   - name: ArXiv
     url: https://arxiv.org/pdf/2605.26241
 
-url_pdf:
+url_pdf: https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_RoMo_A_Large-Scale_Richly_Organized_Dataset_and_Semantic_Taxonomy_for_CVPR_2026_paper.pdf
 url_project: https://davidzhang73.github.io/romo-website/
 url_code: https://github.com/RoMoDataset/motion-toolbox
 url_dataset: https://huggingface.co/datasets/RoMoDataset/RoMo-SMPLX
