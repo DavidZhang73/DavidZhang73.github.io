@@ -55,6 +55,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/DavidZhang73
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/jiahao-zhang-b61182261/
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.co.uk/citations?user=r040KUgAAAAJ
