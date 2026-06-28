@@ -17,7 +17,7 @@ authors:
 #   - 'Equal contribution'
 
 date: "2025-06-26T00:00:00Z"
-doi:
+doi: "10.1109/ICCV51701.2025.00595"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2022-10-07T00:00:00Z'
