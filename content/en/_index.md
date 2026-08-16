@@ -82,13 +82,23 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Intern
+          company: MetacognitionAI
+          company_url: "https://metacognitionai.com/"
+          company_logo: metacognitionai
+          location: Australia (Remote)
+          date_start: "2026-07-20"
+          date_end: "2026-10-20"
+          description: >-
+            Studied compressible, composable KVCache memory for LLMs, agents, and VLAs; formulated the problem, designed experiments, validated prototypes, and implemented context composition, occupancy measurement, and visualization.
+        - title: Research Intern
           company: Mitsubishi Electric Research Laboratories (MERL)
           company_url: "https://www.merl.com/"
           company_logo: merl
-          location: Boston, USA
+          location: Cambridge, USA
           date_start: "2025-10-27"
           date_end: "2026-03-20"
-          description: "Contributed to the research projects AssemblyBench and StepPA."
+          description: >-
+            Built and evaluated *AssemblyDyno* to jointly predict assembly order, final poses, and 6-DoF trajectories from multimodal manuals and 3D part point clouds. On the 2,789-object *AssemblyBench*, it improved final-pose success by 12% and achieved roughly 33% physics-simulation success versus a 3% baseline; co-authored the CVPR 2026 paper. Implemented and trained *StepPA*, running pilot experiments on accumulated-error mitigation in autoregressive assembly.
         - title: Research Intern
           company: Roblox
           company_url: "https://www.roblox.com/"
@@ -97,7 +107,7 @@ sections:
           date_start: "2025-07-21"
           date_end: "2025-10-17"
           description: >-
-            Contributed to the research projects RoMo and RoMo Hands. Developed ProjectMay for task orchestration.
+            First-authored and led *RoMo* end to end, distilling roughly 14 years of raw video into 820K+ text-conditioned 3D motions spanning 1,237+ hours and designing a 54-category, 2,065-subcategory taxonomy; published at CVPR 2026. Independently built *ProjectMay* across nearly 100 servers, cutting an estimated three-month pipeline to about two weeks and continuing to support *RoMo Hands*. Contributed to *Motion Toolbox* for motion processing, quality evaluation, visualization, dataset construction, and model evaluation.
         - title: Teaching Assistant
           company: The Australian National University
           company_url: "https://www.anu.edu.au/"
@@ -156,7 +166,7 @@ sections:
           date_start: "2019-11-20"
           date_end: "2020-01-31"
           description: >-
-            I was an intern at the Inspur, which is a Server and Cloud company in China. I helped to build a plugin management system based on [Cpp Micro Service](http://cppmicroservices.org/).
+            Developed a configuration-driven plugin management system for server clusters with [Cpp Micro Services](http://cppmicroservices.org/), implementing plugin definitions, dependency resolution, ordered startup, and cyclic-dependency detection.
 
         - title: Developer of School Booking System
           company: Shandong University, Weihai, School of Mechanical, Electrical & Information Engineering

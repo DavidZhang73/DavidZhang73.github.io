@@ -81,7 +81,16 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Research Intern
+        - title: 研究实习生
+          company: MetacognitionAI
+          company_url: "https://metacognitionai.com/"
+          company_logo: metacognitionai
+          location: 澳大利亚（远程）
+          date_start: "2026-07-20"
+          date_end: "2026-10-20"
+          description: >-
+            研究面向 LLM、Agent 与 VLA 基于 KVCache 的记忆表示，探索其可压缩与可组合性质；负责问题定义、方案设计、实验与原型验证，并实现上下文组合、KVCache 占用测量及可视化。
+        - title: 研究实习生
           company: Mitsubishi Electric Research Laboratories (MERL)
           company_url: "https://www.merl.com/"
           company_logo: merl
@@ -89,16 +98,16 @@ sections:
           date_start: "2025-10-27"
           date_end: "2026-03-20"
           description: >-
-            我参与了 AssemblyBench 和 StepPA 这两个研究项目。
-        - title: Research Intern
+            负责 *AssemblyDyno* 的模型实现、训练与实验，融合多模态装配手册与 3D 零件点云，联合预测装配顺序、最终位姿和 6-DoF 装配轨迹；项目构建覆盖 2,789 个工业物体的 *AssemblyBench*，*AssemblyDyno* 将最终位姿预测成功率提升 12%，并在物理仿真中取得约 33% 的成功率（基线约 3%）；合作成果发表于 CVPR 2026。探索自回归装配模型 *StepPA* 的实现、训练与实验，通过逐步组装零件研究并尝试缓解自回归过程中的累计误差。
+        - title: 研究实习生
           company: Roblox
           company_url: "https://www.roblox.com/"
           company_logo: roblox
           location: 湾区，美国
-          date_start: "2025-07-08"
-          date_end: "2025-09-26"
+          date_start: "2025-07-21"
+          date_end: "2025-10-17"
           description: >-
-            我参与了 RoMo 和 RoMo Hands 这两个研究项目，并开发了用于任务编排的 ProjectMay。
+            作为第一作者端到端主导 *RoMo* 项目，从约 14 年时长的原始视频中构建 82 万余条、1,237 余小时的文本到 3D 人体动作生成数据；设计包含 54 个类别和 2,065 个子类别的三级语义体系，成果发表于 CVPR 2026。设计并独立开发跨近百台服务器的分布式任务编排平台 *ProjectMay*，将原预计约 3 个月的数据处理流程缩短至约 2 周，并在公司内部继续支撑后续 *RoMo Hands* 研究。参与开发 *Motion Toolbox*，支持人体动作数据处理、质量评估与可视化，服务 *RoMo* 数据构建、分析与模型评测。
 
         - title: Teaching Assistant
           company: The Australian National University
@@ -150,7 +159,7 @@ sections:
           description: >-
             我负责[InfluenceMap](https://influencemap.cmlab.dev/)和[CSMetrics](https://csmetrics.net/)网站的容器化工作。
 
-        - title: 软件开发工程师(实习)
+        - title: 软件开发工程师实习生
           company: 浪潮
           company_url: "https://www.inspur.com/"
           company_logo: inspur
@@ -158,7 +167,7 @@ sections:
           date_start: "2019-11-20"
           date_end: "2020-01-31"
           description: >-
-            我在浪潮实习期间，帮助开发了一个基于[Cpp Micro Service](http://cppmicroservices.org/)的插件管理系统。
+            基于 [Cpp Micro Services](http://cppmicroservices.org/) 为服务器集群开发配置驱动的插件管理系统，实现插件定义、依赖解析、按序启动与循环依赖检测。
 
         - title: 威海机电学院预约系统开发工程师
           company: 山东大学(威海)，机电与信息工程学院

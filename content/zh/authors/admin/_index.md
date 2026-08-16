@@ -63,7 +63,7 @@ social:
     link: https://scholar.google.co.uk/citations?user=r040KUgAAAAJ
   - icon: cv
     icon_pack: ai
-    link: https://cv.davidz.cn
+    link: https://cv_zh.davidz.cn
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
