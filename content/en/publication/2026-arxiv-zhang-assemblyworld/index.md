@@ -19,7 +19,7 @@ author_notes:
   - ""
   - ""
 date: "2026-09-30T17:59:14Z"
-doi: "10.48550/arXiv.2609.40353"
+doi:
 publication_types: ["3"]
 publication: '*arXiv preprint arXiv:2609.40353*'
 publication_short: '*arXiv 2026*'
