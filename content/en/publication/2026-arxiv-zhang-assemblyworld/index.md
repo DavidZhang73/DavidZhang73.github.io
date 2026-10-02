@@ -37,8 +37,8 @@ links:
     url: https://arxiv.org/abs/2609.40353
 url_pdf: https://arxiv.org/pdf/2609.40353
 url_project: https://assemblyworld.github.io/
-url_code: ''
-url_dataset: ''
+url_code: https://github.com/AssemblyWorld/assembly-world-bench
+url_dataset: https://huggingface.co/datasets/AssemblyWorld/AssemblyWorldBench
 url_poster: ''
 url_slides: ''
 url_video: ''
