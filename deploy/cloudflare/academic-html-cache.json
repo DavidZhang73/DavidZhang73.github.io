@@ -1,0 +1,16 @@
+{
+  "ref": "academic_public_html_cache",
+  "description": "Cache academic HTML using origin freshness; keep the language entry point uncached",
+  "expression": "http.host eq \"academic.davidz.cn\" and http.request.method in {\"GET\" \"HEAD\"} and http.request.uri.path ne \"/\" and (ends_with(http.request.uri.path, \"/\") or ends_with(http.request.uri.path, \".html\")) and not starts_with(http.request.uri.path, \"/api/\") and not starts_with(http.request.uri.path, \"/admin/\") and not starts_with(http.request.uri.path, \"/auth/\") and not starts_with(http.request.uri.path, \"/oauth/\")",
+  "action": "set_cache_settings",
+  "action_parameters": {
+    "cache": true,
+    "edge_ttl": {
+      "mode": "respect_origin"
+    },
+    "browser_ttl": {
+      "mode": "respect_origin"
+    }
+  },
+  "enabled": true
+}

@@ -1,0 +1,16 @@
+{
+  "ref": "cv_pdf_edge_redirect",
+  "description": "Redirect the English CV at the edge",
+  "expression": "http.host eq \"cv.davidz.cn\"",
+  "action": "redirect",
+  "action_parameters": {
+    "from_value": {
+      "status_code": 301,
+      "target_url": {
+        "value": "https://static.davidz.cn/cv.pdf"
+      },
+      "preserve_query_string": true
+    }
+  },
+  "enabled": true
+}

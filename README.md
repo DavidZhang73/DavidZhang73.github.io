@@ -34,3 +34,14 @@ hugo version  # should print 0.123.3+extended
 hugo server          # http://localhost:1313/
 hugo --gc --minify   # production build → public/
 ```
+
+## Performance configuration
+
+MathJax is disabled globally. Add `math: true` to a page's front matter when it
+needs formulas; the theme then loads MathJax on that page only.
+
+The [performance deployment bundle](deploy/README.md) contains the staged Nginx
+and Cloudflare configuration, local checks, rollout order, and rollback steps.
+It is not applied automatically by the existing deployment workflow.
+See the [language-routing investigation](docs/language-routing.md) for root URL
+language-selection options; automatic language selection is not implemented yet.

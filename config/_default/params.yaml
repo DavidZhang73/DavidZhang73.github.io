@@ -64,7 +64,8 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: true
+    # Opt in with `math: true` in the front matter of pages that contain formulas.
+    enable: false
   privacy_pack:
     enable: false
   repository:

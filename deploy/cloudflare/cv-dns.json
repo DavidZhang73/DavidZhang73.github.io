@@ -1,0 +1,8 @@
+{
+  "type": "CNAME",
+  "name": "cv.davidz.cn",
+  "content": "davidz.cn",
+  "proxied": true,
+  "ttl": 1,
+  "comment": "Route CV requests through Cloudflare for the edge redirect."
+}
