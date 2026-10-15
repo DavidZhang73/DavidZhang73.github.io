@@ -23,7 +23,9 @@ def check_site(site):
         assert "about" in home and "featured" in home, lang
         assert "mathjax" not in home.lower(), lang
     root = (site / "index.html").read_text()
-    assert 'url=https://academic.davidz.cn/en/' in root
+    assert 'data-language-redirect=true' in root or 'data-language-redirect="true"' in root
+    assert 'language-preference' in root and 'hreflang=x-default' in root
+    assert 'url=https://academic.davidz.cn/en/' not in root
     print(f"PASS: {len(pages)} HTML pages built; both homepages omit MathJax and root fallback remains intact")
 
 

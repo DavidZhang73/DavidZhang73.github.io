@@ -1,1 +1,3 @@
 <script async defer data-website-id="78221282-8049-4f9e-9010-ee8baa093965" src="https://umami.davidz.cn/script.js"></script>
+{{ $script := resources.Get "js/language-preference.js" | minify | fingerprint "sha256" }}
+<script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

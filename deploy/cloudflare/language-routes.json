@@ -1,0 +1,12 @@
+[
+  { "pattern": "academic.davidz.cn/*", "script": "academic-language-router" },
+  { "pattern": "academic.davidz.cn/en/*" },
+  { "pattern": "academic.davidz.cn/zh/*" },
+  { "pattern": "academic.davidz.cn/css/*" },
+  { "pattern": "academic.davidz.cn/js/*" },
+  { "pattern": "academic.davidz.cn/media/*" },
+  { "pattern": "academic.davidz.cn/webfonts/*" },
+  { "pattern": "academic.davidz.cn/cdn-cgi/*" },
+  { "pattern": "academic.davidz.cn/robots.txt*" },
+  { "pattern": "academic.davidz.cn/sitemap.xml*" }
+]

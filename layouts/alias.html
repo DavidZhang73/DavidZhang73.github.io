@@ -1,0 +1,25 @@
+{{- if eq .Permalink ("en/" | absURL) -}}
+<!doctype html>
+<html lang="en" data-language-redirect="true">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Choose your language · Academic-DavidZ</title>
+  <link rel="alternate" hreflang="en" href="{{ "en/" | absURL }}">
+  <link rel="alternate" hreflang="zh-Hans" href="{{ "zh/" | absURL }}">
+  <link rel="alternate" hreflang="x-default" href="{{ "/" | absURL }}">
+  {{ $script := resources.Get "js/language-preference.js" | minify | fingerprint "sha256" }}
+  <script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+</head>
+<body>
+  <p>Choose your language / 请选择语言：</p>
+  <a href="{{ "en/" | absURL }}" data-language-choice>English</a>
+  <a href="{{ "zh/" | absURL }}" data-language-choice lang="zh-Hans">中文</a>
+</body>
+</html>
+{{- else -}}
+<!doctype html><html><head><meta charset="utf-8"><title>{{ .Permalink }}</title>
+<link rel="canonical" href="{{ .Permalink }}"><meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url={{ .Permalink }}"></head>
+<body><a href="{{ .Permalink }}">Continue</a></body></html>
+{{- end -}}
