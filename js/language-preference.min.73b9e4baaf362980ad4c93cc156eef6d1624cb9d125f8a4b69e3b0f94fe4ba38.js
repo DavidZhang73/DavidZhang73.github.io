@@ -1,0 +1,1 @@
+(()=>{const e="__Host-academic_language",t=t=>{document.cookie=`${e}=${t}; Path=/; Max-Age=31536000; Secure; SameSite=Lax`};document.addEventListener("click",e=>{const n=e.target.closest?.(".i18n-dropdown a[href], [data-language-choice]");if(!n)return;const s=new URL(n.href,location.href),o=s.pathname.match(/^\/(en|zh)(?:\/|$)/)?.[1];s.origin===location.origin&&o&&t(o)},!0)})()
