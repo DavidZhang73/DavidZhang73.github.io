@@ -20,7 +20,7 @@ main:
     url: '#awards'
     weight: 50
   - name: Curriculum Vitae
-    url: 'https://cv.davidz.cn/'
+    url: 'https://academic.davidz.cn/cv/cv.pdf'
     weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
