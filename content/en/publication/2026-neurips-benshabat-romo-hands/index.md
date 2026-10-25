@@ -19,7 +19,7 @@ summary: "RoMo Hands is a large-scale text-paired hand motion dataset with appro
 tags:
   - Deep Learning
   - Hand Motion Generation
-featured: true
+featured: false
 url_pdf: https://romodataset.github.io/romo-hands/static/paper/RoMo_Hands.pdf
 url_project: https://romodataset.github.io/romo-hands/
 url_dataset: https://huggingface.co/datasets/RoMoDataset/RoMo-Hands

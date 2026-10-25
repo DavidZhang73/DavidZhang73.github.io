@@ -19,7 +19,7 @@ summary: "RoMo Hands 是一个大规模文本配对手部动作数据集，包�
 tags:
   - Deep Learning
   - Hand Motion Generation
-featured: true
+featured: false
 url_pdf: https://romodataset.github.io/romo-hands/static/paper/RoMo_Hands.pdf
 url_project: https://romodataset.github.io/romo-hands/
 url_dataset: https://huggingface.co/datasets/RoMoDataset/RoMo-Hands
